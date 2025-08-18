@@ -21,3 +21,10 @@ Firewall / proxy (Palo Alto, Fortinet, Squid, Zscaler)
 EDR (CrowdStrike, Defender for Endpoint, SentinelOne)
 DNS, DHCP, Active Directory, VPN
 
+## Le language de recherche
+
+Une recherche Splunk = un pipeline : index=... | commande1 | commande2
+Le pipe | envoie le résultat d'une commande à la suivante
+Exemple : index=windows EventCode=4625 | stats count by Account
+Les recherches se font sur les 24 dernières heures par défaut
+
