@@ -13,3 +13,10 @@ Fonctions : count, dc (distinct count), sum, avg, min, max, values, earliest, la
 Exemple : index=windows EventCode=4625 | stats count by Account
 stats count by host, sourcetype donne un tableau multi-dimensions
 
+## Commande timechart
+
+timechart fait un stats par intervalle de temps
+Exemple : index=main | timechart count by action
+span=1h, span=1d ajuste la granularité
+timechart count par source permet de repérer des pics d'activité
+
