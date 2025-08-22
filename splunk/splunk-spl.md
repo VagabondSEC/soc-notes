@@ -27,3 +27,10 @@ Exemple : ... | eval risk_score = if(match(src_ip, "^10\\."), 20, 50)
 Fonctions utiles : if, case, tonumber, tostring, lower, upper, strlen, replace
 eval permet les calculs de score de risque maison
 
+## Commande where
+
+where filtre sur une expression évaluée (différent de search)
+Exemple : ... | where risk_score > 30
+where accepte les comparaisons numériques et les regex
+search en début de pipeline, where pour les champs calculés
+
