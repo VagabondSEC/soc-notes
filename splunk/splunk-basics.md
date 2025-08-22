@@ -28,3 +28,10 @@ Le pipe | envoie le résultat d'une commande à la suivante
 Exemple : index=windows EventCode=4625 | stats count by Account
 Les recherches se font sur les 24 dernières heures par défaut
 
+## Time range
+
+Toujours définir le time range avant de chercher (dernier 24h, 7j, custom)
+Les champs _time et _index sont toujours disponibles
+earliest=-7d@d latest=now définit une fenêtre propre
+Les alertes doivent avoir un time range explicite pour éviter les doublons
+
