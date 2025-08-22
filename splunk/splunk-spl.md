@@ -20,3 +20,10 @@ Exemple : index=main | timechart count by action
 span=1h, span=1d ajuste la granularité
 timechart count par source permet de repérer des pics d'activité
 
+## Commande eval
+
+eval crée ou modifie un champ avec une expression
+Exemple : ... | eval risk_score = if(match(src_ip, "^10\\."), 20, 50)
+Fonctions utiles : if, case, tonumber, tostring, lower, upper, strlen, replace
+eval permet les calculs de score de risque maison
+
