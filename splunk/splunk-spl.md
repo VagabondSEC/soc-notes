@@ -41,3 +41,10 @@ Exemple : index=windows EventCode=4624 | dedup Account
 dedup 5 Account garde les 5 premières occurrences par compte
 Utile pour lister les utilisateurs uniques d'une connexion
 
+## Commande transaction
+
+transaction regroupe des événements liés par des champs communs
+Exemple : index=windows | transaction UserName startswith=EventCode=4624 endswith=EventCode=4634
+Attention : transaction est gourmand, préférer stats values quand possible
+Utile pour reconstituer une session complète
+
