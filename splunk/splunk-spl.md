@@ -34,3 +34,10 @@ Exemple : ... | where risk_score > 30
 where accepte les comparaisons numériques et les regex
 search en début de pipeline, where pour les champs calculés
 
+## Commande dedup
+
+dedup supprime les événements en double sur un champ
+Exemple : index=windows EventCode=4624 | dedup Account
+dedup 5 Account garde les 5 premières occurrences par compte
+Utile pour lister les utilisateurs uniques d'une connexion
+
