@@ -88,3 +88,9 @@ head 10 garde les 10 premiers événements
 tail 10 garde les 10 derniers
 Exemple : index=windows EventCode=4625 | head 5
 
+## Commande map
+
+map exécute une sous-recherche pour chaque résultat
+Très lent, à utiliser avec parcimonie
+Exemple : ... | map search="search index=main src_ip=$src_ip$"
+
