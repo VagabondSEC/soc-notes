@@ -82,3 +82,9 @@ sort trie les résultats : sort -count (desc), sort +count (asc)
 Exemple : ... | stats count by src_ip | sort - count
 sort limit=10 ne garde que les 10 premiers
 
+## Commande head / tail
+
+head 10 garde les 10 premiers événements
+tail 10 garde les 10 derniers
+Exemple : index=windows EventCode=4625 | head 5
+
