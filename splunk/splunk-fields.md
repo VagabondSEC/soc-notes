@@ -24,3 +24,9 @@ Les regex extractions s'appliquent à un sourcetype
 Exemple : (?<username>\w+) a extrait le champ username
 À utiliser quand le format n'est pas clé=valeur
 
+## Tags
+
+Les tags permettent d'étiqueter des valeurs
+Exemple : tag user=admin pour regrouper les comptes sensibles
+Les recherches tag=admin trouvent toutes les valeurs taguées
+
