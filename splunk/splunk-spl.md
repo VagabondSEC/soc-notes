@@ -69,3 +69,10 @@ Exemple : ... | fields + src_ip, dest_ip, user
 Réduire les champs accélère les recherches sur gros volumes
 Utile avant un outputlookup ou un export
 
+## Commande inputlookup / outputlookup
+
+inputlookup lit une table CSV, outputlookup l'écrit
+Exemple : ... | outputlookup suspicious_ips.csv
+Permet de maintenir des listes de IOC maison
+Combiner avec append pour enrichir une liste existante
+
