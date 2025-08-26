@@ -48,3 +48,10 @@ Exemple : index=windows | transaction UserName startswith=EventCode=4624 endswit
 Attention : transaction est gourmand, préférer stats values quand possible
 Utile pour reconstituer une session complète
 
+## Commande rex
+
+rex extrait des champs par regex
+Exemple : ... | rex field=_raw "(?<ip>\d+\.\d+\.\d+\.\d+)"
+rex mode=sed permet de remplacer du texte dans un champ
+L'extraction inline évite de dépendre d'extraire un champ complet
+
