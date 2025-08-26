@@ -94,3 +94,9 @@ map exécute une sous-recherche pour chaque résultat
 Très lent, à utiliser avec parcimonie
 Exemple : ... | map search="search index=main src_ip=$src_ip$"
 
+## Commande eventstats
+
+eventstats calcule des stats SANS supprimer les événements
+Exemple : ... | eventstats count by user
+Utile pour compter les occurrences sans perdre le détail
+
