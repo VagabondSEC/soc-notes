@@ -30,3 +30,9 @@ Les tags permettent d'étiqueter des valeurs
 Exemple : tag user=admin pour regrouper les comptes sensibles
 Les recherches tag=admin trouvent toutes les valeurs taguées
 
+## Aliases
+
+Les aliases renomment un champ pour normaliser
+Exemple : src_ip -> source_ip dans un sourcetype
+Facilite les recherches multi-sources homogènes
+
