@@ -100,3 +100,9 @@ eventstats calcule des stats SANS supprimer les événements
 Exemple : ... | eventstats count by user
 Utile pour compter les occurrences sans perdre le détail
 
+## Commande streamstats
+
+streamstats calcule des stats cumulatives en temps réel du flux
+Exemple : ... | streamstats count by user
+Utile pour les détections de seuils progressifs
+
