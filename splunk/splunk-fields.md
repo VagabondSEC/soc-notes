@@ -12,3 +12,9 @@ Splunk extrait automatiquement les paires clé=valeur
 Les formats JSON, XML et CSV sont parsés nativement
 Les sourcetypes bien modélisés donnent des champs propres
 
+## Calculated fields
+
+Les champs calculés s'appliquent à la recherche sur un sourcetype
+Définis dans Settings > Fields > Calculated fields
+Exemple : score = case(match(src_ip, "^10\\."), 10, 1=1, 50)
+
