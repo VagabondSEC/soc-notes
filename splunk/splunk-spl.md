@@ -76,3 +76,9 @@ Exemple : ... | outputlookup suspicious_ips.csv
 Permet de maintenir des listes de IOC maison
 Combiner avec append pour enrichir une liste existante
 
+## Commande sort
+
+sort trie les résultats : sort -count (desc), sort +count (asc)
+Exemple : ... | stats count by src_ip | sort - count
+sort limit=10 ne garde que les 10 premiers
+
