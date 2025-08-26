@@ -62,3 +62,10 @@ Exemple : ... | lookup asset_inventory ip OUTPUT owner, criticality
 Les lookups sont définis dans Settings > Lookups
 Enrichir avec le propriétaire d'un asset aide au tri des alertes
 
+## Commande fields
+
+fields + liste les champs à garder, fields - liste ceux à retirer
+Exemple : ... | fields + src_ip, dest_ip, user
+Réduire les champs accélère les recherches sur gros volumes
+Utile avant un outputlookup ou un export
+
