@@ -18,3 +18,9 @@ Les champs calculés s'appliquent à la recherche sur un sourcetype
 Définis dans Settings > Fields > Calculated fields
 Exemple : score = case(match(src_ip, "^10\\."), 10, 1=1, 50)
 
+## Field extractions (regex)
+
+Les regex extractions s'appliquent à un sourcetype
+Exemple : (?<username>\w+) a extrait le champ username
+À utiliser quand le format n'est pas clé=valeur
+
