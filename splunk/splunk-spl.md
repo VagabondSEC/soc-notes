@@ -55,3 +55,10 @@ Exemple : ... | rex field=_raw "(?<ip>\d+\.\d+\.\d+\.\d+)"
 rex mode=sed permet de remplacer du texte dans un champ
 L'extraction inline évite de dépendre d'extraire un champ complet
 
+## Commande lookup
+
+lookup enrichit les événements avec une table externe
+Exemple : ... | lookup asset_inventory ip OUTPUT owner, criticality
+Les lookups sont définis dans Settings > Lookups
+Enrichir avec le propriétaire d'un asset aide au tri des alertes
+
