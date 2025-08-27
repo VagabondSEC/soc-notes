@@ -30,3 +30,9 @@ Un notable event est un résultat de corrélation avec un statut
 Workflow : New -> In Progress -> Resolved / False Positive
 Les notables doivent contenir le contexte (user, host, IOC)
 
+## Réduire les faux positifs
+
+Ajouter des conditions de rareté (rare, threshold)
+Exclure les comptes de service et les IP internes de supervision
+Tester la recherche sur 30 jours avant de l'activer en alerte
+
