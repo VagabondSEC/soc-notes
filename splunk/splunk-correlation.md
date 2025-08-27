@@ -24,3 +24,9 @@ Les correlation searches sont des recherches planifiées qui génèrent des nota
 Elles vivent dans Enterprise Security ou dans des apps dédiées
 Chaque correlation search a une périodicité et un time range
 
+## Notable events
+
+Un notable event est un résultat de corrélation avec un statut
+Workflow : New -> In Progress -> Resolved / False Positive
+Les notables doivent contenir le contexte (user, host, IOC)
+
