@@ -18,3 +18,9 @@ Volume sortant anormal vers une IP unique
 index=proxy | stats sum(bytes_out) by dest_ip | sort - sum(bytes_out)
 Corréler avec les logs DNS pour identifier le domaine
 
+## Correlation searches
+
+Les correlation searches sont des recherches planifiées qui génèrent des notables
+Elles vivent dans Enterprise Security ou dans des apps dédiées
+Chaque correlation search a une périodicité et un time range
+
