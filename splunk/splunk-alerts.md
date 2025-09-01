@@ -12,3 +12,9 @@ Le throttling évite les alertes en rafale
 Exemple : ne pas re-alerter sur le même src_ip pendant 1h
 Configurer une fenêtre de suppression des doublons
 
+## Actions d'alerte
+
+Email, webhook, script, ticket (TheHive, Jira)
+Le webhook vers TheHive permet de créer un case automatiquement
+Inclure le lien vers la recherche dans le contenu de l'alerte
+
