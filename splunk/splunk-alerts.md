@@ -18,3 +18,9 @@ Email, webhook, script, ticket (TheHive, Jira)
 Le webhook vers TheHive permet de créer un case automatiquement
 Inclure le lien vers la recherche dans le contenu de l'alerte
 
+## Bonnes pratiques alertes
+
+Un seuil bas avec beaucoup de bruit détruit la confiance dans le SOC
+Documenter chaque alerte : description, playbook, fausse positive connue
+Revue mensuelle des alertes qui ne déclenchent jamais
+
