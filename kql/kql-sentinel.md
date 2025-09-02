@@ -12,3 +12,9 @@ SigninLogs | where ResultType == "50057" | summarize count() by UserPrincipalNam
 Les échecs répétés sur un compte = candidat brute force
 Corréler avec les succès juste après (ResultType == 0)
 
+## Requête comptes sensibles
+
+SecurityEvent | where AccountType == "User" and Account contains "admin"
+Suivre les modifications des groupes privilégiés (EventID 4728, 4732)
+Alertes sur l'ajout d'un membre à Domain Admins
+
