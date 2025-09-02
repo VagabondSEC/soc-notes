@@ -66,3 +66,10 @@ parse extrait des champs depuis une chaîne structurée
 Exemple : parse _RawLog with "user=" User ";ip=" IP
 Plus simple et plus rapide que les regex pour les formats fixes
 
+## Opérateur let
+
+let définit des variables et des fonctions
+let threshold = 10; ... | where count_ > threshold
+let myFunc = (x:int) { x * 2 };
+Structure la requête et la rend réutilisable
+
