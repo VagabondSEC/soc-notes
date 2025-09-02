@@ -54,3 +54,9 @@ mv-expand éclate les listes en lignes
 Exemple : ... | mv-expand TargetResource
 Nécessaire quand un champ contient un tableau JSON
 
+## Fonctions de temps
+
+TimeGenerated > ago(24h) filtre les dernières 24 heures
+bin(TimeGenerated, 1h) arrondit à l'heure pour les graphiques
+startofday(), endofday() pour les fenêtres de journée
+
