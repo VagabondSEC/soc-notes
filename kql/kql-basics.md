@@ -48,3 +48,9 @@ Utile pour chercher sur plusieurs sources de logs
 top 10 by count_ desc prend les 10 plus gros
 Exemple : ... | summarize count() by Account | top 10 by count_
 
+## Opérateur mv-expand
+
+mv-expand éclate les listes en lignes
+Exemple : ... | mv-expand TargetResource
+Nécessaire quand un champ contient un tableau JSON
+
