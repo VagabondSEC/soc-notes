@@ -43,3 +43,8 @@ union combine plusieurs tables : union SecurityEvent, WindowsEvent
 withsource=TableName ajoute la table d'origine
 Utile pour chercher sur plusieurs sources de logs
 
+## Opérateur top
+
+top 10 by count_ desc prend les 10 plus gros
+Exemple : ... | summarize count() by Account | top 10 by count_
+
