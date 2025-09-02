@@ -60,3 +60,9 @@ TimeGenerated > ago(24h) filtre les dernières 24 heures
 bin(TimeGenerated, 1h) arrondit à l'heure pour les graphiques
 startofday(), endofday() pour les fenêtres de journée
 
+## Opérateur parse
+
+parse extrait des champs depuis une chaîne structurée
+Exemple : parse _RawLog with "user=" User ";ip=" IP
+Plus simple et plus rapide que les regex pour les formats fixes
+
