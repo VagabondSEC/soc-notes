@@ -24,3 +24,9 @@ SecurityEvent | where EventID == 4104 | where ScriptBlockText contains "IEX"
 Détecter les download cradle : IEX (New-Object Net.WebClient).DownloadString
 Corréler avec les processus parents (EventID 4688 avec ParentProcessName)
 
+## Requête mouvements latéraux
+
+Event 4624 LogonType 3 depuis des machines sensibles
+Event 4624 LogonType 9 (NewCredentials) souvent utilisé pour le pass-the-hash
+Corréler les connexions réseau avec les authentifications
+
