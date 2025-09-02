@@ -30,3 +30,10 @@ project sélectionne les colonnes : project TimeGenerated, Account, IPAddress
 project-away supprime des colonnes
 project-rename renomme une colonne
 
+## Opérateur join
+
+join fusionne deux tables sur une clé
+SecurityEvent | join kind=inner (SigninLogs) on Account
+kind=leftouter garde toutes les lignes de gauche
+Attention aux doublons : toujours tester avec des données réelles
+
