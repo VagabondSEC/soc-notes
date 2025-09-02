@@ -12,3 +12,9 @@ where filtre les lignes : where EventID == 4625
 Comparateurs : ==, !=, >, <, >=, <=, contains, startswith, endswith
 where Account contains "admin" trouve les comptes avec admin dans le nom
 
+## Opérateur summarize
+
+summarize agrège : summarize count() by Account
+Fonctions : count(), dcount(), sum(), avg(), min(), max(), make_set(), make_list()
+make_set(IPAddress) liste les IP uniques d'un compte
+
