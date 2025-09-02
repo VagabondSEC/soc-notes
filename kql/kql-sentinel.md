@@ -18,3 +18,9 @@ SecurityEvent | where AccountType == "User" and Account contains "admin"
 Suivre les modifications des groupes privilégiés (EventID 4728, 4732)
 Alertes sur l'ajout d'un membre à Domain Admins
 
+## Requête PowerShell suspect
+
+SecurityEvent | where EventID == 4104 | where ScriptBlockText contains "IEX"
+Détecter les download cradle : IEX (New-Object Net.WebClient).DownloadString
+Corréler avec les processus parents (EventID 4688 avec ParentProcessName)
+
