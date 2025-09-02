@@ -18,3 +18,9 @@ summarize agrège : summarize count() by Account
 Fonctions : count(), dcount(), sum(), avg(), min(), max(), make_set(), make_list()
 make_set(IPAddress) liste les IP uniques d'un compte
 
+## Opérateur extend
+
+extend crée des colonnes calculées
+Exemple : ... | extend Risk = case(Account contains "admin", "high", "low")
+Utile pour calculer des scores ou normaliser des champs
+
