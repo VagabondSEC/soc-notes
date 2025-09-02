@@ -24,3 +24,9 @@ extend crée des colonnes calculées
 Exemple : ... | extend Risk = case(Account contains "admin", "high", "low")
 Utile pour calculer des scores ou normaliser des champs
 
+## Opérateur project
+
+project sélectionne les colonnes : project TimeGenerated, Account, IPAddress
+project-away supprime des colonnes
+project-rename renomme une colonne
+
