@@ -37,3 +37,9 @@ SecurityEvent | join kind=inner (SigninLogs) on Account
 kind=leftouter garde toutes les lignes de gauche
 Attention aux doublons : toujours tester avec des données réelles
 
+## Opérateur union
+
+union combine plusieurs tables : union SecurityEvent, WindowsEvent
+withsource=TableName ajoute la table d'origine
+Utile pour chercher sur plusieurs sources de logs
+
