@@ -30,3 +30,9 @@ Event 4624 LogonType 3 depuis des machines sensibles
 Event 4624 LogonType 9 (NewCredentials) souvent utilisé pour le pass-the-hash
 Corréler les connexions réseau avec les authentifications
 
+## Détection mimikatz
+
+Process 4688 avec CommandLine contenant sekurlsa
+mimikatz "privilege::debug" "sekurlsa::logonpasswords"
+Les détections par ligne de commande sont faciles à contourner, surveiller les DLL chargées
+
