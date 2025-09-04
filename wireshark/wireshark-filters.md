@@ -39,3 +39,9 @@ arp, icmp, smb, smb2, kerberos, ldap, ftp, ssh
 icmp.type == 8 pour les ping request
 smb2.cmd == 5 (SMB2_CREATE) pour les ouvertures de fichiers
 
+## Filtres sur le contenu
+
+frame contains "password" cherche une chaîne dans le payload
+data.data contient 3a:3a:3a recherche des données hexadécimales
+Attention : frame contains est lent sur les grosses captures
+
