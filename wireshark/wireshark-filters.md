@@ -21,3 +21,9 @@ dns.flags.response == 0 pour les requêtes uniquement
 dns.resp.type == 1 pour les réponses A
 Utile pour repérer les exfiltrations DNS
 
+## Filtres TLS
+
+tls.handshake.type == 1 pour les ClientHello
+tls.handshake.extensions_server_name pour le SNI (le domaine demandé)
+Le SNI est en clair même en TLS, précieux pour le tri
+
