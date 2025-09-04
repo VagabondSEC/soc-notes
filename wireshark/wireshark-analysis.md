@@ -30,3 +30,9 @@ SYN, SYN-ACK, ACK : le triple handshake
 Un SYN sans réponse = port filtré ou machine down
 Le MSS (Maximum Segment Size) révèle le type de système
 
+## Reconstruction de session TLS
+
+Editer > Preferences > Protocols > TLS > RSA keys list
+Avec la clé privée du serveur, on peut déchiffrer la session
+TLS 1.3 limite fortement cette possibilité (PFS)
+
