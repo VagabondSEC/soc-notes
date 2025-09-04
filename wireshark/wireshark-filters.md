@@ -27,3 +27,9 @@ tls.handshake.type == 1 pour les ClientHello
 tls.handshake.extensions_server_name pour le SNI (le domaine demandé)
 Le SNI est en clair même en TLS, précieux pour le tri
 
+## Filtres sur les flags TCP
+
+tcp.flags.syn == 1 et tcp.flags.ack == 0 pour les SYN seuls
+tcp.flags.reset == 1 pour les RST
+Une rafale de SYN sans ACK = scan de ports
+
