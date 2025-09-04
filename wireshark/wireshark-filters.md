@@ -45,3 +45,9 @@ frame contains "password" cherche une chaîne dans le payload
 data.data contient 3a:3a:3a recherche des données hexadécimales
 Attention : frame contains est lent sur les grosses captures
 
+## Filtres par conversation
+
+tcp.stream == 0 isole la première conversation TCP
+Suivre un flux complet : clic droit sur un paquet > Follow > TCP Stream
+Utile pour reconstituer une attaque complète
+
