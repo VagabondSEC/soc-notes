@@ -36,3 +36,9 @@ Process 4688 avec CommandLine contenant sekurlsa
 mimikatz "privilege::debug" "sekurlsa::logonpasswords"
 Les détections par ligne de commande sont faciles à contourner, surveiller les DLL chargées
 
+## Analyse des données de Defender
+
+DeviceProcessEvents | where FileName in ("cmd.exe", "powershell.exe")
+DeviceNetworkEvents pour les connexions sortantes anormales
+DeviceFileEvents pour les fichiers suspects créés
+
