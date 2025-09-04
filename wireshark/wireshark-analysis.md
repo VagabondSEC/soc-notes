@@ -24,3 +24,9 @@ tshark -r fichier.pcap -Y "http" -T fields -e http.host -e http.request.uri
 tshark permet de traiter des captures sans interface graphique
 Se combine avec grep, awk, jq pour des analyses massives
 
+## Analyse du handshake TCP
+
+SYN, SYN-ACK, ACK : le triple handshake
+Un SYN sans réponse = port filtré ou machine down
+Le MSS (Maximum Segment Size) révèle le type de système
+
