@@ -14,3 +14,10 @@ http.response.code == 500 filtre les erreurs serveur
 http.host == "example.com" filtre par hôte
 http.user_agent contient "curl" détecte les clients curl
 
+## Filtres DNS
+
+dns.qry.name contient "pastebin"
+dns.flags.response == 0 pour les requêtes uniquement
+dns.resp.type == 1 pour les réponses A
+Utile pour repérer les exfiltrations DNS
+
