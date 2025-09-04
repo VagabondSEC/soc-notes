@@ -33,3 +33,9 @@ tcp.flags.syn == 1 et tcp.flags.ack == 0 pour les SYN seuls
 tcp.flags.reset == 1 pour les RST
 Une rafale de SYN sans ACK = scan de ports
 
+## Filtres par protocole
+
+arp, icmp, smb, smb2, kerberos, ldap, ftp, ssh
+icmp.type == 8 pour les ping request
+smb2.cmd == 5 (SMB2_CREATE) pour les ouvertures de fichiers
+
