@@ -20,3 +20,10 @@ T1566 Phishing : le vecteur le plus utilisé
 T1078 Valid Accounts : utiliser des comptes volés
 La surveillance des logins réussis anormaux couvre T1078
 
+## Tactique Execution (TA0002)
+
+T1059 Command and Scripting Interpreter (PowerShell, cmd, bash)
+T1204 User Execution : le malware exécuté par l'utilisateur
+T1053 Scheduled Task/Job pour l'exécution planifiée
+Les logs 4688 (process creation) sont la clé de cette tactique
+
