@@ -27,3 +27,10 @@ T1204 User Execution : le malware exécuté par l'utilisateur
 T1053 Scheduled Task/Job pour l'exécution planifiée
 Les logs 4688 (process creation) sont la clé de cette tactique
 
+## Tactique Persistence (TA0003)
+
+T1547 Boot or Logon Autostart Execution (registry Run, startup folder)
+T1053 Scheduled Task : très utilisé par les malwares
+T1543 Create or Modify System Process (services)
+Détecter : surveiller les modifications de Run keys (EventID 13)
+
