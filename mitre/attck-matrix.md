@@ -41,3 +41,10 @@ T1078 Valid Accounts avec des droits admin
 T1548 Abuse Elevation Control Mechanism (UAC bypass)
 Le pass-the-hash et l'exploitation de tokens sont les classiques
 
+## Tactique Defense Evasion (TA0005)
+
+T1027 Obfuscated Files or Information
+T1112 Modify Registry
+T1070 Indicator Removal : effacer les logs (wevtutil cl)
+T1562 Impair Defenses : désactiver l'EDR ou Windows Defender
+
