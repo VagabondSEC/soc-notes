@@ -55,3 +55,10 @@ T1558 Steal or Forge Kerberos Tickets (Golden/Silver ticket)
 T1110 Brute Force
 Surveiller l'accès à lsass.exe (EventID 10 de Sysmon)
 
+## Tactique Discovery (TA0007)
+
+T1083 File and Directory Discovery
+T1057 Process Discovery (tasklist, Get-Process)
+T1018 Remote System Discovery (net view, ping sweep)
+Les commandes de discovery sont souvent le premier bruit après compromission
+
