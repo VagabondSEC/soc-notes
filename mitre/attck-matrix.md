@@ -34,3 +34,10 @@ T1053 Scheduled Task : très utilisé par les malwares
 T1543 Create or Modify System Process (services)
 Détecter : surveiller les modifications de Run keys (EventID 13)
 
+## Tactique Privilege Escalation (TA0004)
+
+T1068 Exploitation for Privilege Escalation
+T1078 Valid Accounts avec des droits admin
+T1548 Abuse Elevation Control Mechanism (UAC bypass)
+Le pass-the-hash et l'exploitation de tokens sont les classiques
+
