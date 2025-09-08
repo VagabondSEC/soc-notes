@@ -62,3 +62,10 @@ T1057 Process Discovery (tasklist, Get-Process)
 T1018 Remote System Discovery (net view, ping sweep)
 Les commandes de discovery sont souvent le premier bruit après compromission
 
+## Tactique Lateral Movement (TA0008)
+
+T1021 Remote Services (SMB, RDP, WinRM)
+T1550 Use Alternate Authentication Material (pass-the-hash)
+T1570 Lateral Tool Transfer
+Les logons de type 3 et 10 vers de nouvelles machines sont les indicateurs
+
