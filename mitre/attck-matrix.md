@@ -48,3 +48,10 @@ T1112 Modify Registry
 T1070 Indicator Removal : effacer les logs (wevtutil cl)
 T1562 Impair Defenses : désactiver l'EDR ou Windows Defender
 
+## Tactique Credential Access (TA0006)
+
+T1003 OS Credential Dumping (LSASS, mimikatz)
+T1558 Steal or Forge Kerberos Tickets (Golden/Silver ticket)
+T1110 Brute Force
+Surveiller l'accès à lsass.exe (EventID 10 de Sysmon)
+
