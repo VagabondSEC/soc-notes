@@ -69,3 +69,10 @@ T1550 Use Alternate Authentication Material (pass-the-hash)
 T1570 Lateral Tool Transfer
 Les logons de type 3 et 10 vers de nouvelles machines sont les indicateurs
 
+## Tactique Collection (TA0009)
+
+T1005 Data from Local System
+T1114 Email Collection (dumping des boîtes mail)
+T1560 Archive Collected Data (zip avant exfiltration)
+La création de zip sur des données sensibles est un signal
+
