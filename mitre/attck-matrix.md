@@ -90,3 +90,10 @@ T1048 Exfiltration Over Alternative Protocol (DNS, HTTP vers IP)
 T1567 Exfiltration Over Web Service (pastebin, transfer.sh)
 Le volume sortant anormal reste le meilleur indicateur
 
+## Tactique Impact (TA0040)
+
+T1486 Data Encrypted for Impact (ransomware)
+T1489 Service Stop
+T1490 Inhibit System Recovery (suppression des shadow copies)
+vssadmin delete shadows est une commande à alerter immédiatement
+
