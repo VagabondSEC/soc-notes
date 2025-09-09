@@ -76,3 +76,10 @@ T1114 Email Collection (dumping des boîtes mail)
 T1560 Archive Collected Data (zip avant exfiltration)
 La création de zip sur des données sensibles est un signal
 
+## Tactique Command and Control (TA0011)
+
+T1071 Application Layer Protocol (HTTP, HTTPS, DNS)
+T1573 Encrypted Channel
+T1090 Proxy (utilisation de la machine comme pivot)
+Les connexions sortantes régulières vers des domaines récents = signal
+
