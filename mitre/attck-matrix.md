@@ -83,3 +83,10 @@ T1573 Encrypted Channel
 T1090 Proxy (utilisation de la machine comme pivot)
 Les connexions sortantes régulières vers des domaines récents = signal
 
+## Tactique Exfiltration (TA0010)
+
+T1041 Exfiltration Over C2 Channel
+T1048 Exfiltration Over Alternative Protocol (DNS, HTTP vers IP)
+T1567 Exfiltration Over Web Service (pastebin, transfer.sh)
+Le volume sortant anormal reste le meilleur indicateur
+
