@@ -26,3 +26,9 @@ Extraire les liens et vérifier les domaines
 Analyser les pièces jointes dans un environnement isolé
 Les en-têtes X-Originating-IP et Received trahissent le vrai expéditeur
 
+## Room : Wireshark 101
+
+Prendre et analyser une capture réseau
+Filtres d'affichage et suivi de flux
+Reconnaître les protocoles : HTTP, DNS, TCP, TLS
+
