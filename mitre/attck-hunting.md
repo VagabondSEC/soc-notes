@@ -18,3 +18,10 @@ wevtutil cl, wevtutil clear-log dans les lignes de commande
 Clear-EventLog, Remove-EventLog en PowerShell
 L'absence soudaine de logs sur une machine = événement en soi
 
+## Hunting sur T1547 registry Run
+
+EventID 13 (registry value set) sur les Run keys
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+HKCU\...\Run et les Startup Approved
+Corréler avec la création du fichier exécutable référencé
+
