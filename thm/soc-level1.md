@@ -32,3 +32,9 @@ Prendre et analyser une capture réseau
 Filtres d'affichage et suivi de flux
 Reconnaître les protocoles : HTTP, DNS, TCP, TLS
 
+## Room : Splunk Basics
+
+Recherche, time range, champs, sourcetypes
+Les commandes essentielles : table, stats, timechart, eval
+Construire un dashboard simple de monitoring
+
