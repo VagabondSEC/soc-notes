@@ -13,3 +13,9 @@ Comprendre le rôle du SIEM : collecte, normalisation, corrélation, alertes
 Les composants : agents, collecteurs, moteur de corrélation, dashboard
 Splunk, Elastic et Wazuh vus en pratique
 
+## Room : Benign or Malicious
+
+Analyse de fichiers et de flux pour décider si un événement est malveillant
+Vérifier les hash sur VirusTotal et les bases de IOC
+Analyser le comportement : où le fichier se lance, que contacte-t-il
+
