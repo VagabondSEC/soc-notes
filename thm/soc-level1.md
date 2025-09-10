@@ -19,3 +19,10 @@ Analyse de fichiers et de flux pour décider si un événement est malveillant
 Vérifier les hash sur VirusTotal et les bases de IOC
 Analyser le comportement : où le fichier se lance, que contacte-t-il
 
+## Room : Phishing Analysis
+
+Analyser un email de phishing : en-têtes, SPF, DKIM, DMARC
+Extraire les liens et vérifier les domaines
+Analyser les pièces jointes dans un environnement isolé
+Les en-têtes X-Originating-IP et Received trahissent le vrai expéditeur
+
