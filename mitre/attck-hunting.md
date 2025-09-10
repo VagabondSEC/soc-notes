@@ -25,3 +25,9 @@ HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 HKCU\...\Run et les Startup Approved
 Corréler avec la création du fichier exécutable référencé
 
+## Hunting sur T1021 RDP sortant
+
+Logons RDP sortants depuis une machine de bureau
+EventID 4624 avec LogonType 10 vers des IP internes
+Les connexions RDP multiples depuis un seul compte = pivot probable
+
