@@ -38,3 +38,9 @@ Recherche, time range, champs, sourcetypes
 Les commandes essentielles : table, stats, timechart, eval
 Construire un dashboard simple de monitoring
 
+## Room : Network Security
+
+Modèles OSI et TCP/IP, les attaques réseau classiques
+ARP spoofing, MITM, SYN flood
+Les défenses : segmentation, filtrage, inspection
+
