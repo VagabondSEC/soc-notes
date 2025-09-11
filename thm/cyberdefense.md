@@ -20,3 +20,9 @@ Reconnaissance -> Weaponization -> Delivery -> Exploitation
 Chaque étape est une opportunité de détection
 Les défenses à chaque phase : durcissement, EDR, segmentation
 
+## Le Diamond Model
+
+4 sommets : adversaire, infrastructure, victime, capacité
+L'analyse d'un incident relie les 4 éléments
+Permet de regrouper les incidents d'une même campagne
+
