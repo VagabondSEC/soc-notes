@@ -27,3 +27,9 @@ Identifier les processus anormaux dans les logs
 Les chemins d'installation étranges (Temp, AppData, ProgramData)
 Les processus légitimes qui tournent depuis des chemins suspects
 
+## Les connexions réseau suspectes
+
+Les connexions sortantes vers des IP inconnues
+Les protocoles inhabituels sur des ports standards
+Les domaines récemment enregistrés (WHOIS, urlhaus)
+
