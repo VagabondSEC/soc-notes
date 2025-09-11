@@ -80,3 +80,9 @@ YARA permet de détecter des familles de malwares par règles
 Les sections : strings, condition, meta
 Exemple : rule suspicious { strings: $a = "cmd.exe" condition: $a }
 
+## Room : OpenCTI
+
+OpenCTI centralise les indicateurs de menace (STIX/TAXII)
+Les objets : indicators, observables, campaigns, threat actors
+Relier les IOC aux familles de malwares et aux campagnes
+
