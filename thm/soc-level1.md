@@ -44,3 +44,9 @@ Modèles OSI et TCP/IP, les attaques réseau classiques
 ARP spoofing, MITM, SYN flood
 Les défenses : segmentation, filtrage, inspection
 
+## Room : Cyber Defense Frameworks
+
+Le Cyber Kill Chain de Lockheed Martin : 7 phases
+Le modèle Pyramid of Pain : les niveaux d'indicateurs
+Le Diamond Model : adversaire, infrastructure, victime, capacité
+
