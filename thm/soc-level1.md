@@ -56,3 +56,9 @@ Les modèles de détection : signature, comportement, anomalie
 Les règles Sigma : format YAML de détection partageable
 Traduire une Sigma rule en recherche Splunk ou KQL
 
+## Room : Intro to Digital Forensics
+
+Les principes : préserver la preuve, chaîne de custody
+Imagerie disque avec dd et FTK Imager
+Analyse mémoire avec Volatility
+
