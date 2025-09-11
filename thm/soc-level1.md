@@ -50,3 +50,9 @@ Le Cyber Kill Chain de Lockheed Martin : 7 phases
 Le modèle Pyramid of Pain : les niveaux d'indicateurs
 Le Diamond Model : adversaire, infrastructure, victime, capacité
 
+## Room : Intro to Detection Modelling
+
+Les modèles de détection : signature, comportement, anomalie
+Les règles Sigma : format YAML de détection partageable
+Traduire une Sigma rule en recherche Splunk ou KQL
+
