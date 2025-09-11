@@ -68,3 +68,9 @@ L'incident response en 6 phases : preparation, identification, containment...
 La différence entre tri (triage) et investigation complète
 Documenter chaque action pour la chaîne de preuve
 
+## Room : Memory Forensics
+
+Volatility : pslist, pstree, malfind, netscan
+Les processus suspects : nom masqué, chemin étrange, DLL anormale
+dumpmem + analyse des fichiers extraits
+
