@@ -15,3 +15,9 @@ Le format : analyste -> investigate -> contain -> report
 4. Classer : True Positive, False Positive, Benign
 5. Documenter et recommander des actions
 
+## Les emails malveillants
+
+Analyser les pièces jointes : type, hash, macros
+Les macros Office restent le vecteur n1 des malwares
+Vérifier les liens avec des services de sandbox (Any.Run, Hybrid Analysis)
+
