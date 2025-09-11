@@ -62,3 +62,9 @@ Les principes : préserver la preuve, chaîne de custody
 Imagerie disque avec dd et FTK Imager
 Analyse mémoire avec Volatility
 
+## Room : Intro to IR
+
+L'incident response en 6 phases : preparation, identification, containment...
+La différence entre tri (triage) et investigation complète
+Documenter chaque action pour la chaîne de preuve
+
