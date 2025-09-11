@@ -74,3 +74,9 @@ Volatility : pslist, pstree, malfind, netscan
 Les processus suspects : nom masqué, chemin étrange, DLL anormale
 dumpmem + analyse des fichiers extraits
 
+## Room : Yara
+
+YARA permet de détecter des familles de malwares par règles
+Les sections : strings, condition, meta
+Exemple : rule suspicious { strings: $a = "cmd.exe" condition: $a }
+
