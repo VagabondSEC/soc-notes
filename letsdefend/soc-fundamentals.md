@@ -33,3 +33,10 @@ Les connexions sortantes vers des IP inconnues
 Les protocoles inhabituels sur des ports standards
 Les domaines récemment enregistrés (WHOIS, urlhaus)
 
+## Les faux positifs les plus courants
+
+Les scans de vulnérabilités internes (Nessus, Qualys)
+Les mises à jour Windows et les downloads Microsoft
+Les outils de monitoring (ping, SNMP)
+Connaître son environnement = savoir ignorer le bruit légitime
+
