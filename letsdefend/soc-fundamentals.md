@@ -21,3 +21,9 @@ Analyser les pièces jointes : type, hash, macros
 Les macros Office restent le vecteur n1 des malwares
 Vérifier les liens avec des services de sandbox (Any.Run, Hybrid Analysis)
 
+## L'analyse de processus
+
+Identifier les processus anormaux dans les logs
+Les chemins d'installation étranges (Temp, AppData, ProgramData)
+Les processus légitimes qui tournent depuis des chemins suspects
+
