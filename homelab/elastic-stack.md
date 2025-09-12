@@ -7,3 +7,10 @@ Kibana : l'interface web (discover, dashboards, alerts)
 Les agents Elastic (Winlogbeat, Filebeat, Packetbeat) envoient les logs
 Une stack complète tient dans une VM avec 8 Go de RAM
 
+## Installation Elasticsearch
+
+Télécharger Elasticsearch depuis elastic.co et décompresser
+Configurer elasticsearch.yml : network.host, cluster.name
+Lancer avec bin/elasticsearch et vérifier sur le port 9200
+curl localhost:9200 renvoie le JSON de statut
+
