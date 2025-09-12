@@ -33,3 +33,9 @@ Kibana > Security > Rules pour les règles de détection
 Les règles EQL permettent des corrélations (sequence)
 Créer des dashboards de monitoring du lab
 
+## Requêtes KQL dans Kibana
+
+event.module: "sysmon" and process.name: "powershell.exe"
+event.code: 4625 pour les échecs de connexion
+Kibana Discover est le premier outil du SOC analyst
+
