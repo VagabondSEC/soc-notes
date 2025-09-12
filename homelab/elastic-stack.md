@@ -20,3 +20,10 @@ Kibana se connecte à Elasticsearch via kibana.yml (elasticsearch.hosts)
 L'interface est sur le port 5601
 La première connexion demande un token généré par Elasticsearch
 
+## Winlogbeat pour les logs Windows
+
+Winlogbeat collecte les Windows Event Logs
+Configurer winlogbeat.yml : les channels (Security, System, Sysmon)
+Le module sysmon nécessite l'installation de Sysmon avec une config
+Les événements Sysmon (1, 3, 10, 11, 13, 22) enrichissent énormément
+
