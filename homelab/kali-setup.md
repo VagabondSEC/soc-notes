@@ -13,3 +13,9 @@ Mimikatz sur une machine Windows jointe au domaine
 Phishing simulé avec une pièce jointe dropper
 Chaque attaque génère des logs à analyser dans Elastic
 
+## hashcat dans le lab
+
+hashcat -m 1000 hash.txt wordlist.txt pour les hash NTLM
+Les wordlists : rockyou, seclists, custom
+Comprendre les formats de hash : NTLM, Kerberos, NetNTLMv2
+
