@@ -14,3 +14,10 @@ VirusTotal, AbuseIPDB, Urlhaus, Shodan en analyseurs
 Un hash envoyé à Cortex revient avec les verdicts des sandbox
 TheHive et Cortex dialoguent via l'API
 
+## Le workflow TheHive
+
+Création du case depuis une alerte SIEM
+Ajout des observables et lancement des analyseurs Cortex
+Tâches d'investigation assignées aux analystes
+Clôture avec le statut, la sévérité et le rapport
+
