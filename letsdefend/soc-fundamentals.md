@@ -40,3 +40,10 @@ Les mises à jour Windows et les downloads Microsoft
 Les outils de monitoring (ping, SNMP)
 Connaître son environnement = savoir ignorer le bruit légitime
 
+## La documentation d'un incident
+
+Chronologie complète des événements avec timestamps
+Les IOC : hash, IP, domaines, processus
+Les actions prises et leur justification
+Un rapport clair permet au L2 de prendre le relais sans re-travailler
+
