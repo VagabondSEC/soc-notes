@@ -27,3 +27,9 @@ Configurer winlogbeat.yml : les channels (Security, System, Sysmon)
 Le module sysmon nécessite l'installation de Sysmon avec une config
 Les événements Sysmon (1, 3, 10, 11, 13, 22) enrichissent énormément
 
+## Détections dans Elastic
+
+Kibana > Security > Rules pour les règles de détection
+Les règles EQL permettent des corrélations (sequence)
+Créer des dashboards de monitoring du lab
+
