@@ -13,3 +13,10 @@ A : IPv4, AAAA : IPv6, CNAME : alias, MX : mail, TXT : texte libre
 Les TXT records servent au SPF, DKIM et DMARC
 Un TXT record suspect peut cacher une exfiltration
 
+## Le protocole HTTP
+
+Méthodes : GET, POST, PUT, DELETE, HEAD, OPTIONS
+Les codes : 2xx succès, 3xx redirection, 4xx client, 5xx serveur
+Les en-têtes : Host, User-Agent, Referer, Cookie, Authorization
+HTTP est en clair, HTTPS le chiffre (mais pas le SNI)
+
