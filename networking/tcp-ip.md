@@ -34,3 +34,9 @@ Le NAT traduit les adresses privées en publique
 Le PAT multiplexe plusieurs machines derrière une IP
 Explication : pourquoi les logs proxy voient l'IP du NAT et pas celle du client
 
+## Les protocoles de résolution
+
+ARP pour trouver la MAC depuis l'IP sur le même segment
+DNS pour trouver l'IP depuis un nom
+Un ARP anormal (réponses multiples) = ARP spoofing possible
+
