@@ -20,3 +20,9 @@ Les codes : 2xx succès, 3xx redirection, 4xx client, 5xx serveur
 Les en-têtes : Host, User-Agent, Referer, Cookie, Authorization
 HTTP est en clair, HTTPS le chiffre (mais pas le SNI)
 
+## Analyse des User-Agents
+
+Un User-Agent curl ou python-requests sur un poste = suspect
+Les User-Agents de bot connus (Googlebot) doivent matcher les IP Google
+Les malwares utilisent souvent des User-Agents génériques
+
