@@ -28,3 +28,9 @@ Le masque détermine la partie réseau et la partie hôte
 /24 = 256 adresses, /16 = 65536, /8 = 16 millions
 Calculer rapidement : 10.0.0.0/24 couvre 10.0.0.1 - 10.0.0.254
 
+## NAT et PAT
+
+Le NAT traduit les adresses privées en publique
+Le PAT multiplexe plusieurs machines derrière une IP
+Explication : pourquoi les logs proxy voient l'IP du NAT et pas celle du client
+
