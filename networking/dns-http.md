@@ -26,3 +26,9 @@ Un User-Agent curl ou python-requests sur un poste = suspect
 Les User-Agents de bot connus (Googlebot) doivent matcher les IP Google
 Les malwares utilisent souvent des User-Agents génériques
 
+## HTTP vs HTTPS pour le tri
+
+En HTTP, on voit tout : URL, body, en-têtes
+En HTTPS, on voit l'hôte (SNI) et les tailles de flux
+Le proxy déchiffré (SSL inspection) redonne la visibilité
+
