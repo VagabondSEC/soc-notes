@@ -21,3 +21,10 @@ Un SYN sans réponse = port filtré
 1433 MSSQL, 3306 MySQL, 5985/5986 WinRM
 Connaître les ports par coeur accélère le tri des logs
 
+## IPv4 et sous-réseaux
+
+Une adresse IPv4 = 32 bits en 4 octets
+Le masque détermine la partie réseau et la partie hôte
+/24 = 256 adresses, /16 = 65536, /8 = 16 millions
+Calculer rapidement : 10.0.0.0/24 couvre 10.0.0.1 - 10.0.0.254
+
