@@ -12,3 +12,9 @@ Active Directory : le cœur d'un environnement Windows
 Un DNS interne pour les noms de machines
 Le partage de fichiers SMB pour les mouvements latéraux
 
+## Durcissement du lab
+
+Désactiver les services inutiles sur les VMs
+Isoler le réseau du lab de la production
+Surveiller les ressources pour ne pas saturer la machine hôte
+
