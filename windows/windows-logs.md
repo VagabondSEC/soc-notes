@@ -34,3 +34,9 @@ L'ajout à un groupe privilégié (Domain Admins) = alerte immédiate
 Un attaquant efface les traces avec wevtutil cl Security
 L'événement de purge lui-même reste visible
 
+## EventID 13 (Sysmon)
+
+Sysmon 13 : modification de valeur registry
+Surveiller les Run keys et les autorisations
+Les malwares persistent via les Run keys
+
