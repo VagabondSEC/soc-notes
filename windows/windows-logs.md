@@ -22,3 +22,9 @@ C'est LE log de détection d'exécution
 Activer : Audit Process Creation + Include command line
 Les recherches sur les lignes de commande en dépendent
 
+## EventID 4720 et 4728
+
+4720 : création d'un compte utilisateur
+4728 : ajout d'un membre à un groupe
+L'ajout à un groupe privilégié (Domain Admins) = alerte immédiate
+
