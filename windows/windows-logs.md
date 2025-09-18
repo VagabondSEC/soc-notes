@@ -28,3 +28,9 @@ Les recherches sur les lignes de commande en dépendent
 4728 : ajout d'un membre à un groupe
 L'ajout à un groupe privilégié (Domain Admins) = alerte immédiate
 
+## EventID 1102
+
+1102 : le log Security a été vidé
+Un attaquant efface les traces avec wevtutil cl Security
+L'événement de purge lui-même reste visible
+
