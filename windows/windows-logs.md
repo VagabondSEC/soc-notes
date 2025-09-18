@@ -15,3 +15,10 @@ Sysmon : la couche de visibilité supplémentaire
 Les LogonType : 2 interactif, 3 réseau, 4 batch, 5 service, 9 délégué, 10 RDP
 Un 4625 suivi d'un 4624 sur le même compte = brute force réussi
 
+## EventID 4688
+
+4688 : création de processus (avec CommandLine si activé)
+C'est LE log de détection d'exécution
+Activer : Audit Process Creation + Include command line
+Les recherches sur les lignes de commande en dépendent
+
