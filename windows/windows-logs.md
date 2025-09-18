@@ -40,3 +40,9 @@ Sysmon 13 : modification de valeur registry
 Surveiller les Run keys et les autorisations
 Les malwares persistent via les Run keys
 
+## EventID 10 (Sysmon)
+
+Sysmon 10 : accès à un processus
+L'accès à lsass.exe par un outil non standard = credential dumping
+Un des événements les plus précieux pour la détection
+
