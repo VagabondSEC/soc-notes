@@ -22,3 +22,10 @@ Pass-the-Hash (réutiliser le hash NTLM)
 Golden Ticket (forger un TGT avec le hash krbtgt)
 BloodHound cartographie les chemins vers Domain Admins
 
+## Les défenses AD
+
+Activer l'audit complet des logs de sécurité
+Surveiller les modifications des groupes privilégiés
+Désactiver les comptes de service inutilisés
+Microsoft LAPS pour les mots de passe locaux
+
