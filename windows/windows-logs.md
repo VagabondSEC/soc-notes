@@ -52,3 +52,9 @@ Sysmon 1 : création de processus avec hash et ligne de commande
 Le hash permet de vérifier le fichier sur VirusTotal
 Complète le 4688 avec le hash et le parent
 
+## EventID 22 (Sysmon)
+
+Sysmon 22 : requête DNS
+Voir les domaines consultés par chaque processus
+Indispensable pour détecter le C2
+
