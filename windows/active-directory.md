@@ -14,3 +14,11 @@ Le TGT sert à demander des TGS pour chaque service
 Les tickets ont une durée de vie (10h par défaut)
 Le Kerberoasting : demander un TGS pour un compte de service et cracker son hash
 
+## Les attaques AD classiques
+
+Kerberoasting (TGS pour comptes de service)
+AS-REP roasting (comptes sans preauth)
+Pass-the-Hash (réutiliser le hash NTLM)
+Golden Ticket (forger un TGT avec le hash krbtgt)
+BloodHound cartographie les chemins vers Domain Admins
+
