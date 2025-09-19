@@ -29,3 +29,10 @@ Surveiller les modifications des groupes privilégiés
 Désactiver les comptes de service inutilisés
 Microsoft LAPS pour les mots de passe locaux
 
+## GPO et durcissement
+
+Les GPO appliquent les politiques : mots de passe, verrouillage, UAC
+Désactiver NTLM quand c'est possible (ou le surveiller)
+Restreindre les droits admin locaux
+Le principe du moindre privilège partout
+
