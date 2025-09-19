@@ -46,3 +46,9 @@ Sysmon 10 : accès à un processus
 L'accès à lsass.exe par un outil non standard = credential dumping
 Un des événements les plus précieux pour la détection
 
+## EventID 1 (Sysmon)
+
+Sysmon 1 : création de processus avec hash et ligne de commande
+Le hash permet de vérifier le fichier sur VirusTotal
+Complète le 4688 avec le hash et le parent
+
