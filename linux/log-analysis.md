@@ -21,3 +21,10 @@ journalctl --since "2 hours ago"
 journalctl -p err pour les erreurs
 Les logs systemd centralisés facilitent l'analyse
 
+## Analyse des logs web
+
+Les lignes d'accès : IP, timestamp, requête, code, taille
+grep " 404 " pour les erreurs, " 500 " pour les pannes
+Les patterns d'exploitation : sqlmap, nikto, curl POST inhabituels
+awk '{print $1}' access.log | sort | uniq -c | sort -rn pour le top IP
+
