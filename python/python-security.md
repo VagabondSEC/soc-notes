@@ -6,3 +6,9 @@ import csv et DictReader pour lire les exports
 Filtrer et agréger avec des compteurs
 Exporter les résultats en CSV pour Excel
 
+## Parser des logs avec regex
+
+re.search pour extraire IP, user, timestamp
+Les patterns : r"(?P<ip>\d+\.\d+\.\d+\.\d+)"
+Tester les regex sur un échantillon avant de tout parser
+
