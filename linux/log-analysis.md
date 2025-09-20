@@ -14,3 +14,10 @@ grep "Accepted" pour les succès
 Un brute force réussi : Failed puis Accepted depuis la même IP
 journalctl _COMM=sshd pour les logs sshd
 
+## journalctl
+
+journalctl -u service pour un service
+journalctl --since "2 hours ago"
+journalctl -p err pour les erreurs
+Les logs systemd centralisés facilitent l'analyse
+
