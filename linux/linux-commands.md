@@ -21,3 +21,10 @@ top / htop pour le temps réel
 Un processus qui consomme beaucoup de CPU = crypto ou brute force
 Vérifier les processus orphelins (PPID 1)
 
+## Le réseau en CLI
+
+ss -tunap liste les connexions avec le process
+lsof -i :443 pour ce qui écoute sur 443
+curl -v pour débugger les requêtes
+tcpdump -i eth0 port 80 pour capturer
+
