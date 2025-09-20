@@ -18,3 +18,9 @@ requests.get avec une clé API (AbuseIPDB, VirusTotal)
 Gérer les rate limits avec time.sleep
 Enrichir un CSV d'IP avec les verdicts
 
+## Automatiser VirusTotal
+
+POST /api/v3/files pour soumettre un hash
+GET /api/v3/files/{id} pour le rapport
+Agréger les verdicts : malicious, suspicious, harmless
+
