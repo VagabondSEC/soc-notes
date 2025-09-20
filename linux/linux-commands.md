@@ -14,3 +14,10 @@ grep -i ignore la casse, grep -v inverse
 grep -A 5 -B 5 donne le contexte autour
 zgrep pour les fichiers compressés .gz
 
+## Les processus
+
+ps aux trié par CPU : ps aux --sort=-%cpu
+top / htop pour le temps réel
+Un processus qui consomme beaucoup de CPU = crypto ou brute force
+Vérifier les processus orphelins (PPID 1)
+
