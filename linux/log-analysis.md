@@ -28,3 +28,9 @@ grep " 404 " pour les erreurs, " 500 " pour les pannes
 Les patterns d'exploitation : sqlmap, nikto, curl POST inhabituels
 awk '{print $1}' access.log | sort | uniq -c | sort -rn pour le top IP
 
+## Les shells suspects
+
+bash -i, sh -c, les reverse shells dans les processus
+Les connexions sortantes vers des IP étrangères depuis des daemons
+Vérifier les fichiers dans /tmp et /dev/shm
+
