@@ -28,3 +28,10 @@ lsof -i :443 pour ce qui écoute sur 443
 curl -v pour débugger les requêtes
 tcpdump -i eth0 port 80 pour capturer
 
+## Les crontabs
+
+crontab -l liste les tâches de l'utilisateur
+/etc/crontab et /etc/cron.d pour les tâches système
+Une tâche cron inconnue = persistance probable
+Vérifier /var/spool/cron/crontabs
+
