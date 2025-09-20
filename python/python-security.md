@@ -24,3 +24,9 @@ POST /api/v3/files pour soumettre un hash
 GET /api/v3/files/{id} pour le rapport
 Agréger les verdicts : malicious, suspicious, harmless
 
+## Petit script de logon monitoring
+
+Lire un export d'événements 4625
+Compter les échecs par compte et par IP
+Afficher les comptes au-dessus d'un seuil
+
