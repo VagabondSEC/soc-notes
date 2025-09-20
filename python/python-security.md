@@ -12,3 +12,9 @@ re.search pour extraire IP, user, timestamp
 Les patterns : r"(?P<ip>\d+\.\d+\.\d+\.\d+)"
 Tester les regex sur un échantillon avant de tout parser
 
+## Requêter une API de threat intel
+
+requests.get avec une clé API (AbuseIPDB, VirusTotal)
+Gérer les rate limits avec time.sleep
+Enrichir un CSV d'IP avec les verdicts
+
