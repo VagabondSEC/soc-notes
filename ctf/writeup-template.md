@@ -9,3 +9,10 @@
 5. Le flag et la conclusion
 Un writeup clair se relit et se partage, il prouve la méthode
 
+## Pourquoi écrire des writeups
+
+Structurer sa réflexion et sa méthode
+Garder une trace des techniques apprises
+Montrer sa progression aux recruteurs
+Les writeups sont la monnaie des équipes de sécurité
+
