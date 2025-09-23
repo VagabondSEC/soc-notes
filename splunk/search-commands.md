@@ -12,3 +12,7 @@ index=windows EventCode=4625 | search user=admin
 
 En investigation SOC, search est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## fields
+
+Affiche ou supprime des champs pour réduire le volume affiché.
+
