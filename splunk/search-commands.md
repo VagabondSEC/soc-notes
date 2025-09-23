@@ -8,3 +8,7 @@ Recherche plein texte dans les événements indexés, première commande de pres
 
 index=windows EventCode=4625 | search user=admin
 
+## Cas d'usage : search
+
+En investigation SOC, search est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
