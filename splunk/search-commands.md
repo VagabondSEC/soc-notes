@@ -16,3 +16,7 @@ En investigation SOC, search est utile pour analyser les logs d'authentification
 
 Affiche ou supprime des champs pour réduire le volume affiché.
 
+## Exemple : fields
+
+index=main | fields host, source, sourcetype, _time
+
