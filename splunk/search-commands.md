@@ -40,3 +40,7 @@ En investigation SOC, table est utile pour analyser les logs d'authentification 
 
 Renomme un champ pour le rendre plus lisible.
 
+## Exemple : rename
+
+index=main | rename src_ip as source_address
+
