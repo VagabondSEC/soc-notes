@@ -32,3 +32,7 @@ Affiche les résultats sous forme de tableau avec les colonnes choisies.
 
 index=main | table _time, host, user, action
 
+## Cas d'usage : table
+
+En investigation SOC, table est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
