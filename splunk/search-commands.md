@@ -28,3 +28,7 @@ En investigation SOC, fields est utile pour analyser les logs d'authentification
 
 Affiche les résultats sous forme de tableau avec les colonnes choisies.
 
+## Exemple : table
+
+index=main | table _time, host, user, action
+
