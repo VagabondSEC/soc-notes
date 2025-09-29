@@ -64,3 +64,7 @@ En investigation SOC, dedup est utile pour analyser les logs d'authentification 
 
 Trie les résultats par ordre croissant ou décroissant.
 
+## Exemple : sort
+
+index=main | sort - _time | head 10
+
