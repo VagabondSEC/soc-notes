@@ -88,3 +88,7 @@ En investigation SOC, head est utile pour analyser les logs d'authentification e
 
 Limite les résultats aux N derniers événements (après un tri).
 
+## Exemple : tail
+
+index=main | sort _time | tail 5
+
