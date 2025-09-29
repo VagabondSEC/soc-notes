@@ -52,3 +52,7 @@ En investigation SOC, rename est utile pour analyser les logs d'authentification
 
 Supprime les événements dupliqués selon un ou plusieurs champs.
 
+## Exemple : dedup
+
+index=main | dedup host | table host
+
