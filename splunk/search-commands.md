@@ -84,3 +84,7 @@ index=main | head 100
 
 En investigation SOC, head est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## tail
+
+Limite les résultats aux N derniers événements (après un tri).
+
