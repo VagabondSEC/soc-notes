@@ -76,3 +76,7 @@ En investigation SOC, sort est utile pour analyser les logs d'authentification e
 
 Limite les résultats aux N premiers événements.
 
+## Exemple : head
+
+index=main | head 100
+
