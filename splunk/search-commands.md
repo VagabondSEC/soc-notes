@@ -48,3 +48,7 @@ index=main | rename src_ip as source_address
 
 En investigation SOC, rename est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## dedup
+
+Supprime les événements dupliqués selon un ou plusieurs champs.
+
