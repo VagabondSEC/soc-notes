@@ -112,3 +112,7 @@ En investigation SOC, top est utile pour analyser les logs d'authentification et
 
 Affiche les valeurs les moins fréquentes d'un champ.
 
+## Exemple : rare
+
+index=main | rare host
+
