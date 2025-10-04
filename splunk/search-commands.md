@@ -116,3 +116,7 @@ Affiche les valeurs les moins fréquentes d'un champ.
 
 index=main | rare host
 
+## Cas d'usage : rare
+
+En investigation SOC, rare est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
