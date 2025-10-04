@@ -136,3 +136,7 @@ En investigation SOC, stats est utile pour analyser les logs d'authentification 
 
 Calcule des statistiques sur TOUT le dataset et les ajoute à chaque événement.
 
+## Exemple : eventstats
+
+index=main | eventstats avg(bytes) as avg_bytes
+
