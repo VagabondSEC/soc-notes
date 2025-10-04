@@ -100,3 +100,7 @@ En investigation SOC, tail est utile pour analyser les logs d'authentification e
 
 Affiche les valeurs les plus fréquentes d'un champ avec counts et pourcentages.
 
+## Exemple : top
+
+index=main | top limit=10 user
+
