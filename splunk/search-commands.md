@@ -120,3 +120,7 @@ index=main | rare host
 
 En investigation SOC, rare est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## stats
+
+Agrège les résultats avec des fonctions statistiques (count, sum, avg, dc...).
+
