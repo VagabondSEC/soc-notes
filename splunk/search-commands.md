@@ -144,3 +144,7 @@ index=main | eventstats avg(bytes) as avg_bytes
 
 En investigation SOC, eventstats est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## streamstats
+
+Calcule des statistiques cumulatives au fil du flux d'événements.
+
