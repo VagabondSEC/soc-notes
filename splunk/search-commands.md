@@ -124,3 +124,7 @@ En investigation SOC, rare est utile pour analyser les logs d'authentification e
 
 Agrège les résultats avec des fonctions statistiques (count, sum, avg, dc...).
 
+## Exemple : stats
+
+index=main | stats count by action
+
