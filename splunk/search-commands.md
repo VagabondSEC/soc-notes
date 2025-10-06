@@ -184,3 +184,7 @@ En investigation SOC, chart est utile pour analyser les logs d'authentification 
 
 Transforme les résultats en tableau XY (lignes, colonnes, valeurs).
 
+## Exemple : xyseries
+
+index=main | chart count by host, action | xyseries host action count
+
