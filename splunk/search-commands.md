@@ -148,3 +148,7 @@ En investigation SOC, eventstats est utile pour analyser les logs d'authentifica
 
 Calcule des statistiques cumulatives au fil du flux d'événements.
 
+## Exemple : streamstats
+
+index=main | streamstats count as running_count
+
