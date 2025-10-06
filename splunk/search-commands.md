@@ -160,3 +160,7 @@ En investigation SOC, streamstats est utile pour analyser les logs d'authentific
 
 Série temporelle : agrège par buckets de temps.
 
+## Exemple : timechart
+
+index=main | timechart count by action span=1h
+
