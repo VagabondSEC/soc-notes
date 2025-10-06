@@ -172,3 +172,7 @@ En investigation SOC, timechart est utile pour analyser les logs d'authentificat
 
 Agrège sous forme de tableau sans axe temporel.
 
+## Exemple : chart
+
+index=main | chart count by host, action
+
