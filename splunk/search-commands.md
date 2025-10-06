@@ -152,3 +152,7 @@ Calcule des statistiques cumulatives au fil du flux d'événements.
 
 index=main | streamstats count as running_count
 
+## Cas d'usage : streamstats
+
+En investigation SOC, streamstats est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
