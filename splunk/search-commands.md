@@ -212,3 +212,7 @@ Filtre les événements avec une expression évaluée (plus puissant que search)
 
 index=main | where len(command_line) > 500
 
+## Cas d'usage : where
+
+En investigation SOC, where est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
