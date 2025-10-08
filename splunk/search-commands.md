@@ -244,3 +244,7 @@ En investigation SOC, regex est utile pour analyser les logs d'authentification 
 
 Génère automatiquement une regex à partir d'exemples de valeurs.
 
+## Exemple : erex
+
+index=main | erex ip examples="192.168.1.1, 10.0.0.5"
+
