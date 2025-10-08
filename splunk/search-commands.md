@@ -204,3 +204,7 @@ index=main | eval severity=case(risk_score>=80, "high", risk_score>=50, "medium"
 
 En investigation SOC, eval est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## where
+
+Filtre les événements avec une expression évaluée (plus puissant que search).
+
