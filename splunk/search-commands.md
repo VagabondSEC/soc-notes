@@ -220,3 +220,7 @@ En investigation SOC, where est utile pour analyser les logs d'authentification 
 
 Extrait des champs avec une expression régulière nommée.
 
+## Exemple : rex
+
+index=main | rex field=_raw "(?<ip>\d+\.\d+\.\d+\.\d+)"
+
