@@ -216,3 +216,7 @@ index=main | where len(command_line) > 500
 
 En investigation SOC, where est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## rex
+
+Extrait des champs avec une expression régulière nommée.
+
