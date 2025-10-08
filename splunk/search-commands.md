@@ -248,3 +248,7 @@ Génère automatiquement une regex à partir d'exemples de valeurs.
 
 index=main | erex ip examples="192.168.1.1, 10.0.0.5"
 
+## Cas d'usage : erex
+
+En investigation SOC, erex est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
