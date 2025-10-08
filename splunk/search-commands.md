@@ -232,3 +232,7 @@ En investigation SOC, rex est utile pour analyser les logs d'authentification et
 
 Filtre les événements dont un champ correspond à une regex.
 
+## Exemple : regex
+
+index=main | regex _raw="(?i)error|fail"
+
