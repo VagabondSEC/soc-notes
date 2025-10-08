@@ -196,3 +196,7 @@ En investigation SOC, xyseries est utile pour analyser les logs d'authentificati
 
 Crée ou modifie des champs avec des expressions et fonctions.
 
+## Exemple : eval
+
+index=main | eval severity=case(risk_score>=80, "high", risk_score>=50, "medium", 1=1, "low")
+
