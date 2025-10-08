@@ -208,3 +208,7 @@ En investigation SOC, eval est utile pour analyser les logs d'authentification e
 
 Filtre les événements avec une expression évaluée (plus puissant que search).
 
+## Exemple : where
+
+index=main | where len(command_line) > 500
+
