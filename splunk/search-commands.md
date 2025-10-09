@@ -268,3 +268,7 @@ En investigation SOC, lookup est utile pour analyser les logs d'authentification
 
 Lit directement un fichier de lookup comme source de la recherche.
 
+## Exemple : inputlookup
+
+| inputlookup firewall_blacklist
+
