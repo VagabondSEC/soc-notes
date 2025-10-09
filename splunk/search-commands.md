@@ -256,3 +256,7 @@ En investigation SOC, erex est utile pour analyser les logs d'authentification e
 
 Enrichit les événements en joignant un fichier de lookup.
 
+## Exemple : lookup
+
+index=main | lookup asset_lookup asset_id OUTPUT asset_owner
+
