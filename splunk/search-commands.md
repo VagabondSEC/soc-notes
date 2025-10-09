@@ -276,3 +276,7 @@ Lit directement un fichier de lookup comme source de la recherche.
 
 En investigation SOC, inputlookup est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## outputlookup
+
+Écrit les résultats de la recherche dans un fichier de lookup.
+
