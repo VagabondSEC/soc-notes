@@ -264,3 +264,7 @@ index=main | lookup asset_lookup asset_id OUTPUT asset_owner
 
 En investigation SOC, lookup est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## inputlookup
+
+Lit directement un fichier de lookup comme source de la recherche.
+
