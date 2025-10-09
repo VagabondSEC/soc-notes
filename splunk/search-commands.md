@@ -260,3 +260,7 @@ Enrichit les événements en joignant un fichier de lookup.
 
 index=main | lookup asset_lookup asset_id OUTPUT asset_owner
 
+## Cas d'usage : lookup
+
+En investigation SOC, lookup est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
