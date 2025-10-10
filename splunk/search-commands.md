@@ -304,3 +304,7 @@ En investigation SOC, join est utile pour analyser les logs d'authentification e
 
 Ajoute les résultats d'une recherche à la recherche principale.
 
+## Exemple : append
+
+index=main | append [search index=wineventlog]
+
