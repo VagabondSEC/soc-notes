@@ -292,3 +292,7 @@ En investigation SOC, outputlookup est utile pour analyser les logs d'authentifi
 
 Joint deux jeux de résultats sur des champs communs (attention aux sous-recherches).
 
+## Exemple : join
+
+index=main [search index=proxy | fields src_ip] | join src_ip
+
