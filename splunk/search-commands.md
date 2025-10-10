@@ -284,3 +284,7 @@ En investigation SOC, inputlookup est utile pour analyser les logs d'authentific
 
 index=main | outputlookup suspicious_hosts
 
+## Cas d'usage : outputlookup
+
+En investigation SOC, outputlookup est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
