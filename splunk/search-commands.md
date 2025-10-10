@@ -280,3 +280,7 @@ En investigation SOC, inputlookup est utile pour analyser les logs d'authentific
 
 Écrit les résultats de la recherche dans un fichier de lookup.
 
+## Exemple : outputlookup
+
+index=main | outputlookup suspicious_hosts
+
