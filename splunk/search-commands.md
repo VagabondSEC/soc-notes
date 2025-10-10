@@ -296,3 +296,7 @@ Joint deux jeux de résultats sur des champs communs (attention aux sous-recherc
 
 index=main [search index=proxy | fields src_ip] | join src_ip
 
+## Cas d'usage : join
+
+En investigation SOC, join est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
