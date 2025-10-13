@@ -324,3 +324,7 @@ index=main | appendcols [search index=threatintel | fields ioc]
 
 En investigation SOC, appendcols est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## transaction
+
+Regroupe des événements liés (même session, même utilisateur) en une seule entité.
+
