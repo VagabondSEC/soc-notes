@@ -312,3 +312,7 @@ index=main | append [search index=wineventlog]
 
 En investigation SOC, append est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## appendcols
+
+Ajoute des colonnes d'une sous-recherche aux événements existants.
+
