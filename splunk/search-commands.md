@@ -316,3 +316,7 @@ En investigation SOC, append est utile pour analyser les logs d'authentification
 
 Ajoute des colonnes d'une sous-recherche aux événements existants.
 
+## Exemple : appendcols
+
+index=main | appendcols [search index=threatintel | fields ioc]
+
