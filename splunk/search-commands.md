@@ -328,3 +328,7 @@ En investigation SOC, appendcols est utile pour analyser les logs d'authentifica
 
 Regroupe des événements liés (même session, même utilisateur) en une seule entité.
 
+## Exemple : transaction
+
+index=main | transaction user maxspan=5m
+
