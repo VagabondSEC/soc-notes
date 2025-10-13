@@ -308,3 +308,7 @@ Ajoute les résultats d'une recherche à la recherche principale.
 
 index=main | append [search index=wineventlog]
 
+## Cas d'usage : append
+
+En investigation SOC, append est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
