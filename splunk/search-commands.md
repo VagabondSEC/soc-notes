@@ -364,3 +364,7 @@ En investigation SOC, xmlkv est utile pour analyser les logs d'authentification 
 
 Parse des paires clé=valeur avec un format de fichier de configuration.
 
+## Exemple : kvform
+
+index=main | kvform file=my_kv.conf
+
