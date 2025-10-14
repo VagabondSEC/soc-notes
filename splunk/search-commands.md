@@ -352,3 +352,7 @@ En investigation SOC, spath est utile pour analyser les logs d'authentification 
 
 Extrait les paires clé-valeur d'un événement XML.
 
+## Exemple : xmlkv
+
+index=main | xmlkv
+
