@@ -356,3 +356,7 @@ Extrait les paires clé-valeur d'un événement XML.
 
 index=main | xmlkv
 
+## Cas d'usage : xmlkv
+
+En investigation SOC, xmlkv est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
