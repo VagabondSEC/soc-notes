@@ -340,3 +340,7 @@ En investigation SOC, transaction est utile pour analyser les logs d'authentific
 
 Extrait des champs depuis des données structurées (JSON, XML).
 
+## Exemple : spath
+
+index=main | spath path=user.name
+
