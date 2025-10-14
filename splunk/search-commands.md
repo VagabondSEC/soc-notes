@@ -372,3 +372,7 @@ index=main | kvform file=my_kv.conf
 
 En investigation SOC, kvform est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## multikv
+
+Extrait des champs depuis des logs formatés en tableau (multi-lignes).
+
