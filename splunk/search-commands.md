@@ -376,3 +376,7 @@ En investigation SOC, kvform est utile pour analyser les logs d'authentification
 
 Extrait des champs depuis des logs formatés en tableau (multi-lignes).
 
+## Exemple : multikv
+
+index=main | multikv
+
