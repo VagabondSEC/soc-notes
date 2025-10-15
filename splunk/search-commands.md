@@ -412,3 +412,7 @@ En investigation SOC, fillnull est utile pour analyser les logs d'authentificati
 
 Remplit les champs vides avec la dernière valeur non vide.
 
+## Exemple : filldown
+
+index=main | filldown user
+
