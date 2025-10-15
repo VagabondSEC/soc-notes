@@ -388,3 +388,7 @@ En investigation SOC, multikv est utile pour analyser les logs d'authentificatio
 
 Extrait automatiquement les paires clé=valeur des événements.
 
+## Exemple : extract
+
+index=main | extract pairdelim=" " kvdelim="="
+
