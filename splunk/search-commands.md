@@ -396,3 +396,7 @@ index=main | extract pairdelim=" " kvdelim="="
 
 En investigation SOC, extract est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## fillnull
+
+Remplace les valeurs nulles par une valeur par défaut.
+
