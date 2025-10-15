@@ -400,3 +400,7 @@ En investigation SOC, extract est utile pour analyser les logs d'authentificatio
 
 Remplace les valeurs nulles par une valeur par défaut.
 
+## Exemple : fillnull
+
+index=main | fillnull value="unknown"
+
