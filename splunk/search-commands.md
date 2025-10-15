@@ -424,3 +424,7 @@ En investigation SOC, filldown est utile pour analyser les logs d'authentificati
 
 Calcule le nombre d'événements par index, source ou sourcetype.
 
+## Exemple : eventcount
+
+| eventcount summarize=false index=*
+
