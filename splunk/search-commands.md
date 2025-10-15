@@ -408,3 +408,7 @@ index=main | fillnull value="unknown"
 
 En investigation SOC, fillnull est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## filldown
+
+Remplit les champs vides avec la dernière valeur non vide.
+
