@@ -448,3 +448,7 @@ En investigation SOC, tstats est utile pour analyser les logs d'authentification
 
 Comme tstats mais pour les métriques (metrics index).
 
+## Exemple : mstats
+
+| mstats avg(cpu_usage) where index=metrics by host
+
