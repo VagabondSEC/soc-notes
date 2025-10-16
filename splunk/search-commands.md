@@ -460,3 +460,7 @@ En investigation SOC, mstats est utile pour analyser les logs d'authentification
 
 Liste les sources, sourcetypes ou hosts disponibles dans un index.
 
+## Exemple : metadata
+
+| metadata type=sourcetypes index=main
+
