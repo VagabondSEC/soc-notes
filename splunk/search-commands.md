@@ -440,3 +440,7 @@ Recherche agrégée rapide sur les champs indexés (tsidx), très performante.
 
 | tstats count where index=windows by host, _time
 
+## Cas d'usage : tstats
+
+En investigation SOC, tstats est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
