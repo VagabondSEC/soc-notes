@@ -472,3 +472,7 @@ En investigation SOC, metadata est utile pour analyser les logs d'authentificati
 
 Inspecte les buckets d'un index (taille, statut, événements).
 
+## Exemple : dbinspect
+
+| dbinspect index=main
+
