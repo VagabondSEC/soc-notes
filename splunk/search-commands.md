@@ -436,3 +436,7 @@ En investigation SOC, eventcount est utile pour analyser les logs d'authentifica
 
 Recherche agrégée rapide sur les champs indexés (tsidx), très performante.
 
+## Exemple : tstats
+
+| tstats count where index=windows by host, _time
+
