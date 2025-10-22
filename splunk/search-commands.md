@@ -480,3 +480,7 @@ Inspecte les buckets d'un index (taille, statut, événements).
 
 En investigation SOC, dbinspect est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## collect
+
+Écrit les résultats dans un index ou un fichier de résumé.
+
