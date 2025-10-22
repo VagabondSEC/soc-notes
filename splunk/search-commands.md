@@ -484,3 +484,7 @@ En investigation SOC, dbinspect est utile pour analyser les logs d'authentificat
 
 Écrit les résultats dans un index ou un fichier de résumé.
 
+## Exemple : collect
+
+index=main | collect index=summary
+
