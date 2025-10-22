@@ -496,3 +496,7 @@ En investigation SOC, collect est utile pour analyser les logs d'authentificatio
 
 Supprime des événements d'un index (permission requise, jamais en prod).
 
+## Exemple : delete
+
+index=test | delete
+
