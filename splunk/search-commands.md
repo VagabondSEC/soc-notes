@@ -508,3 +508,7 @@ En investigation SOC, delete est utile pour analyser les logs d'authentification
 
 Exporte les résultats en format brut (JSON, CSV, XML).
 
+## Exemple : export
+
+index=main | export format=csv
+
