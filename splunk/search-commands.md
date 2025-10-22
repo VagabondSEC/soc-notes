@@ -500,3 +500,7 @@ Supprime des événements d'un index (permission requise, jamais en prod).
 
 index=test | delete
 
+## Cas d'usage : delete
+
+En investigation SOC, delete est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
