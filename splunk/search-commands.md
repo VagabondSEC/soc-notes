@@ -548,3 +548,7 @@ Envoie les résultats par email.
 
 index=main | sendemail to=analyst@corp.local subject="Alert" server=mail.corp.local
 
+## Cas d'usage : sendemail
+
+En investigation SOC, sendemail est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
