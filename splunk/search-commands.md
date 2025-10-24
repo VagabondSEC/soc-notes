@@ -544,3 +544,7 @@ En investigation SOC, savedsearch est utile pour analyser les logs d'authentific
 
 Envoie les résultats par email.
 
+## Exemple : sendemail
+
+index=main | sendemail to=analyst@corp.local subject="Alert" server=mail.corp.local
+
