@@ -520,3 +520,7 @@ En investigation SOC, export est utile pour analyser les logs d'authentification
 
 Charge une recherche planifiée ou un job sauvegardé.
 
+## Exemple : loadjob
+
+| loadjob savedsearch="Daily - Failed Logons"
+
