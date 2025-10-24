@@ -532,3 +532,7 @@ En investigation SOC, loadjob est utile pour analyser les logs d'authentificatio
 
 Exécute une recherche sauvegardée.
 
+## Exemple : savedsearch
+
+| savedsearch "Top Malware"
+
