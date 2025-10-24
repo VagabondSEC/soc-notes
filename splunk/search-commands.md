@@ -556,3 +556,7 @@ En investigation SOC, sendemail est utile pour analyser les logs d'authentificat
 
 Opération ensembliste : union de résultats avec les champs communs.
 
+## Exemple : set
+
+index=main | set [search index=proxy]
+
