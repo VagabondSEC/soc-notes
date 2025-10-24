@@ -564,3 +564,7 @@ index=main | set [search index=proxy]
 
 En investigation SOC, set est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## sichart
+
+Chart pour les data models (accélérés).
+
