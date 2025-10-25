@@ -592,3 +592,7 @@ En investigation SOC, sistats est utile pour analyser les logs d'authentificatio
 
 Recherche regex dans les data models.
 
+## Exemple : siregex
+
+| siregex user=.*admin.* from datamodel=Authentication
+
