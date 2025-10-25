@@ -604,3 +604,7 @@ En investigation SOC, siregex est utile pour analyser les logs d'authentificatio
 
 Définit une fenêtre temporelle dans un data model.
 
+## Exemple : sitimespan
+
+| sitimespan latest=now earliest=-1d | sistats count by user from datamodel=Authentication
+
