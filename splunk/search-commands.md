@@ -608,3 +608,7 @@ Définit une fenêtre temporelle dans un data model.
 
 | sitimespan latest=now earliest=-1d | sistats count by user from datamodel=Authentication
 
+## Cas d'usage : sitimespan
+
+En investigation SOC, sitimespan est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
