@@ -568,3 +568,7 @@ En investigation SOC, set est utile pour analyser les logs d'authentification et
 
 Chart pour les data models (accélérés).
 
+## Exemple : sichart
+
+| sichart count by action from datamodel=Authentication
+
