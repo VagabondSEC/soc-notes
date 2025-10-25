@@ -600,3 +600,7 @@ Recherche regex dans les data models.
 
 En investigation SOC, siregex est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## sitimespan
+
+Définit une fenêtre temporelle dans un data model.
+
