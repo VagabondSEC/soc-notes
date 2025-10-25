@@ -580,3 +580,7 @@ En investigation SOC, sichart est utile pour analyser les logs d'authentificatio
 
 Stats pour les data models accélérés.
 
+## Exemple : sistats
+
+| sistats count by user from datamodel=Authentication
+
