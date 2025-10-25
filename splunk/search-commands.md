@@ -624,3 +624,7 @@ Filtre par type de dataset dans un data model.
 
 En investigation SOC, sitype est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## samples
+
+Génère des événements d'exemple pour une recherche (utile pour apprendre).
+
