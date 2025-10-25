@@ -616,3 +616,7 @@ En investigation SOC, sitimespan est utile pour analyser les logs d'authentifica
 
 Filtre par type de dataset dans un data model.
 
+## Exemple : sitype
+
+| sitype=authentication | sistats count by user
+
