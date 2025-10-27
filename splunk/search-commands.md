@@ -652,3 +652,7 @@ En investigation SOC, gentimes est utile pour analyser les logs d'authentificati
 
 Lit un fichier CSV comme source de recherche.
 
+## Exemple : inputcsv
+
+| inputcsv my_list.csv
+
