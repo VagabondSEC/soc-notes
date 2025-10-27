@@ -664,3 +664,7 @@ En investigation SOC, inputcsv est utile pour analyser les logs d'authentificati
 
 Écrit les résultats dans un fichier CSV.
 
+## Exemple : outputcsv
+
+index=main | outputcsv results.csv
+
