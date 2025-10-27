@@ -656,3 +656,7 @@ Lit un fichier CSV comme source de recherche.
 
 | inputcsv my_list.csv
 
+## Cas d'usage : inputcsv
+
+En investigation SOC, inputcsv est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
