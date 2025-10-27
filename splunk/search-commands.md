@@ -676,3 +676,7 @@ En investigation SOC, outputcsv est utile pour analyser les logs d'authentificat
 
 Ajoute des totaux de colonnes aux résultats tabulaires.
 
+## Exemple : addtotals
+
+index=main | table bytes_in, bytes_out | addtotals
+
