@@ -628,3 +628,7 @@ En investigation SOC, sitype est utile pour analyser les logs d'authentification
 
 Génère des événements d'exemple pour une recherche (utile pour apprendre).
 
+## Exemple : samples
+
+| samples 5
+
