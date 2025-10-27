@@ -648,3 +648,7 @@ Génère une série de timestamps (pour compléter des vides).
 
 En investigation SOC, gentimes est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## inputcsv
+
+Lit un fichier CSV comme source de recherche.
+
