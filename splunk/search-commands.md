@@ -640,3 +640,7 @@ En investigation SOC, samples est utile pour analyser les logs d'authentificatio
 
 Génère une série de timestamps (pour compléter des vides).
 
+## Exemple : gentimes
+
+| gentimes start=-1d end=now increment=1h
+
