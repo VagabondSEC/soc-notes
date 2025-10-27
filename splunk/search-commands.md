@@ -680,3 +680,7 @@ Ajoute des totaux de colonnes aux résultats tabulaires.
 
 index=main | table bytes_in, bytes_out | addtotals
 
+## Cas d'usage : addtotals
+
+En investigation SOC, addtotals est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
