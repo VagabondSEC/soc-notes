@@ -632,3 +632,7 @@ Génère des événements d'exemple pour une recherche (utile pour apprendre).
 
 | samples 5
 
+## Cas d'usage : samples
+
+En investigation SOC, samples est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
