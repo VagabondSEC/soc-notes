@@ -692,3 +692,7 @@ Calcule une somme cumulée sur un champ.
 
 index=main | accum bytes as cumulative_bytes
 
+## Cas d'usage : accum
+
+En investigation SOC, accum est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
