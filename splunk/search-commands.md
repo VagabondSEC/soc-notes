@@ -688,3 +688,7 @@ En investigation SOC, addtotals est utile pour analyser les logs d'authentificat
 
 Calcule une somme cumulée sur un champ.
 
+## Exemple : accum
+
+index=main | accum bytes as cumulative_bytes
+
