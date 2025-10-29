@@ -700,3 +700,7 @@ En investigation SOC, accum est utile pour analyser les logs d'authentification 
 
 Calcule la différence entre la valeur courante et la précédente.
 
+## Exemple : delta
+
+index=main | delta bytes as delta_bytes
+
