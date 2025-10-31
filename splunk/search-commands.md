@@ -712,3 +712,7 @@ En investigation SOC, delta est utile pour analyser les logs d'authentification 
 
 Détecte des anomalies statistiques (k-means) sur les champs numériques.
 
+## Exemple : anomalydetection
+
+index=main | anomalydetection action, bytes
+
