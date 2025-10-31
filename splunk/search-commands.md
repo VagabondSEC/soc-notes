@@ -720,3 +720,7 @@ index=main | anomalydetection action, bytes
 
 En investigation SOC, anomalydetection est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## anomalousvalue
+
+Identifie des valeurs rares par rapport au modèle des événements.
+
