@@ -724,3 +724,7 @@ En investigation SOC, anomalydetection est utile pour analyser les logs d'authen
 
 Identifie des valeurs rares par rapport au modèle des événements.
 
+## Exemple : anomalousvalue
+
+index=main | anomalousvalue action
+
