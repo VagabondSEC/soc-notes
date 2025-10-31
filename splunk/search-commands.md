@@ -708,3 +708,7 @@ index=main | delta bytes as delta_bytes
 
 En investigation SOC, delta est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## anomalydetection
+
+Détecte des anomalies statistiques (k-means) sur les champs numériques.
+
