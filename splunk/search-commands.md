@@ -736,3 +736,7 @@ En investigation SOC, anomalousvalue est utile pour analyser les logs d'authenti
 
 Regroupe les événements similaires en clusters (détection de patterns).
 
+## Exemple : cluster
+
+index=main | cluster t=0.8 showcount=true
+
