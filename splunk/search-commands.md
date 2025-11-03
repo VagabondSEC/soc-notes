@@ -748,3 +748,7 @@ En investigation SOC, cluster est utile pour analyser les logs d'authentificatio
 
 Applique l'algorithme k-means pour partitionner les événements.
 
+## Exemple : kmeans
+
+index=main | kmeans k=3 fields=bytes, count
+
