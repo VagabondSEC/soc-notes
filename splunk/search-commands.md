@@ -740,3 +740,7 @@ Regroupe les événements similaires en clusters (détection de patterns).
 
 index=main | cluster t=0.8 showcount=true
 
+## Cas d'usage : cluster
+
+En investigation SOC, cluster est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
