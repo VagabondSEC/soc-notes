@@ -760,3 +760,7 @@ En investigation SOC, kmeans est utile pour analyser les logs d'authentification
 
 Détecte des valeurs aberrantes dans les champs numériques.
 
+## Exemple : outlier
+
+index=main | outlier action, bytes
+
