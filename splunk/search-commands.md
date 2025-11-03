@@ -752,3 +752,7 @@ Applique l'algorithme k-means pour partitionner les événements.
 
 index=main | kmeans k=3 fields=bytes, count
 
+## Cas d'usage : kmeans
+
+En investigation SOC, kmeans est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
