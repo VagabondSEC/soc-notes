@@ -772,3 +772,7 @@ En investigation SOC, outlier est utile pour analyser les logs d'authentificatio
 
 Prédit des valeurs futures à partir d'une série temporelle.
 
+## Exemple : predict
+
+index=main | predict cpu_usage as forecast
+
