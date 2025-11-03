@@ -744,3 +744,7 @@ index=main | cluster t=0.8 showcount=true
 
 En investigation SOC, cluster est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## kmeans
+
+Applique l'algorithme k-means pour partitionner les événements.
+
