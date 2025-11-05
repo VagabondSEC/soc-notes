@@ -796,3 +796,7 @@ En investigation SOC, trendline est utile pour analyser les logs d'authentificat
 
 Enrichit les adresses IP avec des données géographiques.
 
+## Exemple : iplocation
+
+index=main | iplocation src_ip
+
