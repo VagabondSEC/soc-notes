@@ -792,3 +792,7 @@ index=main | timechart count | trendline sma5 count as moving_avg
 
 En investigation SOC, trendline est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## iplocation
+
+Enrichit les adresses IP avec des données géographiques.
+
