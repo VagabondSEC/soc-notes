@@ -824,3 +824,7 @@ Joint des données géographiques pour du mapping.
 
 index=main | geom geo_countries featureIdField=country
 
+## Cas d'usage : geom
+
+En investigation SOC, geom est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
