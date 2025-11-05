@@ -832,3 +832,7 @@ En investigation SOC, geom est utile pour analyser les logs d'authentification e
 
 Identifie l'utilisateur qui a lancé la recherche (audit).
 
+## Exemple : who
+
+| who
+
