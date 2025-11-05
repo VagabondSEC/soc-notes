@@ -808,3 +808,7 @@ En investigation SOC, iplocation est utile pour analyser les logs d'authentifica
 
 Agrège et affiche les résultats sur une carte (lat/long).
 
+## Exemple : geostats
+
+index=main | geostats count by src_ip
+
