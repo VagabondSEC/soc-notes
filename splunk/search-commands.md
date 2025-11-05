@@ -820,3 +820,7 @@ En investigation SOC, geostats est utile pour analyser les logs d'authentificati
 
 Joint des données géographiques pour du mapping.
 
+## Exemple : geom
+
+index=main | geom geo_countries featureIdField=country
+
