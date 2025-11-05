@@ -784,3 +784,7 @@ En investigation SOC, predict est utile pour analyser les logs d'authentificatio
 
 Ajoute une courbe de tendance (SMA, EMA...).
 
+## Exemple : trendline
+
+index=main | timechart count | trendline sma5 count as moving_avg
+
