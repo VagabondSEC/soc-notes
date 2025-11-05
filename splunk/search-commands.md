@@ -828,3 +828,7 @@ index=main | geom geo_countries featureIdField=country
 
 En investigation SOC, geom est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## who
+
+Identifie l'utilisateur qui a lancé la recherche (audit).
+
