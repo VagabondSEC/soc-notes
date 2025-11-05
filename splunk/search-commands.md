@@ -840,3 +840,7 @@ Identifie l'utilisateur qui a lancé la recherche (audit).
 
 En investigation SOC, who est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## audit
+
+Recherche dans les logs d'audit de Splunk (accès, recherches).
+
