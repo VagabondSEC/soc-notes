@@ -868,3 +868,7 @@ En investigation SOC, datamodel est utile pour analyser les logs d'authentificat
 
 Résumé statistique de tous les champs d'un dataset.
 
+## Exemple : fieldsummary
+
+index=main | fieldsummary maxvals=5
+
