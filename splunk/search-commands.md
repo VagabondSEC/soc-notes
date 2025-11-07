@@ -844,3 +844,7 @@ En investigation SOC, who est utile pour analyser les logs d'authentification et
 
 Recherche dans les logs d'audit de Splunk (accès, recherches).
 
+## Exemple : audit
+
+index=_audit action=search
+
