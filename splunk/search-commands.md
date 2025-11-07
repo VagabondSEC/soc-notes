@@ -880,3 +880,7 @@ En investigation SOC, fieldsummary est utile pour analyser les logs d'authentifi
 
 Calendrier de disponibilité (répartition horaire des événements).
 
+## Exemple : kronos
+
+index=main | kronos
+
