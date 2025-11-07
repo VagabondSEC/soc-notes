@@ -856,3 +856,7 @@ En investigation SOC, audit est utile pour analyser les logs d'authentification 
 
 Inspecte les data models accélérés.
 
+## Exemple : datamodel
+
+| datamodel
+
