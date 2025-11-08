@@ -912,3 +912,7 @@ index=main | map search="search index=proxy src_ip=$src_ip$"
 
 En investigation SOC, map est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## rangemap
+
+Mappe des plages de valeurs vers des libellés.
+
