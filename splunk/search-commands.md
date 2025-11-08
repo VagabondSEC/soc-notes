@@ -892,3 +892,7 @@ En investigation SOC, kronos est utile pour analyser les logs d'authentification
 
 Affiche les opérateurs locaux (recherche, évaluation...).
 
+## Exemple : localop
+
+| localop
+
