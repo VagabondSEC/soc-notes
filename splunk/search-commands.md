@@ -952,3 +952,7 @@ En investigation SOC, squareroot est utile pour analyser les logs d'authentifica
 
 Concatène des champs en un nouveau champ.
 
+## Exemple : strcat
+
+index=main | strcat src_ip ":" src_port as ip_port
+
