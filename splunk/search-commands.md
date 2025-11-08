@@ -940,3 +940,7 @@ En investigation SOC, selfjoin est utile pour analyser les logs d'authentificati
 
 Applique la racine carrée à un champ numérique.
 
+## Exemple : squareroot
+
+index=main | squareroot bytes as sqrt_bytes
+
