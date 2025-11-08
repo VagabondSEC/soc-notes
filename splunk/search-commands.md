@@ -916,3 +916,7 @@ En investigation SOC, map est utile pour analyser les logs d'authentification et
 
 Mappe des plages de valeurs vers des libellés.
 
+## Exemple : rangemap
+
+index=main | rangemap field=risk_score high=80-100 medium=50-79 low=0-49
+
