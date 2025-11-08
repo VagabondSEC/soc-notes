@@ -904,3 +904,7 @@ En investigation SOC, localop est utile pour analyser les logs d'authentificatio
 
 Exécute une recherche pour chaque résultat (sous-recherche par événement).
 
+## Exemple : map
+
+index=main | map search="search index=proxy src_ip=$src_ip$"
+
