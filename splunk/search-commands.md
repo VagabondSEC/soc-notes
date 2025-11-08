@@ -928,3 +928,7 @@ En investigation SOC, rangemap est utile pour analyser les logs d'authentificati
 
 Joint des événements du même dataset entre eux (séquences).
 
+## Exemple : selfjoin
+
+index=main | selfjoin host
+
