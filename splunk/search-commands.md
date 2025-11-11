@@ -964,3 +964,7 @@ En investigation SOC, strcat est utile pour analyser les logs d'authentification
 
 Comme collect, alias historique.
 
+## Exemple : tocollect
+
+index=main | tocollect index=summary
+
