@@ -968,3 +968,7 @@ Comme collect, alias historique.
 
 index=main | tocollect index=summary
 
+## Cas d'usage : tocollect
+
+En investigation SOC, tocollect est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
