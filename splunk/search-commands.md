@@ -972,3 +972,7 @@ index=main | tocollect index=summary
 
 En investigation SOC, tocollect est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## transpose
+
+Inverse les lignes et les colonnes d'un tableau.
+
