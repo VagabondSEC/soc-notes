@@ -1020,3 +1020,7 @@ index=main | stats count by host | untable host count
 
 En investigation SOC, untable est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## x11
+
+Décomposition saisonnière d'une série temporelle (X11).
+
