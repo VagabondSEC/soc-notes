@@ -988,3 +988,7 @@ En investigation SOC, transpose est utile pour analyser les logs d'authentificat
 
 Génère des suggestions de valeurs pour un champ (formulaires).
 
+## Exemple : typeahead
+
+index=main | typeahead field=user
+
