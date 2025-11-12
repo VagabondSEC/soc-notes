@@ -1016,3 +1016,7 @@ Inverse de table : transforme un tableau en événements clé-valeur.
 
 index=main | stats count by host | untable host count
 
+## Cas d'usage : untable
+
+En investigation SOC, untable est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
