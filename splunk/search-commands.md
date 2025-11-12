@@ -1000,3 +1000,7 @@ En investigation SOC, typeahead est utile pour analyser les logs d'authentificat
 
 Supprime les doublons adjacents après un tri.
 
+## Exemple : uniq
+
+index=main | sort user | uniq user
+
