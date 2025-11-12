@@ -1012,3 +1012,7 @@ En investigation SOC, uniq est utile pour analyser les logs d'authentification e
 
 Inverse de table : transforme un tableau en événements clé-valeur.
 
+## Exemple : untable
+
+index=main | stats count by host | untable host count
+
