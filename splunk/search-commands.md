@@ -1004,3 +1004,7 @@ Supprime les doublons adjacents après un tri.
 
 index=main | sort user | uniq user
 
+## Cas d'usage : uniq
+
+En investigation SOC, uniq est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
