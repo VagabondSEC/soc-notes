@@ -976,3 +976,7 @@ En investigation SOC, tocollect est utile pour analyser les logs d'authentificat
 
 Inverse les lignes et les colonnes d'un tableau.
 
+## Exemple : transpose
+
+index=main | stats count by host | transpose
+
