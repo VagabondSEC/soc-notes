@@ -1024,3 +1024,7 @@ En investigation SOC, untable est utile pour analyser les logs d'authentificatio
 
 Décomposition saisonnière d'une série temporelle (X11).
 
+## Exemple : x11
+
+index=main | timechart count | x11
+
