@@ -1072,3 +1072,7 @@ En investigation SOC, forecast est utile pour analyser les logs d'authentificati
 
 Prévision avec lissage exponentiel Holt-Winters (saisonnalité).
 
+## Exemple : holtwinters
+
+index=main | timechart count | holtwinters 7d
+
