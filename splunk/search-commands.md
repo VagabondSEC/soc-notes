@@ -1064,3 +1064,7 @@ Prévision sur une série temporelle avec intervalles de confiance.
 
 index=main | timechart count | forecast 7d
 
+## Cas d'usage : forecast
+
+En investigation SOC, forecast est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
