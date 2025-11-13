@@ -1036,3 +1036,7 @@ En investigation SOC, x11 est utile pour analyser les logs d'authentification et
 
 Filtre après agrégation dans les recherches accélérées.
 
+## Exemple : where_aggregate
+
+| tstats count by user | where count > 100
+
