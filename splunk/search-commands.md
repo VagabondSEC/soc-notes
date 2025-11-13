@@ -1052,3 +1052,7 @@ Calcule la concurrence d'événements dans le temps (licences, sessions).
 
 index=main | concurrency duration=session_time
 
+## Cas d'usage : concurrency
+
+En investigation SOC, concurrency est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
