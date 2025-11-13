@@ -1040,3 +1040,7 @@ Filtre après agrégation dans les recherches accélérées.
 
 | tstats count by user | where count > 100
 
+## Cas d'usage : where_aggregate
+
+En investigation SOC, where_aggregate est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
