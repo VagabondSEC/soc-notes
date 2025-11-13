@@ -1048,3 +1048,7 @@ En investigation SOC, where_aggregate est utile pour analyser les logs d'authent
 
 Calcule la concurrence d'événements dans le temps (licences, sessions).
 
+## Exemple : concurrency
+
+index=main | concurrency duration=session_time
+
