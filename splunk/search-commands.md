@@ -1060,3 +1060,7 @@ En investigation SOC, concurrency est utile pour analyser les logs d'authentific
 
 Prévision sur une série temporelle avec intervalles de confiance.
 
+## Exemple : forecast
+
+index=main | timechart count | forecast 7d
+
