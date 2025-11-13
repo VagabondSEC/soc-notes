@@ -1044,3 +1044,7 @@ Filtre après agrégation dans les recherches accélérées.
 
 En investigation SOC, where_aggregate est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
 
+## concurrency
+
+Calcule la concurrence d'événements dans le temps (licences, sessions).
+
