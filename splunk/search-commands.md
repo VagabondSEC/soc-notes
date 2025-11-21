@@ -1088,3 +1088,7 @@ Rappel : toujours échapper les backslashes dans les regex SPL.
 
 index=main | rex field=_raw "(?<user>\w+@\w+)"
 
+## Cas d'usage : regex_usage
+
+En investigation SOC, regex_usage est utile pour analyser les logs d'authentification et les processus. On l'utilise dans une recherche avec un index ciblé (index=windows ou index=main) et on corrèle le résultat avec d'autres sources (proxy, firewall, EDR).
+
