@@ -1084,3 +1084,7 @@ En investigation SOC, holtwinters est utile pour analyser les logs d'authentific
 
 Rappel : toujours échapper les backslashes dans les regex SPL.
 
+## Exemple : regex_usage
+
+index=main | rex field=_raw "(?<user>\w+@\w+)"
+
