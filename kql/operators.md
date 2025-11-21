@@ -28,3 +28,7 @@ En hunting avec Sentinel, project s'intègre dans une requête KQL typique : Sec
 
 Supprime des colonnes.
 
+## Exemple : project-away
+
+StormEvents | project-away EpisodeId
+
