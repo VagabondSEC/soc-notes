@@ -20,3 +20,7 @@ Sélectionne les colonnes à garder.
 
 StormEvents | project EventId, State, DamageProperty
 
+## Cas d'usage : project
+
+En hunting avec Sentinel, project s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis project pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
