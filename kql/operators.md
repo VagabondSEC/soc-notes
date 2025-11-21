@@ -16,3 +16,7 @@ En hunting avec Sentinel, where s'intègre dans une requête KQL typique : Secur
 
 Sélectionne les colonnes à garder.
 
+## Exemple : project
+
+StormEvents | project EventId, State, DamageProperty
+
