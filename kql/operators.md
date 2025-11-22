@@ -64,3 +64,7 @@ En hunting avec Sentinel, project-reorder s'intègre dans une requête KQL typiq
 
 Crée de nouvelles colonnes calculées.
 
+## Exemple : extend
+
+StormEvents | extend TotalDamage = DamageProperty + DamageCrops
+
