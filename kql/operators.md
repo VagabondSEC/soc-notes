@@ -40,3 +40,7 @@ En hunting avec Sentinel, project-away s'intègre dans une requête KQL typique 
 
 Renomme des colonnes.
 
+## Exemple : project-rename
+
+StormEvents | project-rename StateName = State
+
