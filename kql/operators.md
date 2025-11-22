@@ -56,3 +56,7 @@ Réordonne les colonnes.
 
 StormEvents | project-reorder EventId, DamageProperty, State
 
+## Cas d'usage : project-reorder
+
+En hunting avec Sentinel, project-reorder s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis project-reorder pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
