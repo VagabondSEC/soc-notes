@@ -72,3 +72,7 @@ StormEvents | extend TotalDamage = DamageProperty + DamageCrops
 
 En hunting avec Sentinel, extend s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis extend pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## summarize
+
+Agrège les lignes avec des fonctions d'agrégation.
+
