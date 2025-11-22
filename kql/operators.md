@@ -52,3 +52,7 @@ En hunting avec Sentinel, project-rename s'intègre dans une requête KQL typiqu
 
 Réordonne les colonnes.
 
+## Exemple : project-reorder
+
+StormEvents | project-reorder EventId, DamageProperty, State
+
