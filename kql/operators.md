@@ -104,3 +104,7 @@ Compte les valeurs distinctes d'une colonne.
 
 StormEvents | summarize dcount(EventId) by State
 
+## Cas d'usage : dcount
+
+En hunting avec Sentinel, dcount s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis dcount pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
