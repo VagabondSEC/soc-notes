@@ -112,3 +112,7 @@ En hunting avec Sentinel, dcount s'intègre dans une requête KQL typique : Secu
 
 Retourne les combinaisons distinctes.
 
+## Exemple : distinct
+
+StormEvents | distinct State, EventType
+
