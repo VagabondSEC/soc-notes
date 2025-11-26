@@ -100,3 +100,7 @@ En hunting avec Sentinel, count s'intègre dans une requête KQL typique : Secur
 
 Compte les valeurs distinctes d'une colonne.
 
+## Exemple : dcount
+
+StormEvents | summarize dcount(EventId) by State
+
