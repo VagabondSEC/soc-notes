@@ -132,3 +132,7 @@ StormEvents | summarize make_list(EventType) by State
 
 En hunting avec Sentinel, make-list s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis make-list pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## make-set
+
+Agrège les valeurs distinctes en un ensemble JSON.
+
