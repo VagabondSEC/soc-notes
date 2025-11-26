@@ -92,3 +92,7 @@ Compte les lignes.
 
 StormEvents | count
 
+## Cas d'usage : count
+
+En hunting avec Sentinel, count s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis count pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
