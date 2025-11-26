@@ -136,3 +136,7 @@ En hunting avec Sentinel, make-list s'intègre dans une requête KQL typique : S
 
 Agrège les valeurs distinctes en un ensemble JSON.
 
+## Exemple : make-set
+
+StormEvents | summarize make_set(EventType) by State
+
