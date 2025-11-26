@@ -128,3 +128,7 @@ Agrège les valeurs d'une colonne en une liste JSON.
 
 StormEvents | summarize make_list(EventType) by State
 
+## Cas d'usage : make-list
+
+En hunting avec Sentinel, make-list s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis make-list pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
