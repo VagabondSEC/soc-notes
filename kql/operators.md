@@ -124,3 +124,7 @@ En hunting avec Sentinel, distinct s'intègre dans une requête KQL typique : Se
 
 Agrège les valeurs d'une colonne en une liste JSON.
 
+## Exemple : make-list
+
+StormEvents | summarize make_list(EventType) by State
+
