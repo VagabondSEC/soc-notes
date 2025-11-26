@@ -120,3 +120,7 @@ StormEvents | distinct State, EventType
 
 En hunting avec Sentinel, distinct s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis distinct pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## make-list
+
+Agrège les valeurs d'une colonne en une liste JSON.
+
