@@ -76,3 +76,7 @@ En hunting avec Sentinel, extend s'intègre dans une requête KQL typique : Secu
 
 Agrège les lignes avec des fonctions d'agrégation.
 
+## Exemple : summarize
+
+StormEvents | summarize Total = sum(DamageProperty) by State
+
