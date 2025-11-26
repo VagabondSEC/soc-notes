@@ -88,3 +88,7 @@ En hunting avec Sentinel, summarize s'intègre dans une requête KQL typique : S
 
 Compte les lignes.
 
+## Exemple : count
+
+StormEvents | count
+
