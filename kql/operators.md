@@ -172,3 +172,7 @@ En hunting avec Sentinel, bin s'intègre dans une requête KQL typique : Securit
 
 Fusionne deux tables sur des colonnes communes.
 
+## Exemple : join
+
+Table1 | join kind=inner (Table2) on Key
+
