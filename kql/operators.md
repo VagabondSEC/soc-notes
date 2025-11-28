@@ -188,3 +188,7 @@ Concatène plusieurs tables avec les mêmes colonnes.
 
 union Table1, Table2
 
+## Cas d'usage : union
+
+En hunting avec Sentinel, union s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis union pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
