@@ -168,3 +168,7 @@ StormEvents | summarize count() by bin(StartTime, 1d)
 
 En hunting avec Sentinel, bin s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis bin pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## join
+
+Fusionne deux tables sur des colonnes communes.
+
