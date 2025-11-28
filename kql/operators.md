@@ -152,3 +152,7 @@ Crée une série temporelle agrégée.
 
 StormEvents | make-series Count = count() default = 0 on StartTime step 1d by State
 
+## Cas d'usage : make-series
+
+En hunting avec Sentinel, make-series s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis make-series pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
