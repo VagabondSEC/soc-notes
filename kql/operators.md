@@ -148,3 +148,7 @@ En hunting avec Sentinel, make-set s'intègre dans une requête KQL typique : Se
 
 Crée une série temporelle agrégée.
 
+## Exemple : make-series
+
+StormEvents | make-series Count = count() default = 0 on StartTime step 1d by State
+
