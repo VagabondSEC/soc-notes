@@ -192,3 +192,7 @@ union Table1, Table2
 
 En hunting avec Sentinel, union s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis union pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## range
+
+Génère une table de valeurs séquentielles.
+
