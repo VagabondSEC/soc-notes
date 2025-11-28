@@ -184,3 +184,7 @@ En hunting avec Sentinel, join s'intègre dans une requête KQL typique : Securi
 
 Concatène plusieurs tables avec les mêmes colonnes.
 
+## Exemple : union
+
+union Table1, Table2
+
