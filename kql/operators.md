@@ -176,3 +176,7 @@ Fusionne deux tables sur des colonnes communes.
 
 Table1 | join kind=inner (Table2) on Key
 
+## Cas d'usage : join
+
+En hunting avec Sentinel, join s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis join pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
