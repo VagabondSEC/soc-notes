@@ -196,3 +196,7 @@ En hunting avec Sentinel, union s'intègre dans une requête KQL typique : Secur
 
 Génère une table de valeurs séquentielles.
 
+## Exemple : range
+
+range x from 1 to 10 step 1
+
