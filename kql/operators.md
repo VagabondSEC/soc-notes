@@ -200,3 +200,7 @@ Génère une table de valeurs séquentielles.
 
 range x from 1 to 10 step 1
 
+## Cas d'usage : range
+
+En hunting avec Sentinel, range s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis range pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
