@@ -160,3 +160,7 @@ En hunting avec Sentinel, make-series s'intègre dans une requête KQL typique :
 
 Arrondit les valeurs dans des buckets (utilisé avec summarize).
 
+## Exemple : bin
+
+StormEvents | summarize count() by bin(StartTime, 1d)
+
