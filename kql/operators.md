@@ -260,3 +260,7 @@ Développe une colonne multi-valeurs en plusieurs lignes.
 
 Table | mv-expand Tags
 
+## Cas d'usage : mv-expand
+
+En hunting avec Sentinel, mv-expand s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis mv-expand pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
