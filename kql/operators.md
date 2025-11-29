@@ -244,3 +244,7 @@ En hunting avec Sentinel, top s'intègre dans une requête KQL typique : Securit
 
 Top hiérarchique multi-niveaux.
 
+## Exemple : top-nested
+
+StormEvents | top-nested 3 by State, top-nested 3 by EventType
+
