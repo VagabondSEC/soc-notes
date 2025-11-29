@@ -256,3 +256,7 @@ En hunting avec Sentinel, top-nested s'intègre dans une requête KQL typique : 
 
 Développe une colonne multi-valeurs en plusieurs lignes.
 
+## Exemple : mv-expand
+
+Table | mv-expand Tags
+
