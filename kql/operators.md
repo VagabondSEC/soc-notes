@@ -272,3 +272,7 @@ Applique une sous-requête à chaque élément d'une colonne multi-valeurs.
 
 Table | mv-apply Tags on (summarize count())
 
+## Cas d'usage : mv-apply
+
+En hunting avec Sentinel, mv-apply s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis mv-apply pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
