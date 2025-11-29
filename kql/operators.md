@@ -228,3 +228,7 @@ StormEvents | order by State asc, DamageProperty desc
 
 En hunting avec Sentinel, order s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis order pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## top
+
+Retourne les N premières lignes selon un ordre.
+
