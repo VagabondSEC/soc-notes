@@ -232,3 +232,7 @@ En hunting avec Sentinel, order s'intègre dans une requête KQL typique : Secur
 
 Retourne les N premières lignes selon un ordre.
 
+## Exemple : top
+
+StormEvents | top 5 by DamageProperty
+
