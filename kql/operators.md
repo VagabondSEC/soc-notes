@@ -264,3 +264,7 @@ Table | mv-expand Tags
 
 En hunting avec Sentinel, mv-expand s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis mv-expand pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## mv-apply
+
+Applique une sous-requête à chaque élément d'une colonne multi-valeurs.
+
