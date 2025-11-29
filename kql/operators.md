@@ -248,3 +248,7 @@ Top hiérarchique multi-niveaux.
 
 StormEvents | top-nested 3 by State, top-nested 3 by EventType
 
+## Cas d'usage : top-nested
+
+En hunting avec Sentinel, top-nested s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis top-nested pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
