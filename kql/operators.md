@@ -220,3 +220,7 @@ En hunting avec Sentinel, sort s'intègre dans une requête KQL typique : Securi
 
 Alias de sort.
 
+## Exemple : order
+
+StormEvents | order by State asc, DamageProperty desc
+
