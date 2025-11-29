@@ -268,3 +268,7 @@ En hunting avec Sentinel, mv-expand s'intègre dans une requête KQL typique : S
 
 Applique une sous-requête à chaque élément d'une colonne multi-valeurs.
 
+## Exemple : mv-apply
+
+Table | mv-apply Tags on (summarize count())
+
