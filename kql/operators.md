@@ -236,3 +236,7 @@ Retourne les N premières lignes selon un ordre.
 
 StormEvents | top 5 by DamageProperty
 
+## Cas d'usage : top
+
+En hunting avec Sentinel, top s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis top pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
