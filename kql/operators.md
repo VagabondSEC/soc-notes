@@ -208,3 +208,7 @@ En hunting avec Sentinel, range s'intègre dans une requête KQL typique : Secur
 
 Trie les lignes.
 
+## Exemple : sort
+
+StormEvents | sort by DamageProperty desc
+
