@@ -240,3 +240,7 @@ StormEvents | top 5 by DamageProperty
 
 En hunting avec Sentinel, top s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis top pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## top-nested
+
+Top hiérarchique multi-niveaux.
+
