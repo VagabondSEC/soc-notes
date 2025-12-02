@@ -292,3 +292,7 @@ En hunting avec Sentinel, parse s'intègre dans une requête KQL typique : Secur
 
 Comme parse mais ne garde que les lignes qui matchent.
 
+## Exemple : parse-where
+
+Table | parse-where LogLine with "IP=" IP
+
