@@ -284,3 +284,7 @@ Extrait des champs avec un modèle de chaîne.
 
 Table | parse LogLine with "IP=" IP ", Port=" Port
 
+## Cas d'usage : parse
+
+En hunting avec Sentinel, parse s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis parse pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
