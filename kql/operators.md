@@ -280,3 +280,7 @@ En hunting avec Sentinel, mv-apply s'intègre dans une requête KQL typique : Se
 
 Extrait des champs avec un modèle de chaîne.
 
+## Exemple : parse
+
+Table | parse LogLine with "IP=" IP ", Port=" Port
+
