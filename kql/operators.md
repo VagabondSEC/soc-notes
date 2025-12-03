@@ -304,3 +304,7 @@ En hunting avec Sentinel, parse-where s'intègre dans une requête KQL typique :
 
 Extrait des paires clé=valeur.
 
+## Exemple : parse-kv
+
+Table | parse-kv LogLine as keyvalue
+
