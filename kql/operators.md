@@ -324,3 +324,7 @@ Table | evaluate autocluster()
 
 En hunting avec Sentinel, evaluate s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis evaluate pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## invoke
+
+Applique une fonction de table aux lignes.
+
