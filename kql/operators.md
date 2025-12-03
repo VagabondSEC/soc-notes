@@ -300,3 +300,7 @@ Table | parse-where LogLine with "IP=" IP
 
 En hunting avec Sentinel, parse-where s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis parse-where pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## parse-kv
+
+Extrait des paires clé=valeur.
+
