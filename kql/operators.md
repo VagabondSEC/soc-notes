@@ -328,3 +328,7 @@ En hunting avec Sentinel, evaluate s'intègre dans une requête KQL typique : Se
 
 Applique une fonction de table aux lignes.
 
+## Exemple : invoke
+
+Table | invoke MyFunction()
+
