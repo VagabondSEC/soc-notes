@@ -316,3 +316,7 @@ En hunting avec Sentinel, parse-kv s'intègre dans une requête KQL typique : Se
 
 Appelle des plugins (autocluster, basket, diffpatterns...).
 
+## Exemple : evaluate
+
+Table | evaluate autocluster()
+
