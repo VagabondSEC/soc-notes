@@ -372,3 +372,7 @@ StormEvents | summarize count() by bin(StartTime, 1d) | render timechart
 
 En hunting avec Sentinel, render s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis render pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## sample
+
+Retourne un échantillon aléatoire de lignes.
+
