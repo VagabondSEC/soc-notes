@@ -388,3 +388,7 @@ En hunting avec Sentinel, sample s'intègre dans une requête KQL typique : Secu
 
 Échantillonne des valeurs distinctes d'une colonne.
 
+## Exemple : sample-distinct
+
+StormEvents | sample-distinct 50 of State
+
