@@ -336,3 +336,7 @@ Table | invoke MyFunction()
 
 En hunting avec Sentinel, invoke s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis invoke pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## partition
+
+Divise une table en sous-ensembles selon une clé.
+
