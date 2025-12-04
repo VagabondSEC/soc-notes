@@ -348,3 +348,7 @@ StormEvents | partition by State (summarize count())
 
 En hunting avec Sentinel, partition s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis partition pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## serialize
+
+Garantit l'ordre des lignes pour les opérations séquentielles.
+
