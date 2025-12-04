@@ -340,3 +340,7 @@ En hunting avec Sentinel, invoke s'intègre dans une requête KQL typique : Secu
 
 Divise une table en sous-ensembles selon une clé.
 
+## Exemple : partition
+
+StormEvents | partition by State (summarize count())
+
