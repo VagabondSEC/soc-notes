@@ -352,3 +352,7 @@ En hunting avec Sentinel, partition s'intègre dans une requête KQL typique : S
 
 Garantit l'ordre des lignes pour les opérations séquentielles.
 
+## Exemple : serialize
+
+StormEvents | serialize | row_cumsum(DamageProperty)
+
