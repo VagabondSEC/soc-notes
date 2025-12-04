@@ -376,3 +376,7 @@ En hunting avec Sentinel, render s'intègre dans une requête KQL typique : Secu
 
 Retourne un échantillon aléatoire de lignes.
 
+## Exemple : sample
+
+StormEvents | sample 100
+
