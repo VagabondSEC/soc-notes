@@ -360,3 +360,7 @@ StormEvents | serialize | row_cumsum(DamageProperty)
 
 En hunting avec Sentinel, serialize s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis serialize pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## render
+
+Affiche les résultats sous forme de graphique.
+
