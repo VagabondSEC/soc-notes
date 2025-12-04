@@ -356,3 +356,7 @@ Garantit l'ordre des lignes pour les opérations séquentielles.
 
 StormEvents | serialize | row_cumsum(DamageProperty)
 
+## Cas d'usage : serialize
+
+En hunting avec Sentinel, serialize s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis serialize pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
