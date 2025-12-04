@@ -384,3 +384,7 @@ StormEvents | sample 100
 
 En hunting avec Sentinel, sample s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis sample pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## sample-distinct
+
+Échantillonne des valeurs distinctes d'une colonne.
+
