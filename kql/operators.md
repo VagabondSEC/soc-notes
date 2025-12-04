@@ -380,3 +380,7 @@ Retourne un échantillon aléatoire de lignes.
 
 StormEvents | sample 100
 
+## Cas d'usage : sample
+
+En hunting avec Sentinel, sample s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis sample pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
