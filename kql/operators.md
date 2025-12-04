@@ -344,3 +344,7 @@ Divise une table en sous-ensembles selon une clé.
 
 StormEvents | partition by State (summarize count())
 
+## Cas d'usage : partition
+
+En hunting avec Sentinel, partition s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis partition pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
