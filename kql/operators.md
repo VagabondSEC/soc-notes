@@ -364,3 +364,7 @@ En hunting avec Sentinel, serialize s'intègre dans une requête KQL typique : S
 
 Affiche les résultats sous forme de graphique.
 
+## Exemple : render
+
+StormEvents | summarize count() by bin(StartTime, 1d) | render timechart
+
