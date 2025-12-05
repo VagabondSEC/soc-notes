@@ -424,3 +424,7 @@ En hunting avec Sentinel, search s'intègre dans une requête KQL typique : Secu
 
 Alias de limit : retourne les N premières lignes.
 
+## Exemple : take
+
+StormEvents | take 10
+
