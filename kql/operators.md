@@ -404,3 +404,7 @@ Analyse séquentielle avec état (séquences d'événements).
 
 Table | scan with_match_id=id on (true) partition by User order by Time
 
+## Cas d'usage : scan
+
+En hunting avec Sentinel, scan s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis scan pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
