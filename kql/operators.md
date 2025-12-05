@@ -432,3 +432,7 @@ StormEvents | take 10
 
 En hunting avec Sentinel, take s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis take pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## limit
+
+Limite le nombre de lignes.
+
