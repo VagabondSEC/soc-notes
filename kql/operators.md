@@ -428,3 +428,7 @@ Alias de limit : retourne les N premières lignes.
 
 StormEvents | take 10
 
+## Cas d'usage : take
+
+En hunting avec Sentinel, take s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis take pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
