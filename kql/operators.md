@@ -400,3 +400,7 @@ En hunting avec Sentinel, sample-distinct s'intègre dans une requête KQL typiq
 
 Analyse séquentielle avec état (séquences d'événements).
 
+## Exemple : scan
+
+Table | scan with_match_id=id on (true) partition by User order by Time
+
