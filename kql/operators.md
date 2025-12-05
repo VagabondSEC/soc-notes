@@ -412,3 +412,7 @@ En hunting avec Sentinel, scan s'intègre dans une requête KQL typique : Securi
 
 Recherche plein texte dans toutes les colonnes.
 
+## Exemple : search
+
+StormEvents | search "flood"
+
