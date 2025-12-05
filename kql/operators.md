@@ -416,3 +416,7 @@ Recherche plein texte dans toutes les colonnes.
 
 StormEvents | search "flood"
 
+## Cas d'usage : search
+
+En hunting avec Sentinel, search s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis search pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
