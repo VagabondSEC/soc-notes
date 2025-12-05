@@ -436,3 +436,7 @@ En hunting avec Sentinel, take s'intègre dans une requête KQL typique : Securi
 
 Limite le nombre de lignes.
 
+## Exemple : limit
+
+StormEvents | limit 10
+
