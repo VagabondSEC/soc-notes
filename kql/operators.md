@@ -456,3 +456,7 @@ get ("TableName")
 
 En hunting avec Sentinel, get s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis get pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## print
+
+Produit une table d'une seule ligne avec des expressions.
+
