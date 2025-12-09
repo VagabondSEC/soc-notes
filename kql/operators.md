@@ -448,3 +448,7 @@ En hunting avec Sentinel, limit s'intègre dans une requête KQL typique : Secur
 
 Récupère une table nommée (fonction get).
 
+## Exemple : get
+
+get ("TableName")
+
