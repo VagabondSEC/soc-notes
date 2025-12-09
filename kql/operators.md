@@ -472,3 +472,7 @@ En hunting avec Sentinel, print s'intègre dans une requête KQL typique : Secur
 
 Définit des variables (scalaires, tables, fonctions) pour la requête.
 
+## Exemple : let
+
+let Threshold = 100; StormEvents | where DamageProperty > Threshold
+
