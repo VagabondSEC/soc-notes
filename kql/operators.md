@@ -460,3 +460,7 @@ En hunting avec Sentinel, get s'intègre dans une requête KQL typique : Securit
 
 Produit une table d'une seule ligne avec des expressions.
 
+## Exemple : print
+
+print Hello = "world", When = ago(1h)
+
