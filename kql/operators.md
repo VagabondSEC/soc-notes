@@ -464,3 +464,7 @@ Produit une table d'une seule ligne avec des expressions.
 
 print Hello = "world", When = ago(1h)
 
+## Cas d'usage : print
+
+En hunting avec Sentinel, print s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis print pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
