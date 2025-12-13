@@ -484,3 +484,7 @@ En hunting avec Sentinel, let s'intègre dans une requête KQL typique : Securit
 
 Définit des options de requête (set <option>).
 
+## Exemple : set
+
+StormEvents | set query_datascope = allscopes
+
