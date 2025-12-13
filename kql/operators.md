@@ -476,3 +476,7 @@ Définit des variables (scalaires, tables, fonctions) pour la requête.
 
 let Threshold = 100; StormEvents | where DamageProperty > Threshold
 
+## Cas d'usage : let
+
+En hunting avec Sentinel, let s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis let pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
