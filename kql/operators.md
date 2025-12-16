@@ -496,3 +496,7 @@ En hunting avec Sentinel, set s'intègre dans une requête KQL typique : Securit
 
 Crée un alias de table.
 
+## Exemple : alias
+
+let MyTable = (StormEvents | where State == "FLORIDA"); MyTable | count
+
