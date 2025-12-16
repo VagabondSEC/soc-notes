@@ -492,3 +492,7 @@ StormEvents | set query_datascope = allscopes
 
 En hunting avec Sentinel, set s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis set pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## alias
+
+Crée un alias de table.
+
