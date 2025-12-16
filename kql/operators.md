@@ -508,3 +508,7 @@ En hunting avec Sentinel, alias s'intègre dans une requête KQL typique : Secur
 
 Déclare une table littérale en mémoire.
 
+## Exemple : datatable
+
+datatable (Name:string, Value:int) ["a", 1, "b", 2]
+
