@@ -504,3 +504,7 @@ let MyTable = (StormEvents | where State == "FLORIDA"); MyTable | count
 
 En hunting avec Sentinel, alias s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis alias pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## datatable
+
+Déclare une table littérale en mémoire.
+
