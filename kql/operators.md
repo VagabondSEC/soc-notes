@@ -512,3 +512,7 @@ Déclare une table littérale en mémoire.
 
 datatable (Name:string, Value:int) ["a", 1, "b", 2]
 
+## Cas d'usage : datatable
+
+En hunting avec Sentinel, datatable s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis datatable pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
