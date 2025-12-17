@@ -532,3 +532,7 @@ En hunting avec Sentinel, externaldata s'intègre dans une requête KQL typique 
 
 Analyse une colonne selon plusieurs facettes.
 
+## Exemple : facet
+
+StormEvents | facet by State, EventType
+
