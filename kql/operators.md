@@ -524,3 +524,7 @@ Interroge des données externes (blob, fichiers).
 
 externaldata (Value:string) ["https://example.com/data.csv"]
 
+## Cas d'usage : externaldata
+
+En hunting avec Sentinel, externaldata s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis externaldata pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
