@@ -552,3 +552,7 @@ find where EventType == "Flood"
 
 En hunting avec Sentinel, find s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis find pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## fork
+
+Duplique le flux en plusieurs branches.
+
