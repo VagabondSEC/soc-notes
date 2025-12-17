@@ -520,3 +520,7 @@ En hunting avec Sentinel, datatable s'intègre dans une requête KQL typique : S
 
 Interroge des données externes (blob, fichiers).
 
+## Exemple : externaldata
+
+externaldata (Value:string) ["https://example.com/data.csv"]
+
