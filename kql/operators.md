@@ -556,3 +556,7 @@ En hunting avec Sentinel, find s'intègre dans une requête KQL typique : Securi
 
 Duplique le flux en plusieurs branches.
 
+## Exemple : fork
+
+StormEvents | fork (summarize count() by State), (summarize count() by EventType)
+
