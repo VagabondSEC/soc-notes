@@ -544,3 +544,7 @@ En hunting avec Sentinel, facet s'intègre dans une requête KQL typique : Secur
 
 Cherche une valeur dans toutes les tables du scope.
 
+## Exemple : find
+
+find where EventType == "Flood"
+
