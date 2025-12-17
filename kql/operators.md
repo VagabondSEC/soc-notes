@@ -560,3 +560,7 @@ Duplique le flux en plusieurs branches.
 
 StormEvents | fork (summarize count() by State), (summarize count() by EventType)
 
+## Cas d'usage : fork
+
+En hunting avec Sentinel, fork s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis fork pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
