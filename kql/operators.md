@@ -536,3 +536,7 @@ Analyse une colonne selon plusieurs facettes.
 
 StormEvents | facet by State, EventType
 
+## Cas d'usage : facet
+
+En hunting avec Sentinel, facet s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis facet pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
