@@ -620,3 +620,7 @@ Classement local sur une partition.
 
 StormEvents | partition by State (serialize | row_rank DamageRank = row_rank() by DamageProperty)
 
+## Cas d'usage : row_rank
+
+En hunting avec Sentinel, row_rank s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis row_rank pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
