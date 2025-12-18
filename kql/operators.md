@@ -584,3 +584,7 @@ Regroupe des valeurs similaires avec un critère de similarité.
 
 Table | reduce by Message
 
+## Cas d'usage : reduce
+
+En hunting avec Sentinel, reduce s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis reduce pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
