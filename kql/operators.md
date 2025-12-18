@@ -612,3 +612,7 @@ StormEvents | serialize | row_cumsum(DamageProperty)
 
 En hunting avec Sentinel, row_cumsum s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis row_cumsum pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## row_rank
+
+Classement local sur une partition.
+
