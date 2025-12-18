@@ -600,3 +600,7 @@ StormEvents | summarize Total = sum(DamageProperty) by State | rn rank = rank(To
 
 En hunting avec Sentinel, rn s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis rn pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## row_cumsum
+
+Somme cumulée sur les lignes ordonnées.
+
