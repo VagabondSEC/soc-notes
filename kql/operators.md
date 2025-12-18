@@ -616,3 +616,7 @@ En hunting avec Sentinel, row_cumsum s'intègre dans une requête KQL typique : 
 
 Classement local sur une partition.
 
+## Exemple : row_rank
+
+StormEvents | partition by State (serialize | row_rank DamageRank = row_rank() by DamageProperty)
+
