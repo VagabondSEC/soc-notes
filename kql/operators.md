@@ -604,3 +604,7 @@ En hunting avec Sentinel, rn s'intègre dans une requête KQL typique : Security
 
 Somme cumulée sur les lignes ordonnées.
 
+## Exemple : row_cumsum
+
+StormEvents | serialize | row_cumsum(DamageProperty)
+
