@@ -568,3 +568,7 @@ En hunting avec Sentinel, fork s'intègre dans une requête KQL typique : Securi
 
 Cache le résultat d'une sous-requête pour réutilisation.
 
+## Exemple : materialize
+
+let A = materialize(StormEvents | summarize count() by State); A | where count_ > 10
+
