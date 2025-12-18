@@ -592,3 +592,7 @@ En hunting avec Sentinel, reduce s'intègre dans une requête KQL typique : Secu
 
 Calcule un classement (ranking) avec rank/row_number/dense_rank.
 
+## Exemple : rn
+
+StormEvents | summarize Total = sum(DamageProperty) by State | rn rank = rank(Total)
+
