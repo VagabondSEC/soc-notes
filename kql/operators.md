@@ -596,3 +596,7 @@ Calcule un classement (ranking) avec rank/row_number/dense_rank.
 
 StormEvents | summarize Total = sum(DamageProperty) by State | rn rank = rank(Total)
 
+## Cas d'usage : rn
+
+En hunting avec Sentinel, rn s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis rn pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
