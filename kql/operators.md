@@ -580,3 +580,7 @@ En hunting avec Sentinel, materialize s'intègre dans une requête KQL typique :
 
 Regroupe des valeurs similaires avec un critère de similarité.
 
+## Exemple : reduce
+
+Table | reduce by Message
+
