@@ -576,3 +576,7 @@ let A = materialize(StormEvents | summarize count() by State); A | where count_ 
 
 En hunting avec Sentinel, materialize s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis materialize pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## reduce
+
+Regroupe des valeurs similaires avec un critère de similarité.
+
