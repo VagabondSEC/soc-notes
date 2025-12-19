@@ -632,3 +632,7 @@ Retourne la ligne avec la valeur max d'une colonne.
 
 Table | summarize arg_max(Time, *) by User
 
+## Cas d'usage : arg_max
+
+En hunting avec Sentinel, arg_max s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis arg_max pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
