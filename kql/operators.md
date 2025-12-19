@@ -640,3 +640,7 @@ En hunting avec Sentinel, arg_max s'intègre dans une requête KQL typique : Sec
 
 Retourne la ligne avec la valeur min d'une colonne.
 
+## Exemple : arg_min
+
+Table | summarize arg_min(Time, *) by User
+
