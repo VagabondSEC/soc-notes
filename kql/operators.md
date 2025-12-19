@@ -628,3 +628,7 @@ En hunting avec Sentinel, row_rank s'intègre dans une requête KQL typique : Se
 
 Retourne la ligne avec la valeur max d'une colonne.
 
+## Exemple : arg_max
+
+Table | summarize arg_max(Time, *) by User
+
