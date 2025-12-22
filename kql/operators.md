@@ -656,3 +656,7 @@ Compte les lignes où la condition est vraie.
 
 Table | summarize countif(StatusCode == 500) by Host
 
+## Cas d'usage : countif
+
+En hunting avec Sentinel, countif s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis countif pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
