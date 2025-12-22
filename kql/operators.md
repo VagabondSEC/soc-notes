@@ -652,3 +652,7 @@ En hunting avec Sentinel, arg_min s'intègre dans une requête KQL typique : Sec
 
 Compte les lignes où la condition est vraie.
 
+## Exemple : countif
+
+Table | summarize countif(StatusCode == 500) by Host
+
