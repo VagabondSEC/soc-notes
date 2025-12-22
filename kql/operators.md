@@ -668,3 +668,7 @@ Somme les valeurs où la condition est vraie.
 
 Table | summarize sumif(Bytes, Bytes > 1000) by Host
 
+## Cas d'usage : sumif
+
+En hunting avec Sentinel, sumif s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis sumif pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
