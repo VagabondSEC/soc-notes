@@ -648,3 +648,7 @@ Table | summarize arg_min(Time, *) by User
 
 En hunting avec Sentinel, arg_min s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis arg_min pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## countif
+
+Compte les lignes où la condition est vraie.
+
