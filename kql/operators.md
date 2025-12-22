@@ -664,3 +664,7 @@ En hunting avec Sentinel, countif s'intègre dans une requête KQL typique : Sec
 
 Somme les valeurs où la condition est vraie.
 
+## Exemple : sumif
+
+Table | summarize sumif(Bytes, Bytes > 1000) by Host
+
