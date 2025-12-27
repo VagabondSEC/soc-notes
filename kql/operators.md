@@ -676,3 +676,7 @@ En hunting avec Sentinel, sumif s'intègre dans une requête KQL typique : Secur
 
 Compte distinct où la condition est vraie.
 
+## Exemple : dcountif
+
+Table | summarize dcountif(User, Action == "login")
+
