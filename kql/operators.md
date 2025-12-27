@@ -700,3 +700,7 @@ En hunting avec Sentinel, percentile s'intègre dans une requête KQL typique : 
 
 Calcule plusieurs percentiles.
 
+## Exemple : percentiles
+
+Table | summarize percentiles(Latency, 50, 95, 99)
+
