@@ -692,3 +692,7 @@ Calcule un percentile sur une colonne.
 
 Table | summarize p95 = percentile(Latency, 95) by Host
 
+## Cas d'usage : percentile
+
+En hunting avec Sentinel, percentile s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis percentile pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
