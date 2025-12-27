@@ -704,3 +704,7 @@ Calcule plusieurs percentiles.
 
 Table | summarize percentiles(Latency, 50, 95, 99)
 
+## Cas d'usage : percentiles
+
+En hunting avec Sentinel, percentiles s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis percentiles pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
