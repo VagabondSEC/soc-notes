@@ -672,3 +672,7 @@ Table | summarize sumif(Bytes, Bytes > 1000) by Host
 
 En hunting avec Sentinel, sumif s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis sumif pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## dcountif
+
+Compte distinct où la condition est vraie.
+
