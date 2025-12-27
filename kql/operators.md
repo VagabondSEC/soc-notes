@@ -688,3 +688,7 @@ En hunting avec Sentinel, dcountif s'intègre dans une requête KQL typique : Se
 
 Calcule un percentile sur une colonne.
 
+## Exemple : percentile
+
+Table | summarize p95 = percentile(Latency, 95) by Host
+
