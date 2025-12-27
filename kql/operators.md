@@ -712,3 +712,7 @@ En hunting avec Sentinel, percentiles s'intègre dans une requête KQL typique :
 
 Écart-type.
 
+## Exemple : stdev
+
+Table | summarize stdev(Latency)
+
