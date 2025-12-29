@@ -740,3 +740,7 @@ Minimum d'une colonne.
 
 Table | summarize min(Latency)
 
+## Cas d'usage : min
+
+En hunting avec Sentinel, min s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis min pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
