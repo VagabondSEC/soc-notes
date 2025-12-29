@@ -780,3 +780,7 @@ Table | summarize pack("min", min(Latency), "max", max(Latency))
 
 En hunting avec Sentinel, pack s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis pack pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## bag_unpack
+
+Développe un objet dynamique en colonnes.
+
