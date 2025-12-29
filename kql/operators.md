@@ -716,3 +716,7 @@ En hunting avec Sentinel, percentiles s'intègre dans une requête KQL typique :
 
 Table | summarize stdev(Latency)
 
+## Cas d'usage : stdev
+
+En hunting avec Sentinel, stdev s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis stdev pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
