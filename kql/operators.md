@@ -748,3 +748,7 @@ En hunting avec Sentinel, min s'intègre dans une requête KQL typique : Securit
 
 Maximum d'une colonne.
 
+## Exemple : max
+
+Table | summarize max(Latency)
+
