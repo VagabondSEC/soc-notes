@@ -728,3 +728,7 @@ Variance.
 
 Table | summarize variance(Latency)
 
+## Cas d'usage : variance
+
+En hunting avec Sentinel, variance s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis variance pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
