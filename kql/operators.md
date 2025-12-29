@@ -772,3 +772,7 @@ En hunting avec Sentinel, avg s'intègre dans une requête KQL typique : Securit
 
 Crée un objet dynamique (dict) à partir de colonnes.
 
+## Exemple : pack
+
+Table | summarize pack("min", min(Latency), "max", max(Latency))
+
