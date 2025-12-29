@@ -756,3 +756,7 @@ Table | summarize max(Latency)
 
 En hunting avec Sentinel, max s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis max pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## avg
+
+Moyenne d'une colonne.
+
