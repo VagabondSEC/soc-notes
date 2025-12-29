@@ -724,3 +724,7 @@ En hunting avec Sentinel, stdev s'intègre dans une requête KQL typique : Secur
 
 Variance.
 
+## Exemple : variance
+
+Table | summarize variance(Latency)
+
