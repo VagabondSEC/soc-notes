@@ -764,3 +764,7 @@ Moyenne d'une colonne.
 
 Table | summarize avg(Latency)
 
+## Cas d'usage : avg
+
+En hunting avec Sentinel, avg s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis avg pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
