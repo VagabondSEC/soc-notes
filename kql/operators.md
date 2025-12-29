@@ -776,3 +776,7 @@ Crée un objet dynamique (dict) à partir de colonnes.
 
 Table | summarize pack("min", min(Latency), "max", max(Latency))
 
+## Cas d'usage : pack
+
+En hunting avec Sentinel, pack s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis pack pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
