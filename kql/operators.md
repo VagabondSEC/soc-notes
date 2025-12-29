@@ -736,3 +736,7 @@ En hunting avec Sentinel, variance s'intègre dans une requête KQL typique : Se
 
 Minimum d'une colonne.
 
+## Exemple : min
+
+Table | summarize min(Latency)
+
