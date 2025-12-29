@@ -760,3 +760,7 @@ En hunting avec Sentinel, max s'intègre dans une requête KQL typique : Securit
 
 Moyenne d'une colonne.
 
+## Exemple : avg
+
+Table | summarize avg(Latency)
+
