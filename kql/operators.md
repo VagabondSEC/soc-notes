@@ -820,3 +820,7 @@ En hunting avec Sentinel, sequence_detect s'intègre dans une requête KQL typiq
 
 Trouve des patterns de regroupement dans les données (plugin).
 
+## Exemple : autocluster
+
+Table | evaluate autocluster()
+
