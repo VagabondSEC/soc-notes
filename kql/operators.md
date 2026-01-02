@@ -788,3 +788,7 @@ Développe un objet dynamique en colonnes.
 
 Table | project-away d | evaluate bag_unpack(d)
 
+## Cas d'usage : bag_unpack
+
+En hunting avec Sentinel, bag_unpack s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis bag_unpack pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
