@@ -800,3 +800,7 @@ Pivote une table (lignes en colonnes).
 
 StormEvents | evaluate pivot(State, count(), sum(DamageProperty))
 
+## Cas d'usage : pivot
+
+En hunting avec Sentinel, pivot s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis pivot pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
