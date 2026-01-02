@@ -792,3 +792,7 @@ Table | project-away d | evaluate bag_unpack(d)
 
 En hunting avec Sentinel, bag_unpack s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis bag_unpack pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## pivot
+
+Pivote une table (lignes en colonnes).
+
