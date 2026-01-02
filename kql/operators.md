@@ -812,3 +812,7 @@ Détecte des séquences d'événements avec contraintes.
 
 Table | evaluate sequence_detect(timestamp_column, 1h, state_1, state_2)
 
+## Cas d'usage : sequence_detect
+
+En hunting avec Sentinel, sequence_detect s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis sequence_detect pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
