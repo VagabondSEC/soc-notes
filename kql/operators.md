@@ -832,3 +832,7 @@ En hunting avec Sentinel, autocluster s'intègre dans une requête KQL typique :
 
 Trouve des itemsets fréquents (plugin).
 
+## Exemple : basket
+
+Table | evaluate basket()
+
