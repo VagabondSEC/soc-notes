@@ -824,3 +824,7 @@ Trouve des patterns de regroupement dans les données (plugin).
 
 Table | evaluate autocluster()
 
+## Cas d'usage : autocluster
+
+En hunting avec Sentinel, autocluster s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis autocluster pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
