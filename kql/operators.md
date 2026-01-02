@@ -808,3 +808,7 @@ En hunting avec Sentinel, pivot s'intègre dans une requête KQL typique : Secur
 
 Détecte des séquences d'événements avec contraintes.
 
+## Exemple : sequence_detect
+
+Table | evaluate sequence_detect(timestamp_column, 1h, state_1, state_2)
+
