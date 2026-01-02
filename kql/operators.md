@@ -796,3 +796,7 @@ En hunting avec Sentinel, bag_unpack s'intègre dans une requête KQL typique : 
 
 Pivote une table (lignes en colonnes).
 
+## Exemple : pivot
+
+StormEvents | evaluate pivot(State, count(), sum(DamageProperty))
+
