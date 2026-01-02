@@ -784,3 +784,7 @@ En hunting avec Sentinel, pack s'intègre dans une requête KQL typique : Securi
 
 Développe un objet dynamique en colonnes.
 
+## Exemple : bag_unpack
+
+Table | project-away d | evaluate bag_unpack(d)
+
