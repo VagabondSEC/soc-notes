@@ -844,3 +844,7 @@ En hunting avec Sentinel, basket s'intègre dans une requête KQL typique : Secu
 
 Compare deux populations et trouve les différences (plugin).
 
+## Exemple : diffpatterns
+
+Table | evaluate diffpatterns(IsAnomaly)
+
