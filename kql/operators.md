@@ -840,3 +840,7 @@ Table | evaluate basket()
 
 En hunting avec Sentinel, basket s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis basket pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## diffpatterns
+
+Compare deux populations et trouve les différences (plugin).
+
