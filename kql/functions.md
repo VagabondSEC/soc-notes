@@ -16,3 +16,7 @@ En hunting avec Sentinel, ago s'intègre dans une requête KQL typique : Securit
 
 Retourne la date/heure actuelle.
 
+## Exemple : now
+
+print now()
+
