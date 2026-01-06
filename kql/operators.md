@@ -860,3 +860,7 @@ Réduit le nombre de colonnes en conservant les stats.
 
 Table | narrow by State
 
+## Cas d'usage : narrow
+
+En hunting avec Sentinel, narrow s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis narrow pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
