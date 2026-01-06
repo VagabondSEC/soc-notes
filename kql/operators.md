@@ -856,3 +856,7 @@ En hunting avec Sentinel, diffpatterns s'intègre dans une requête KQL typique 
 
 Réduit le nombre de colonnes en conservant les stats.
 
+## Exemple : narrow
+
+Table | narrow by State
+
