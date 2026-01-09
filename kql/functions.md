@@ -60,3 +60,7 @@ print totimespan("1.02:03:04")
 
 En hunting avec Sentinel, totimespan s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis totimespan pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## bin
+
+Arrondit à un bucket.
+
