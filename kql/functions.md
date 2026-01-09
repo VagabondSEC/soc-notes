@@ -24,3 +24,7 @@ print now()
 
 En hunting avec Sentinel, now s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis now pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## datetime
+
+Convertit une chaîne en datetime.
+
