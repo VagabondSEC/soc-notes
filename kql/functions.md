@@ -40,3 +40,7 @@ En hunting avec Sentinel, datetime s'intègre dans une requête KQL typique : Se
 
 Conversion tolérante en datetime.
 
+## Exemple : todatetime
+
+print todatetime("2026-01-01")
+
