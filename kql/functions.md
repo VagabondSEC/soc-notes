@@ -52,3 +52,7 @@ En hunting avec Sentinel, todatetime s'intègre dans une requête KQL typique : 
 
 Conversion en timespan.
 
+## Exemple : totimespan
+
+print totimespan("1.02:03:04")
+
