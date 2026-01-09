@@ -28,3 +28,7 @@ En hunting avec Sentinel, now s'intègre dans une requête KQL typique : Securit
 
 Convertit une chaîne en datetime.
 
+## Exemple : datetime
+
+print datetime("2026-01-01 10:30:00")
+
