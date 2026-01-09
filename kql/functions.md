@@ -64,3 +64,7 @@ En hunting avec Sentinel, totimespan s'intègre dans une requête KQL typique : 
 
 Arrondit à un bucket.
 
+## Exemple : bin
+
+summarize count() by bin(Timestamp, 1h)
+
