@@ -76,3 +76,7 @@ En hunting avec Sentinel, bin s'intègre dans une requête KQL typique : Securit
 
 Arrondit à l'entier inférieur.
 
+## Exemple : floor
+
+print floor(3.7)
+
