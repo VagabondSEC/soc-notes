@@ -92,3 +92,7 @@ Arrondit à l'entier supérieur.
 
 print ceiling(3.2)
 
+## Cas d'usage : ceiling
+
+En hunting avec Sentinel, ceiling s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis ceiling pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
