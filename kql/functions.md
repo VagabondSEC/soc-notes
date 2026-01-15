@@ -100,3 +100,7 @@ En hunting avec Sentinel, ceiling s'intègre dans une requête KQL typique : Sec
 
 Arrondit avec précision.
 
+## Exemple : round
+
+print round(3.14159, 2)
+
