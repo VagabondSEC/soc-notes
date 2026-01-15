@@ -128,3 +128,7 @@ Concatène un tableau en chaîne avec séparateur.
 
 print strcat_array(dynamic(["a", "b"]), "-")
 
+## Cas d'usage : strcat_array
+
+En hunting avec Sentinel, strcat_array s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis strcat_array pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
