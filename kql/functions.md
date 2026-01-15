@@ -124,3 +124,7 @@ En hunting avec Sentinel, strcat s'intègre dans une requête KQL typique : Secu
 
 Concatène un tableau en chaîne avec séparateur.
 
+## Exemple : strcat_array
+
+print strcat_array(dynamic(["a", "b"]), "-")
+
