@@ -88,3 +88,7 @@ En hunting avec Sentinel, floor s'intègre dans une requête KQL typique : Secur
 
 Arrondit à l'entier supérieur.
 
+## Exemple : ceiling
+
+print ceiling(3.2)
+
