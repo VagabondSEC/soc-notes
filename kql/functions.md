@@ -112,3 +112,7 @@ En hunting avec Sentinel, round s'intègre dans une requête KQL typique : Secur
 
 Concatène des chaînes.
 
+## Exemple : strcat
+
+extend FullName = strcat(FirstName, " ", LastName)
+
