@@ -176,3 +176,7 @@ Met en minuscules.
 
 extend Lower = tolower(User)
 
+## Cas d'usage : tolower
+
+En hunting avec Sentinel, tolower s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis tolower pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
