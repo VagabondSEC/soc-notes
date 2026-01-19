@@ -136,3 +136,7 @@ En hunting avec Sentinel, strcat_array s'intègre dans une requête KQL typique 
 
 Sépare une chaîne en tableau.
 
+## Exemple : split
+
+extend Parts = split(Path, "\\")
+
