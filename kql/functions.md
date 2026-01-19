@@ -184,3 +184,7 @@ En hunting avec Sentinel, tolower s'intègre dans une requête KQL typique : Sec
 
 Supprime les espaces (ou caractères) en début/fin.
 
+## Exemple : trim
+
+extend Clean = trim(Message)
+
