@@ -148,3 +148,7 @@ En hunting avec Sentinel, split s'intègre dans une requête KQL typique : Secur
 
 Extrait une sous-chaîne.
 
+## Exemple : substring
+
+extend Sub = substring(UserAgent, 0, 20)
+
