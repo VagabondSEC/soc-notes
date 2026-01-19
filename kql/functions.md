@@ -172,3 +172,7 @@ En hunting avec Sentinel, toupper s'intègre dans une requête KQL typique : Sec
 
 Met en minuscules.
 
+## Exemple : tolower
+
+extend Lower = tolower(User)
+
