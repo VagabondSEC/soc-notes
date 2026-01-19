@@ -152,3 +152,7 @@ Extrait une sous-chaîne.
 
 extend Sub = substring(UserAgent, 0, 20)
 
+## Cas d'usage : substring
+
+En hunting avec Sentinel, substring s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis substring pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
