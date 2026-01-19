@@ -140,3 +140,7 @@ Sépare une chaîne en tableau.
 
 extend Parts = split(Path, "\\")
 
+## Cas d'usage : split
+
+En hunting avec Sentinel, split s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis split pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
