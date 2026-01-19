@@ -160,3 +160,7 @@ En hunting avec Sentinel, substring s'intègre dans une requête KQL typique : S
 
 Met en majuscules.
 
+## Exemple : toupper
+
+extend Upper = toupper(User)
+
