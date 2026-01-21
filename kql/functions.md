@@ -204,3 +204,7 @@ extend Fixed = replace(Path, @"\\+", "/")
 
 En hunting avec Sentinel, replace s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis replace pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## indexof
+
+Position d'une sous-chaîne.
+
