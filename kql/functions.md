@@ -200,3 +200,7 @@ Remplace une sous-chaîne (regex).
 
 extend Fixed = replace(Path, @"\\+", "/")
 
+## Cas d'usage : replace
+
+En hunting avec Sentinel, replace s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis replace pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
