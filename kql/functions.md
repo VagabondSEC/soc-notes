@@ -208,3 +208,7 @@ En hunting avec Sentinel, replace s'intègre dans une requête KQL typique : Sec
 
 Position d'une sous-chaîne.
 
+## Exemple : indexof
+
+print indexof("abcabc", "b")
+
