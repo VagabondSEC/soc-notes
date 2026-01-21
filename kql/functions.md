@@ -220,3 +220,7 @@ En hunting avec Sentinel, indexof s'intègre dans une requête KQL typique : Sec
 
 Teste le début d'une chaîne.
 
+## Exemple : startswith
+
+where UserAgent startswith "Mozilla"
+
