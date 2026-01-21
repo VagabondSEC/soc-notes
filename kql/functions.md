@@ -212,3 +212,7 @@ Position d'une sous-chaîne.
 
 print indexof("abcabc", "b")
 
+## Cas d'usage : indexof
+
+En hunting avec Sentinel, indexof s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis indexof pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
