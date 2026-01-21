@@ -216,3 +216,7 @@ print indexof("abcabc", "b")
 
 En hunting avec Sentinel, indexof s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis indexof pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## startswith
+
+Teste le début d'une chaîne.
+
