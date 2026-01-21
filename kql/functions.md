@@ -244,3 +244,7 @@ En hunting avec Sentinel, endswith s'intègre dans une requête KQL typique : Se
 
 Teste la présence d'une sous-chaîne (opérateur).
 
+## Exemple : contains
+
+where CommandLine contains "powershell"
+
