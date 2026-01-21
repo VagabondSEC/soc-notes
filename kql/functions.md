@@ -240,3 +240,7 @@ where File endswith ".exe"
 
 En hunting avec Sentinel, endswith s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis endswith pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## contains
+
+Teste la présence d'une sous-chaîne (opérateur).
+
