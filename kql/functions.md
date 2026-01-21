@@ -256,3 +256,7 @@ En hunting avec Sentinel, contains s'intègre dans une requête KQL typique : Se
 
 Conditionnel en ligne (ancien iff).
 
+## Exemple : iif
+
+extend Status = iif(Code == 200, "OK", "Error")
+
