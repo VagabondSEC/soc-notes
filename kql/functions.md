@@ -228,3 +228,7 @@ where UserAgent startswith "Mozilla"
 
 En hunting avec Sentinel, startswith s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis startswith pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## endswith
+
+Teste la fin d'une chaîne.
+
