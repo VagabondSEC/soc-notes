@@ -196,3 +196,7 @@ En hunting avec Sentinel, trim s'intègre dans une requête KQL typique : Securi
 
 Remplace une sous-chaîne (regex).
 
+## Exemple : replace
+
+extend Fixed = replace(Path, @"\\+", "/")
+
