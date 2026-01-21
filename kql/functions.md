@@ -232,3 +232,7 @@ En hunting avec Sentinel, startswith s'intègre dans une requête KQL typique : 
 
 Teste la fin d'une chaîne.
 
+## Exemple : endswith
+
+where File endswith ".exe"
+
