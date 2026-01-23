@@ -268,3 +268,7 @@ En hunting avec Sentinel, iif s'intègre dans une requête KQL typique : Securit
 
 Alias de iif (nouvelle syntaxe).
 
+## Exemple : iff
+
+extend Status = iff(Code == 200, "OK", "Error")
+
