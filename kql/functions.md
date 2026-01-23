@@ -280,3 +280,7 @@ En hunting avec Sentinel, iff s'intègre dans une requête KQL typique : Securit
 
 Conditionnel multi-branches.
 
+## Exemple : case
+
+extend Level = case(Risk > 80, "High", Risk > 50, "Medium", "Low")
+
