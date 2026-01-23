@@ -260,3 +260,7 @@ Conditionnel en ligne (ancien iff).
 
 extend Status = iif(Code == 200, "OK", "Error")
 
+## Cas d'usage : iif
+
+En hunting avec Sentinel, iif s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis iif pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
