@@ -340,3 +340,7 @@ En hunting avec Sentinel, format_datetime s'intègre dans une requête KQL typiq
 
 Parse une chaîne JSON en objet dynamique.
 
+## Exemple : parse_json
+
+extend Obj = parse_json(RawData)
+
