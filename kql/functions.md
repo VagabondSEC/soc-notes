@@ -332,3 +332,7 @@ Formate une date selon un modèle.
 
 extend Date = format_datetime(Timestamp, "yyyy-MM-dd HH:mm")
 
+## Cas d'usage : format_datetime
+
+En hunting avec Sentinel, format_datetime s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis format_datetime pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
