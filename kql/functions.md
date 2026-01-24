@@ -304,3 +304,7 @@ En hunting avec Sentinel, coalesce s'intègre dans une requête KQL typique : Se
 
 Teste si une valeur est nulle.
 
+## Exemple : isnull
+
+where isnull(User)
+
