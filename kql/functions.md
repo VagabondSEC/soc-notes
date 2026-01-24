@@ -292,3 +292,7 @@ En hunting avec Sentinel, case s'intègre dans une requête KQL typique : Securi
 
 Première valeur non nulle.
 
+## Exemple : coalesce
+
+extend IP = coalesce(IPv4, IPv6, "unknown")
+
