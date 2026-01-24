@@ -312,3 +312,7 @@ where isnull(User)
 
 En hunting avec Sentinel, isnull s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis isnull pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## isempty
+
+Teste si une chaîne est vide.
+
