@@ -324,3 +324,7 @@ where isempty(CommandLine)
 
 En hunting avec Sentinel, isempty s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis isempty pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## format_datetime
+
+Formate une date selon un modèle.
+
