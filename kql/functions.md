@@ -288,3 +288,7 @@ extend Level = case(Risk > 80, "High", Risk > 50, "Medium", "Low")
 
 En hunting avec Sentinel, case s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis case pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## coalesce
+
+Première valeur non nulle.
+
