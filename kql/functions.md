@@ -328,3 +328,7 @@ En hunting avec Sentinel, isempty s'intègre dans une requête KQL typique : Sec
 
 Formate une date selon un modèle.
 
+## Exemple : format_datetime
+
+extend Date = format_datetime(Timestamp, "yyyy-MM-dd HH:mm")
+
