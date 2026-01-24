@@ -336,3 +336,7 @@ extend Date = format_datetime(Timestamp, "yyyy-MM-dd HH:mm")
 
 En hunting avec Sentinel, format_datetime s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis format_datetime pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## parse_json
+
+Parse une chaîne JSON en objet dynamique.
+
