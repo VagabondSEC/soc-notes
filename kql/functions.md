@@ -308,3 +308,7 @@ Teste si une valeur est nulle.
 
 where isnull(User)
 
+## Cas d'usage : isnull
+
+En hunting avec Sentinel, isnull s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis isnull pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
