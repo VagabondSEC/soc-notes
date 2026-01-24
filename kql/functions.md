@@ -316,3 +316,7 @@ En hunting avec Sentinel, isnull s'intègre dans une requête KQL typique : Secu
 
 Teste si une chaîne est vide.
 
+## Exemple : isempty
+
+where isempty(CommandLine)
+
