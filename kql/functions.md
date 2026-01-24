@@ -300,3 +300,7 @@ extend IP = coalesce(IPv4, IPv6, "unknown")
 
 En hunting avec Sentinel, coalesce s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis coalesce pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## isnull
+
+Teste si une valeur est nulle.
+
