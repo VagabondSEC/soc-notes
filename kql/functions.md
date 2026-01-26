@@ -364,3 +364,7 @@ En hunting avec Sentinel, tostring s'intègre dans une requête KQL typique : Se
 
 Convertit en entier.
 
+## Exemple : toint
+
+extend N = toint(Size)
+
