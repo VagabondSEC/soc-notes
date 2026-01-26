@@ -352,3 +352,7 @@ En hunting avec Sentinel, parse_json s'intègre dans une requête KQL typique : 
 
 Convertit en chaîne.
 
+## Exemple : tostring
+
+extend Str = tostring(Count)
+
