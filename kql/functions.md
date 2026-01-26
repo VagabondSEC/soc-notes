@@ -356,3 +356,7 @@ Convertit en chaîne.
 
 extend Str = tostring(Count)
 
+## Cas d'usage : tostring
+
+En hunting avec Sentinel, tostring s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis tostring pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
