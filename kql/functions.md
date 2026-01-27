@@ -376,3 +376,7 @@ En hunting avec Sentinel, toint s'intègre dans une requête KQL typique : Secur
 
 Convertit en long.
 
+## Exemple : tolong
+
+extend L = tolong(Size)
+
