@@ -392,3 +392,7 @@ Convertit en réel (double).
 
 extend R = toreal(Value)
 
+## Cas d'usage : toreal
+
+En hunting avec Sentinel, toreal s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis toreal pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
