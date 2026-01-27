@@ -388,3 +388,7 @@ En hunting avec Sentinel, tolong s'intègre dans une requête KQL typique : Secu
 
 Convertit en réel (double).
 
+## Exemple : toreal
+
+extend R = toreal(Value)
+
