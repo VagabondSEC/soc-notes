@@ -404,3 +404,7 @@ Convertit en booléen.
 
 extend B = tobool(Flag)
 
+## Cas d'usage : tobool
+
+En hunting avec Sentinel, tobool s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis tobool pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
