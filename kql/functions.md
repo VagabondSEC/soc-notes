@@ -400,3 +400,7 @@ En hunting avec Sentinel, toreal s'intègre dans une requête KQL typique : Secu
 
 Convertit en booléen.
 
+## Exemple : tobool
+
+extend B = tobool(Flag)
+
