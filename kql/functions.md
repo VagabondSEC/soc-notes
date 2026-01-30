@@ -460,3 +460,7 @@ En hunting avec Sentinel, uri_parse s'intègre dans une requête KQL typique : S
 
 Décode une URL encodée.
 
+## Exemple : url_decode
+
+extend Decoded = url_decode(EncodedUrl)
+
