@@ -412,3 +412,7 @@ En hunting avec Sentinel, tobool s'intègre dans une requête KQL typique : Secu
 
 Hash SHA256 d'une chaîne.
 
+## Exemple : hash
+
+extend H = hash("s3cr3t", "sha256")
+
