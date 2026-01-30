@@ -472,3 +472,7 @@ En hunting avec Sentinel, url_decode s'intègre dans une requête KQL typique : 
 
 Longueur d'une chaîne.
 
+## Exemple : strlen
+
+extend Len = strlen(CommandLine)
+
