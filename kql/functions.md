@@ -420,3 +420,7 @@ extend H = hash("s3cr3t", "sha256")
 
 En hunting avec Sentinel, hash s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis hash pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## base64_encode
+
+Encode en base64.
+
