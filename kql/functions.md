@@ -428,3 +428,7 @@ Encode en base64.
 
 extend B64 = base64_encode(Data)
 
+## Cas d'usage : base64_encode
+
+En hunting avec Sentinel, base64_encode s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis base64_encode pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
