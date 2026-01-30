@@ -416,3 +416,7 @@ Hash SHA256 d'une chaîne.
 
 extend H = hash("s3cr3t", "sha256")
 
+## Cas d'usage : hash
+
+En hunting avec Sentinel, hash s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis hash pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
