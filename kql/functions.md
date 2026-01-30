@@ -424,3 +424,7 @@ En hunting avec Sentinel, hash s'intègre dans une requête KQL typique : Securi
 
 Encode en base64.
 
+## Exemple : base64_encode
+
+extend B64 = base64_encode(Data)
+
