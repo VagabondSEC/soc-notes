@@ -436,3 +436,7 @@ En hunting avec Sentinel, base64_encode s'intègre dans une requête KQL typique
 
 Décode du base64.
 
+## Exemple : base64_decode
+
+extend Plain = base64_decode_tostring(B64)
+
