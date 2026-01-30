@@ -440,3 +440,7 @@ Décode du base64.
 
 extend Plain = base64_decode_tostring(B64)
 
+## Cas d'usage : base64_decode
+
+En hunting avec Sentinel, base64_decode s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis base64_decode pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
