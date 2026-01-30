@@ -448,3 +448,7 @@ En hunting avec Sentinel, base64_decode s'intègre dans une requête KQL typique
 
 Décompose une URL en parties.
 
+## Exemple : uri_parse
+
+extend U = uri_parse(Url)
+
