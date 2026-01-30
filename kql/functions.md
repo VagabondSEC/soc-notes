@@ -468,3 +468,7 @@ extend Decoded = url_decode(EncodedUrl)
 
 En hunting avec Sentinel, url_decode s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis url_decode pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## strlen
+
+Longueur d'une chaîne.
+
