@@ -496,3 +496,7 @@ En hunting avec Sentinel, reverse s'intègre dans une requête KQL typique : Sec
 
 Compte distinct (ancien style dcount).
 
+## Exemple : count_distinct
+
+summarize count_distinct(User)
+
