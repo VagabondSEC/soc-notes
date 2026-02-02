@@ -500,3 +500,7 @@ Compte distinct (ancien style dcount).
 
 summarize count_distinct(User)
 
+## Cas d'usage : count_distinct
+
+En hunting avec Sentinel, count_distinct s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis count_distinct pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
