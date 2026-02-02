@@ -480,3 +480,7 @@ extend Len = strlen(CommandLine)
 
 En hunting avec Sentinel, strlen s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis strlen pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## reverse
+
+Inverse une chaîne.
+
