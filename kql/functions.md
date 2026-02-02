@@ -488,3 +488,7 @@ Inverse une chaîne.
 
 print reverse("abc")
 
+## Cas d'usage : reverse
+
+En hunting avec Sentinel, reverse s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis reverse pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
