@@ -484,3 +484,7 @@ En hunting avec Sentinel, strlen s'intègre dans une requête KQL typique : Secu
 
 Inverse une chaîne.
 
+## Exemple : reverse
+
+print reverse("abc")
+
