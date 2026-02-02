@@ -504,3 +504,7 @@ summarize count_distinct(User)
 
 En hunting avec Sentinel, count_distinct s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis count_distinct pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## make_string
+
+Construit une chaîne depuis plusieurs colonnes.
+
