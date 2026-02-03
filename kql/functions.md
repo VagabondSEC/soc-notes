@@ -508,3 +508,7 @@ En hunting avec Sentinel, count_distinct s'intègre dans une requête KQL typiqu
 
 Construit une chaîne depuis plusieurs colonnes.
 
+## Exemple : make_string
+
+extend S = make_string(A, "-", B)
+
