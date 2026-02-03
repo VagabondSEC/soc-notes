@@ -512,3 +512,7 @@ Construit une chaîne depuis plusieurs colonnes.
 
 extend S = make_string(A, "-", B)
 
+## Cas d'usage : make_string
+
+En hunting avec Sentinel, make_string s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis make_string pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
