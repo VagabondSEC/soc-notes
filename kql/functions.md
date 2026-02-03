@@ -528,3 +528,7 @@ print zip(dynamic([1,2]), dynamic(["a","b"]))
 
 En hunting avec Sentinel, zip s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis zip pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## array_length
+
+Taille d'un tableau.
+
