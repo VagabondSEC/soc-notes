@@ -520,3 +520,7 @@ En hunting avec Sentinel, make_string s'intègre dans une requête KQL typique :
 
 Combine plusieurs tableaux en un tableau de tuples.
 
+## Exemple : zip
+
+print zip(dynamic([1,2]), dynamic(["a","b"]))
+
