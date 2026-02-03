@@ -524,3 +524,7 @@ Combine plusieurs tableaux en un tableau de tuples.
 
 print zip(dynamic([1,2]), dynamic(["a","b"]))
 
+## Cas d'usage : zip
+
+En hunting avec Sentinel, zip s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis zip pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
