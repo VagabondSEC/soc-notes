@@ -532,3 +532,7 @@ En hunting avec Sentinel, zip s'intègre dans une requête KQL typique : Securit
 
 Taille d'un tableau.
 
+## Exemple : array_length
+
+extend N = array_length(Parts)
+
