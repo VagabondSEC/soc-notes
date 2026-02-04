@@ -544,3 +544,7 @@ En hunting avec Sentinel, array_length s'intègre dans une requête KQL typique 
 
 Tranche d'un tableau.
 
+## Exemple : array_slice
+
+extend S = array_slice(Parts, 0, 2)
+
