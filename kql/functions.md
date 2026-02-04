@@ -540,3 +540,7 @@ extend N = array_length(Parts)
 
 En hunting avec Sentinel, array_length s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis array_length pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## array_slice
+
+Tranche d'un tableau.
+
