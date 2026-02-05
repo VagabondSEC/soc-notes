@@ -556,3 +556,7 @@ En hunting avec Sentinel, array_slice s'intègre dans une requête KQL typique :
 
 Construit un tableau à partir de valeurs.
 
+## Exemple : pack_array
+
+extend Arr = pack_array(A, B, C)
+
