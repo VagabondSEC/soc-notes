@@ -564,3 +564,7 @@ extend Arr = pack_array(A, B, C)
 
 En hunting avec Sentinel, pack_array s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis pack_array pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## range_array
+
+Génère un tableau de nombres.
+
