@@ -568,3 +568,7 @@ En hunting avec Sentinel, pack_array s'intègre dans une requête KQL typique : 
 
 Génère un tableau de nombres.
 
+## Exemple : range_array
+
+print range_array(1, 10, 2)
+
