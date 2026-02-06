@@ -572,3 +572,7 @@ Génère un tableau de nombres.
 
 print range_array(1, 10, 2)
 
+## Cas d'usage : range_array
+
+En hunting avec Sentinel, range_array s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis range_array pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
