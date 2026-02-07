@@ -592,3 +592,7 @@ En hunting avec Sentinel, repeat s'intègre dans une requête KQL typique : Secu
 
 Formate un GUID.
 
+## Exemple : tostring_guid
+
+print tostring_guid(guid)
+
