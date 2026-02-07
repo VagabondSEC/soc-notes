@@ -624,3 +624,7 @@ where parse_version(Version) >= parse_version("1.2.0")
 
 En hunting avec Sentinel, parse_version s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis parse_version pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## datetime_diff
+
+Différence entre deux dates en unité donnée.
+
