@@ -636,3 +636,7 @@ extend DiffMin = datetime_diff("minute", Timestamp, now())
 
 En hunting avec Sentinel, datetime_diff s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis datetime_diff pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## datetime_add
+
+Ajoute une durée à une date.
+
