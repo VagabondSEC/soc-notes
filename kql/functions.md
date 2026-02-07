@@ -604,3 +604,7 @@ En hunting avec Sentinel, tostring_guid s'intègre dans une requête KQL typique
 
 Formate une taille en unités lisibles.
 
+## Exemple : format_bytes
+
+print format_bytes(1536)
+
