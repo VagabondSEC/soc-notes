@@ -628,3 +628,7 @@ En hunting avec Sentinel, parse_version s'intègre dans une requête KQL typique
 
 Différence entre deux dates en unité donnée.
 
+## Exemple : datetime_diff
+
+extend DiffMin = datetime_diff("minute", Timestamp, now())
+
