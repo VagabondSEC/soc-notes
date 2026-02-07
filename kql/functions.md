@@ -580,3 +580,7 @@ En hunting avec Sentinel, range_array s'intègre dans une requête KQL typique :
 
 Répète une valeur.
 
+## Exemple : repeat
+
+print repeat("ab", 3)
+
