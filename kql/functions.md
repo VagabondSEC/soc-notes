@@ -632,3 +632,7 @@ Différence entre deux dates en unité donnée.
 
 extend DiffMin = datetime_diff("minute", Timestamp, now())
 
+## Cas d'usage : datetime_diff
+
+En hunting avec Sentinel, datetime_diff s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis datetime_diff pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
