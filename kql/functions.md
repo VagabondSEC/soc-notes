@@ -616,3 +616,7 @@ En hunting avec Sentinel, format_bytes s'intègre dans une requête KQL typique 
 
 Parse une version en comparable.
 
+## Exemple : parse_version
+
+where parse_version(Version) >= parse_version("1.2.0")
+
