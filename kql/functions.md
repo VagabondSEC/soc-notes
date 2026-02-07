@@ -596,3 +596,7 @@ Formate un GUID.
 
 print tostring_guid(guid)
 
+## Cas d'usage : tostring_guid
+
+En hunting avec Sentinel, tostring_guid s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis tostring_guid pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
