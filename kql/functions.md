@@ -680,3 +680,7 @@ Heure d'une date (0-23).
 
 extend Heure = hour_of_day(Timestamp)
 
+## Cas d'usage : hour_of_day
+
+En hunting avec Sentinel, hour_of_day s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis hour_of_day pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
