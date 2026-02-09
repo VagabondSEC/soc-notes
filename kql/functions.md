@@ -656,3 +656,7 @@ Mois d'une date (1-12).
 
 extend Mois = month_of_year(Timestamp)
 
+## Cas d'usage : month_of_year
+
+En hunting avec Sentinel, month_of_year s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis month_of_year pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
