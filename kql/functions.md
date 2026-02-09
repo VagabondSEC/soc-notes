@@ -640,3 +640,7 @@ En hunting avec Sentinel, datetime_diff s'intègre dans une requête KQL typique
 
 Ajoute une durée à une date.
 
+## Exemple : datetime_add
+
+extend Later = datetime_add("hour", 2, Timestamp)
+
