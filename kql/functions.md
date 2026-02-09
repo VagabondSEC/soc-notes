@@ -676,3 +676,7 @@ En hunting avec Sentinel, day_of_week s'intègre dans une requête KQL typique :
 
 Heure d'une date (0-23).
 
+## Exemple : hour_of_day
+
+extend Heure = hour_of_day(Timestamp)
+
