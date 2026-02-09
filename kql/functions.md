@@ -652,3 +652,7 @@ En hunting avec Sentinel, datetime_add s'intègre dans une requête KQL typique 
 
 Mois d'une date (1-12).
 
+## Exemple : month_of_year
+
+extend Mois = month_of_year(Timestamp)
+
