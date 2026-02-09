@@ -672,3 +672,7 @@ extend Jour = day_of_week(Timestamp)
 
 En hunting avec Sentinel, day_of_week s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis day_of_week pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## hour_of_day
+
+Heure d'une date (0-23).
+
