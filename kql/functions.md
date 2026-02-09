@@ -664,3 +664,7 @@ En hunting avec Sentinel, month_of_year s'intègre dans une requête KQL typique
 
 Jour de la semaine (1-7).
 
+## Exemple : day_of_week
+
+extend Jour = day_of_week(Timestamp)
+
