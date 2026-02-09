@@ -644,3 +644,7 @@ Ajoute une durée à une date.
 
 extend Later = datetime_add("hour", 2, Timestamp)
 
+## Cas d'usage : datetime_add
+
+En hunting avec Sentinel, datetime_add s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis datetime_add pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
