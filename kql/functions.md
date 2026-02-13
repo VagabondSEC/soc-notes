@@ -712,3 +712,7 @@ En hunting avec Sentinel, startofweek s'intègre dans une requête KQL typique :
 
 Début de mois.
 
+## Exemple : startofmonth
+
+extend Mois = startofmonth(Timestamp)
+
