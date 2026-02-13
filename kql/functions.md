@@ -700,3 +700,7 @@ En hunting avec Sentinel, startofday s'intègre dans une requête KQL typique : 
 
 Début de semaine.
 
+## Exemple : startofweek
+
+extend Semaine = startofweek(Timestamp)
+
