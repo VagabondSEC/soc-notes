@@ -724,3 +724,7 @@ En hunting avec Sentinel, startofmonth s'intègre dans une requête KQL typique 
 
 Fin de journée.
 
+## Exemple : endofday
+
+extend Fin = endofday(Timestamp)
+
