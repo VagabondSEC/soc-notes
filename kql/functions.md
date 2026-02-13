@@ -704,3 +704,7 @@ Début de semaine.
 
 extend Semaine = startofweek(Timestamp)
 
+## Cas d'usage : startofweek
+
+En hunting avec Sentinel, startofweek s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis startofweek pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
