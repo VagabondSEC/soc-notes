@@ -720,3 +720,7 @@ extend Mois = startofmonth(Timestamp)
 
 En hunting avec Sentinel, startofmonth s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis startofmonth pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## endofday
+
+Fin de journée.
+
