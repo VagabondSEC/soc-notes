@@ -688,3 +688,7 @@ En hunting avec Sentinel, hour_of_day s'intègre dans une requête KQL typique :
 
 Début de journée.
 
+## Exemple : startofday
+
+extend Jour = startofday(Timestamp)
+
