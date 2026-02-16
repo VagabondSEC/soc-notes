@@ -744,3 +744,7 @@ extend Part = part_of_day(Timestamp)
 
 En hunting avec Sentinel, part_of_day s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis part_of_day pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## getmonth
+
+Nom du mois.
+
