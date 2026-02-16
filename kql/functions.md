@@ -728,3 +728,7 @@ Fin de journée.
 
 extend Fin = endofday(Timestamp)
 
+## Cas d'usage : endofday
+
+En hunting avec Sentinel, endofday s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis endofday pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
