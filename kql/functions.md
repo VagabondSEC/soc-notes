@@ -756,3 +756,7 @@ extend Mois = getmonth(Timestamp)
 
 En hunting avec Sentinel, getmonth s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis getmonth pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## getday
+
+Nom du jour.
+
