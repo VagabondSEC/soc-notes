@@ -748,3 +748,7 @@ En hunting avec Sentinel, part_of_day s'intègre dans une requête KQL typique :
 
 Nom du mois.
 
+## Exemple : getmonth
+
+extend Mois = getmonth(Timestamp)
+
