@@ -736,3 +736,7 @@ En hunting avec Sentinel, endofday s'intègre dans une requête KQL typique : Se
 
 Partie de la journée (matin, après-midi...).
 
+## Exemple : part_of_day
+
+extend Part = part_of_day(Timestamp)
+
