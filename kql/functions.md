@@ -812,3 +812,7 @@ Répète une chaîne N fois (nouvel alias de repeat).
 
 print strrep("ab", 3)
 
+## Cas d'usage : strrep
+
+En hunting avec Sentinel, strrep s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis strrep pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
