@@ -808,3 +808,7 @@ En hunting avec Sentinel, parse_command_line s'intègre dans une requête KQL ty
 
 Répète une chaîne N fois (nouvel alias de repeat).
 
+## Exemple : strrep
+
+print strrep("ab", 3)
+
