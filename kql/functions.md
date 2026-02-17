@@ -796,3 +796,7 @@ En hunting avec Sentinel, todynamic s'intègre dans une requête KQL typique : S
 
 Parse une ligne de commande en arguments structurés.
 
+## Exemple : parse_command_line
+
+extend P = parse_command_line(CommandLine, "windows")
+
