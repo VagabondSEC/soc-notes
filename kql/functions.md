@@ -760,3 +760,7 @@ En hunting avec Sentinel, getmonth s'intègre dans une requête KQL typique : Se
 
 Nom du jour.
 
+## Exemple : getday
+
+extend Jour = getday(Timestamp)
+
