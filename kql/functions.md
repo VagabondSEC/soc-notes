@@ -784,3 +784,7 @@ En hunting avec Sentinel, bin_at s'intègre dans une requête KQL typique : Secu
 
 Convertit en type dynamique.
 
+## Exemple : todynamic
+
+extend D = todynamic(Raw)
+
