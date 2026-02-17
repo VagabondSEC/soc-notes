@@ -788,3 +788,7 @@ Convertit en type dynamique.
 
 extend D = todynamic(Raw)
 
+## Cas d'usage : todynamic
+
+En hunting avec Sentinel, todynamic s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis todynamic pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
