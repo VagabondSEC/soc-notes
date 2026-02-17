@@ -804,3 +804,7 @@ extend P = parse_command_line(CommandLine, "windows")
 
 En hunting avec Sentinel, parse_command_line s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis parse_command_line pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## strrep
+
+Répète une chaîne N fois (nouvel alias de repeat).
+
