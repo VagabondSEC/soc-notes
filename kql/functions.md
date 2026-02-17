@@ -772,3 +772,7 @@ En hunting avec Sentinel, getday s'intègre dans une requête KQL typique : Secu
 
 Bucket avec point d'ancrage.
 
+## Exemple : bin_at
+
+summarize count() by bin_at(Timestamp, 1d, datetime(2026-01-01))
+
