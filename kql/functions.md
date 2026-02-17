@@ -780,3 +780,7 @@ summarize count() by bin_at(Timestamp, 1d, datetime(2026-01-01))
 
 En hunting avec Sentinel, bin_at s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis bin_at pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
 
+## todynamic
+
+Convertit en type dynamique.
+
