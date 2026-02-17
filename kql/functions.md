@@ -764,3 +764,7 @@ Nom du jour.
 
 extend Jour = getday(Timestamp)
 
+## Cas d'usage : getday
+
+En hunting avec Sentinel, getday s'intègre dans une requête KQL typique : SecurityEvent | where TimeGenerated > ago(24h) puis getday pour agréger ou filtrer. Utile pour les investigations d'identité et les anomalies de connexion.
+
