@@ -48,3 +48,7 @@ ip.ttl <= 64
 
 Sur une capture réseau, ip.ttl permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## ip.proto
+
+Filtre par protocole IP (6=TCP, 17=UDP, 1=ICMP).
+
