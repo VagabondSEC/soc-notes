@@ -36,3 +36,7 @@ ip.dst == 8.8.8.8
 
 Sur une capture réseau, ip.dst permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## ip.ttl
+
+Filtre par TTL (détection d'OS fingerprinting).
+
