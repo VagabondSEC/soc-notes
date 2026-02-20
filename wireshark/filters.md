@@ -28,3 +28,7 @@ Sur une capture réseau, ip.src permet de filtrer rapidement les paquets pertine
 
 Filtre par IP destination.
 
+## Exemple : ip.dst
+
+ip.dst == 8.8.8.8
+
