@@ -44,3 +44,7 @@ Filtre par TTL (détection d'OS fingerprinting).
 
 ip.ttl <= 64
 
+## Cas d'usage : ip.ttl
+
+Sur une capture réseau, ip.ttl permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
