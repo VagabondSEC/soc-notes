@@ -16,3 +16,7 @@ Sur une capture réseau, ip.addr permet de filtrer rapidement les paquets pertin
 
 Filtre par IP source.
 
+## Exemple : ip.src
+
+ip.src == 10.0.0.5
+
