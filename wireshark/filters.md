@@ -40,3 +40,7 @@ Sur une capture réseau, ip.dst permet de filtrer rapidement les paquets pertine
 
 Filtre par TTL (détection d'OS fingerprinting).
 
+## Exemple : ip.ttl
+
+ip.ttl <= 64
+
