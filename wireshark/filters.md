@@ -104,3 +104,7 @@ Paquets avec flag SYN (début de connexion).
 
 tcp.flags.syn == 1
 
+## Cas d'usage : tcp.flags.syn
+
+Sur une capture réseau, tcp.flags.syn permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
