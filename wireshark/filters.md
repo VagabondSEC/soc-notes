@@ -52,3 +52,7 @@ Sur une capture réseau, ip.ttl permet de filtrer rapidement les paquets pertine
 
 Filtre par protocole IP (6=TCP, 17=UDP, 1=ICMP).
 
+## Exemple : ip.proto
+
+ip.proto == 6
+
