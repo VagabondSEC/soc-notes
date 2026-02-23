@@ -64,3 +64,7 @@ Sur une capture réseau, ip.proto permet de filtrer rapidement les paquets perti
 
 Filtre par port TCP (source ou destination).
 
+## Exemple : tcp.port
+
+tcp.port == 443
+
