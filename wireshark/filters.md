@@ -76,3 +76,7 @@ Sur une capture réseau, tcp.port permet de filtrer rapidement les paquets perti
 
 Filtre par port TCP source.
 
+## Exemple : tcp.srcport
+
+tcp.srcport == 4444
+
