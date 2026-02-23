@@ -56,3 +56,7 @@ Filtre par protocole IP (6=TCP, 17=UDP, 1=ICMP).
 
 ip.proto == 6
 
+## Cas d'usage : ip.proto
+
+Sur une capture réseau, ip.proto permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
