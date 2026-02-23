@@ -108,3 +108,7 @@ tcp.flags.syn == 1
 
 Sur une capture réseau, tcp.flags.syn permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## tcp.flags.ack
+
+Paquets avec flag ACK.
+
