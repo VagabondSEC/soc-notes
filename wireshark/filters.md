@@ -100,3 +100,7 @@ Sur une capture réseau, tcp.dstport permet de filtrer rapidement les paquets pe
 
 Paquets avec flag SYN (début de connexion).
 
+## Exemple : tcp.flags.syn
+
+tcp.flags.syn == 1
+
