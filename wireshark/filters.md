@@ -112,3 +112,7 @@ Sur une capture réseau, tcp.flags.syn permet de filtrer rapidement les paquets 
 
 Paquets avec flag ACK.
 
+## Exemple : tcp.flags.ack
+
+tcp.flags.ack == 1
+
