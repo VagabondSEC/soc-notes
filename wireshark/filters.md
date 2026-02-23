@@ -80,3 +80,7 @@ Filtre par port TCP source.
 
 tcp.srcport == 4444
 
+## Cas d'usage : tcp.srcport
+
+Sur une capture réseau, tcp.srcport permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
