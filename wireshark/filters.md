@@ -88,3 +88,7 @@ Sur une capture réseau, tcp.srcport permet de filtrer rapidement les paquets pe
 
 Filtre par port TCP destination.
 
+## Exemple : tcp.dstport
+
+tcp.dstport == 22
+
