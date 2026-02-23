@@ -92,3 +92,7 @@ Filtre par port TCP destination.
 
 tcp.dstport == 22
 
+## Cas d'usage : tcp.dstport
+
+Sur une capture réseau, tcp.dstport permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
