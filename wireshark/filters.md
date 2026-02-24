@@ -116,3 +116,7 @@ Paquets avec flag ACK.
 
 tcp.flags.ack == 1
 
+## Cas d'usage : tcp.flags.ack
+
+Sur une capture réseau, tcp.flags.ack permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
