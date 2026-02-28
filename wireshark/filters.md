@@ -152,3 +152,7 @@ Paquets avec flag PSH.
 
 tcp.flags.push == 1
 
+## Cas d'usage : tcp.flags.push
+
+Sur une capture réseau, tcp.flags.push permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
