@@ -148,3 +148,7 @@ Sur une capture réseau, tcp.flags.fin permet de filtrer rapidement les paquets 
 
 Paquets avec flag PSH.
 
+## Exemple : tcp.flags.push
+
+tcp.flags.push == 1
+
