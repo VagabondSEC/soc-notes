@@ -140,3 +140,7 @@ Paquets avec flag FIN (fin de connexion).
 
 tcp.flags.fin == 1
 
+## Cas d'usage : tcp.flags.fin
+
+Sur une capture réseau, tcp.flags.fin permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
