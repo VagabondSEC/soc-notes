@@ -136,3 +136,7 @@ Sur une capture réseau, tcp.flags.reset permet de filtrer rapidement les paquet
 
 Paquets avec flag FIN (fin de connexion).
 
+## Exemple : tcp.flags.fin
+
+tcp.flags.fin == 1
+
