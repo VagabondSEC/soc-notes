@@ -172,3 +172,7 @@ Sur une capture réseau, tcp.stream permet de filtrer rapidement les paquets per
 
 Filtre par numéro de séquence.
 
+## Exemple : tcp.seq
+
+tcp.seq == 1000
+
