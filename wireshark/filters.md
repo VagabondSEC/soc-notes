@@ -184,3 +184,7 @@ Sur une capture réseau, tcp.seq permet de filtrer rapidement les paquets pertin
 
 Filtre par taille de fenêtre (anomalies).
 
+## Exemple : tcp.window_size
+
+tcp.window_size < 1024
+
