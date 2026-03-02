@@ -160,3 +160,7 @@ Sur une capture réseau, tcp.flags.push permet de filtrer rapidement les paquets
 
 Filtre par flux TCP (numéro de stream).
 
+## Exemple : tcp.stream
+
+tcp.stream eq 42
+
