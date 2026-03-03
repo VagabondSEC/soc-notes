@@ -200,3 +200,7 @@ Paquets avec des problèmes d'analyse (retransmissions...).
 
 tcp.analysis.flags
 
+## Cas d'usage : tcp.analysis.flags
+
+Sur une capture réseau, tcp.analysis.flags permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
