@@ -232,3 +232,7 @@ Sur une capture réseau, tcp.analysis.zero_window permet de filtrer rapidement l
 
 ACK dupliqués (perte de paquets).
 
+## Exemple : tcp.analysis.duplicate_ack
+
+tcp.analysis.duplicate_ack
+
