@@ -256,3 +256,7 @@ Sur une capture réseau, udp.port permet de filtrer rapidement les paquets perti
 
 Filtre par longueur UDP.
 
+## Exemple : udp.length
+
+udp.length > 1000
+
