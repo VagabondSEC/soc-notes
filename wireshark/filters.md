@@ -280,3 +280,7 @@ Sur une capture réseau, http.request permet de filtrer rapidement les paquets p
 
 Réponses HTTP.
 
+## Exemple : http.response
+
+http.response
+
