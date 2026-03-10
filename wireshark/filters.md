@@ -344,3 +344,7 @@ Filtre par URI complète.
 
 http.uri contains "/admin"
 
+## Cas d'usage : http.uri
+
+Sur une capture réseau, http.uri permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
