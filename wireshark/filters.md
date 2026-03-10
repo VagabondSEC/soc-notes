@@ -328,3 +328,7 @@ Sur une capture réseau, http.host permet de filtrer rapidement les paquets pert
 
 Filtre par User-Agent.
 
+## Exemple : http.user_agent
+
+http.user_agent contains "curl"
+
