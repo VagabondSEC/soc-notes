@@ -340,3 +340,7 @@ Sur une capture réseau, http.user_agent permet de filtrer rapidement les paquet
 
 Filtre par URI complète.
 
+## Exemple : http.uri
+
+http.uri contains "/admin"
+
