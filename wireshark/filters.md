@@ -336,3 +336,7 @@ http.user_agent contains "curl"
 
 Sur une capture réseau, http.user_agent permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http.uri
+
+Filtre par URI complète.
+
