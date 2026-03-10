@@ -316,3 +316,7 @@ Sur une capture réseau, http.request.method permet de filtrer rapidement les pa
 
 Filtre par hôte HTTP (Host header).
 
+## Exemple : http.host
+
+http.host == "evil.example.com"
+
