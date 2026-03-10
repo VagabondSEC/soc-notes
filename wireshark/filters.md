@@ -308,3 +308,7 @@ Filtre par méthode HTTP.
 
 http.request.method == "POST"
 
+## Cas d'usage : http.request.method
+
+Sur une capture réseau, http.request.method permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
