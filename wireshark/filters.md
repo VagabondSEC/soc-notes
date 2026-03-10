@@ -320,3 +320,7 @@ Filtre par hôte HTTP (Host header).
 
 http.host == "evil.example.com"
 
+## Cas d'usage : http.host
+
+Sur une capture réseau, http.host permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
