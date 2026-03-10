@@ -304,3 +304,7 @@ Sur une capture réseau, http.response.code permet de filtrer rapidement les paq
 
 Filtre par méthode HTTP.
 
+## Exemple : http.request.method
+
+http.request.method == "POST"
+
