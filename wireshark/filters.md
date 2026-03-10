@@ -292,3 +292,7 @@ Sur une capture réseau, http.response permet de filtrer rapidement les paquets 
 
 Filtre par code de réponse HTTP.
 
+## Exemple : http.response.code
+
+http.response.code == 404
+
