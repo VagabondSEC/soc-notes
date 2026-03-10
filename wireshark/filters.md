@@ -324,3 +324,7 @@ http.host == "evil.example.com"
 
 Sur une capture réseau, http.host permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http.user_agent
+
+Filtre par User-Agent.
+
