@@ -360,3 +360,7 @@ http.request.uri.query contains "cmd="
 
 Sur une capture réseau, http.request.uri.query permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http.content_type
+
+Filtre par type de contenu.
+
