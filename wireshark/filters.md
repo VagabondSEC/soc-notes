@@ -348,3 +348,7 @@ http.uri contains "/admin"
 
 Sur une capture réseau, http.uri permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http.request.uri.query
+
+Filtre par query string.
+
