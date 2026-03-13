@@ -364,3 +364,7 @@ Sur une capture réseau, http.request.uri.query permet de filtrer rapidement les
 
 Filtre par type de contenu.
 
+## Exemple : http.content_type
+
+http.content_type == "application/x-www-form-urlencoded"
+
