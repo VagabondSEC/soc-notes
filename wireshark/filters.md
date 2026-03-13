@@ -352,3 +352,7 @@ Sur une capture réseau, http.uri permet de filtrer rapidement les paquets perti
 
 Filtre par query string.
 
+## Exemple : http.request.uri.query
+
+http.request.uri.query contains "cmd="
+
