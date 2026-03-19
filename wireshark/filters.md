@@ -376,3 +376,7 @@ Sur une capture réseau, http.content_type permet de filtrer rapidement les paqu
 
 Header Authorization (attention aux credentials en clair).
 
+## Exemple : http.authorization
+
+http.authorization
+
