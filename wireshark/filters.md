@@ -388,3 +388,7 @@ Sur une capture réseau, http.authorization permet de filtrer rapidement les paq
 
 Cookies HTTP.
 
+## Exemple : http.cookie
+
+http.cookie contains "sessionid"
+
