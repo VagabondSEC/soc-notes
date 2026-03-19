@@ -412,3 +412,7 @@ Sur une capture réseau, http2.headers permet de filtrer rapidement les paquets 
 
 Filtre par nom de domaine interrogé.
 
+## Exemple : dns.qry.name
+
+dns.qry.name contains "pastebin.com"
+
