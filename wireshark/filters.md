@@ -396,3 +396,7 @@ http.cookie contains "sessionid"
 
 Sur une capture réseau, http.cookie permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http2.headers
+
+En-têtes HTTP/2.
+
