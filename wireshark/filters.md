@@ -424,3 +424,7 @@ Sur une capture réseau, dns.qry.name permet de filtrer rapidement les paquets p
 
 Distinguer requêtes (0) et réponses (1).
 
+## Exemple : dns.flags.response
+
+dns.flags.response == 1
+
