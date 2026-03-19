@@ -400,3 +400,7 @@ Sur une capture réseau, http.cookie permet de filtrer rapidement les paquets pe
 
 En-têtes HTTP/2.
 
+## Exemple : http2.headers
+
+http2.headers
+
