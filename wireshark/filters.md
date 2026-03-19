@@ -420,3 +420,7 @@ dns.qry.name contains "pastebin.com"
 
 Sur une capture réseau, dns.qry.name permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dns.flags.response
+
+Distinguer requêtes (0) et réponses (1).
+
