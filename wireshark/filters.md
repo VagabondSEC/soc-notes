@@ -372,3 +372,7 @@ http.content_type == "application/x-www-form-urlencoded"
 
 Sur une capture réseau, http.content_type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## http.authorization
+
+Header Authorization (attention aux credentials en clair).
+
