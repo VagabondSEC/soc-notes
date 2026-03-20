@@ -476,3 +476,7 @@ Champs TXT DNS (exfil).
 
 dns.txt
 
+## Cas d'usage : dns.txt
+
+Sur une capture réseau, dns.txt permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
