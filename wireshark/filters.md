@@ -448,3 +448,7 @@ Sur une capture réseau, dns.qry.type permet de filtrer rapidement les paquets p
 
 TTL des réponses DNS (Tunneling DNS).
 
+## Exemple : dns.resp.ttl
+
+dns.resp.ttl < 60
+
