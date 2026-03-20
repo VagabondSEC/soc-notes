@@ -428,3 +428,7 @@ Distinguer requêtes (0) et réponses (1).
 
 dns.flags.response == 1
 
+## Cas d'usage : dns.flags.response
+
+Sur une capture réseau, dns.flags.response permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
