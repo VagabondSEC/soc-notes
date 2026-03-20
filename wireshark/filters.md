@@ -452,3 +452,7 @@ TTL des réponses DNS (Tunneling DNS).
 
 dns.resp.ttl < 60
 
+## Cas d'usage : dns.resp.ttl
+
+Sur une capture réseau, dns.resp.ttl permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
