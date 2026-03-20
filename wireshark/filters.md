@@ -464,3 +464,7 @@ Taille des paquets DNS (tunneling).
 
 dns.len > 200
 
+## Cas d'usage : dns.len
+
+Sur une capture réseau, dns.len permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
