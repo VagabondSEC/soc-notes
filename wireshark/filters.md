@@ -484,3 +484,7 @@ Sur une capture réseau, dns.txt permet de filtrer rapidement les paquets pertin
 
 Filtre par type de handshake TLS (1=ClientHello).
 
+## Exemple : tls.handshake.type
+
+tls.handshake.type == 1
+
