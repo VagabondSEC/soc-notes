@@ -440,3 +440,7 @@ Type de requête DNS (1=A, 28=AAAA, 15=MX, 16=TXT).
 
 dns.qry.type == 1
 
+## Cas d'usage : dns.qry.type
+
+Sur une capture réseau, dns.qry.type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
