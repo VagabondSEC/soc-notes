@@ -472,3 +472,7 @@ Sur une capture réseau, dns.len permet de filtrer rapidement les paquets pertin
 
 Champs TXT DNS (exfil).
 
+## Exemple : dns.txt
+
+dns.txt
+
