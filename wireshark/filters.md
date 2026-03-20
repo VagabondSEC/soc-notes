@@ -460,3 +460,7 @@ Sur une capture réseau, dns.resp.ttl permet de filtrer rapidement les paquets p
 
 Taille des paquets DNS (tunneling).
 
+## Exemple : dns.len
+
+dns.len > 200
+
