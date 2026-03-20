@@ -456,3 +456,7 @@ dns.resp.ttl < 60
 
 Sur une capture réseau, dns.resp.ttl permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dns.len
+
+Taille des paquets DNS (tunneling).
+
