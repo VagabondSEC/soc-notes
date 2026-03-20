@@ -436,3 +436,7 @@ Sur une capture réseau, dns.flags.response permet de filtrer rapidement les paq
 
 Type de requête DNS (1=A, 28=AAAA, 15=MX, 16=TXT).
 
+## Exemple : dns.qry.type
+
+dns.qry.type == 1
+
