@@ -432,3 +432,7 @@ dns.flags.response == 1
 
 Sur une capture réseau, dns.flags.response permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dns.qry.type
+
+Type de requête DNS (1=A, 28=AAAA, 15=MX, 16=TXT).
+
