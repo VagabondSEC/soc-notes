@@ -468,3 +468,7 @@ dns.len > 200
 
 Sur une capture réseau, dns.len permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dns.txt
+
+Champs TXT DNS (exfil).
+
