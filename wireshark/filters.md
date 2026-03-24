@@ -532,3 +532,7 @@ Sur une capture réseau, tls.alert_message permet de filtrer rapidement les paqu
 
 Certificats présentés.
 
+## Exemple : tls.handshake.certificate
+
+tls.handshake.certificate
+
