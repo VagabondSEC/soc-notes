@@ -544,3 +544,7 @@ Sur une capture réseau, tls.handshake.certificate permet de filtrer rapidement 
 
 Ancien nom du filtre TLS (pré-Wireshark 3).
 
+## Exemple : ssl.handshake.type
+
+ssl.handshake.type == 1
+
