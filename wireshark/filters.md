@@ -512,3 +512,7 @@ Version TLS.
 
 tls.record.version == 0x0303
 
+## Cas d'usage : tls.record.version
+
+Sur une capture réseau, tls.record.version permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
