@@ -524,3 +524,7 @@ Alertes TLS (handshake échoués).
 
 tls.alert_message
 
+## Cas d'usage : tls.alert_message
+
+Sur une capture réseau, tls.alert_message permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
