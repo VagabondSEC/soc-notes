@@ -492,3 +492,7 @@ tls.handshake.type == 1
 
 Sur une capture réseau, tls.handshake.type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## tls.handshake.extensions_server_name
+
+SNI : le domaine demandé en clair dans TLS.
+
