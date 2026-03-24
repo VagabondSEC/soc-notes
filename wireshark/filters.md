@@ -508,3 +508,7 @@ Sur une capture réseau, tls.handshake.extensions_server_name permet de filtrer 
 
 Version TLS.
 
+## Exemple : tls.record.version
+
+tls.record.version == 0x0303
+
