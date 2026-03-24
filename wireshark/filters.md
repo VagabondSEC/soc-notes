@@ -496,3 +496,7 @@ Sur une capture réseau, tls.handshake.type permet de filtrer rapidement les paq
 
 SNI : le domaine demandé en clair dans TLS.
 
+## Exemple : tls.handshake.extensions_server_name
+
+tls.handshake.extensions_server_name contains "microsoft"
+
