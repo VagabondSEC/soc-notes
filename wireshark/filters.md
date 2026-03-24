@@ -548,3 +548,7 @@ Ancien nom du filtre TLS (pré-Wireshark 3).
 
 ssl.handshake.type == 1
 
+## Cas d'usage : ssl.handshake.type
+
+Sur une capture réseau, ssl.handshake.type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
