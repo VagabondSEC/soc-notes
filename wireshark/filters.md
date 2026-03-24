@@ -500,3 +500,7 @@ SNI : le domaine demandé en clair dans TLS.
 
 tls.handshake.extensions_server_name contains "microsoft"
 
+## Cas d'usage : tls.handshake.extensions_server_name
+
+Sur une capture réseau, tls.handshake.extensions_server_name permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
