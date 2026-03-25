@@ -580,3 +580,7 @@ Sur une capture réseau, ftp.response.code permet de filtrer rapidement les paqu
 
 Commandes SMB2 (numéro d'opcode).
 
+## Exemple : smb2.cmd
+
+smb2.cmd == 5
+
