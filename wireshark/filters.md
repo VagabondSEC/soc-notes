@@ -576,3 +576,7 @@ ftp.response.code == 530
 
 Sur une capture réseau, ftp.response.code permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## smb2.cmd
+
+Commandes SMB2 (numéro d'opcode).
+
