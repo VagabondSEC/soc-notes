@@ -560,3 +560,7 @@ Commandes FTP.
 
 ftp.request.command == "USER"
 
+## Cas d'usage : ftp.request.command
+
+Sur une capture réseau, ftp.request.command permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
