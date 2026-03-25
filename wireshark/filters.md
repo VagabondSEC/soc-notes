@@ -572,3 +572,7 @@ Codes de réponse FTP.
 
 ftp.response.code == 530
 
+## Cas d'usage : ftp.response.code
+
+Sur une capture réseau, ftp.response.code permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
