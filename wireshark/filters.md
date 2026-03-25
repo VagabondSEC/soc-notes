@@ -568,3 +568,7 @@ Sur une capture réseau, ftp.request.command permet de filtrer rapidement les pa
 
 Codes de réponse FTP.
 
+## Exemple : ftp.response.code
+
+ftp.response.code == 530
+
