@@ -588,3 +588,7 @@ smb2.cmd == 5
 
 Sur une capture réseau, smb2.cmd permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## smb2.filename
+
+Fichiers accédés en SMB2.
+
