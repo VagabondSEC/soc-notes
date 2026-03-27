@@ -628,3 +628,7 @@ Sur une capture réseau, smb2.access_mask permet de filtrer rapidement les paque
 
 Type ICMP (8=echo request, 0=echo reply).
 
+## Exemple : icmp.type
+
+icmp.type == 8
+
