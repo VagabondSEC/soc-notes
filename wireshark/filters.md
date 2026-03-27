@@ -596,3 +596,7 @@ Fichiers accédés en SMB2.
 
 smb2.filename contains "password"
 
+## Cas d'usage : smb2.filename
+
+Sur une capture réseau, smb2.filename permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
