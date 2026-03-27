@@ -608,3 +608,7 @@ Statuts NT SMB2 (0xC000006A = bad password).
 
 smb2.nt_status == 0xc000006a
 
+## Cas d'usage : smb2.nt_status
+
+Sur une capture réseau, smb2.nt_status permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
