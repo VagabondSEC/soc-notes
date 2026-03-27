@@ -592,3 +592,7 @@ Sur une capture réseau, smb2.cmd permet de filtrer rapidement les paquets perti
 
 Fichiers accédés en SMB2.
 
+## Exemple : smb2.filename
+
+smb2.filename contains "password"
+
