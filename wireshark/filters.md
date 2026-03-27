@@ -604,3 +604,7 @@ Sur une capture réseau, smb2.filename permet de filtrer rapidement les paquets 
 
 Statuts NT SMB2 (0xC000006A = bad password).
 
+## Exemple : smb2.nt_status
+
+smb2.nt_status == 0xc000006a
+
