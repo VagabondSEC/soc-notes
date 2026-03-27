@@ -620,3 +620,7 @@ Masque d'accès SMB2.
 
 smb2.access_mask
 
+## Cas d'usage : smb2.access_mask
+
+Sur une capture réseau, smb2.access_mask permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
