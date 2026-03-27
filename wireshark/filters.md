@@ -616,3 +616,7 @@ Sur une capture réseau, smb2.nt_status permet de filtrer rapidement les paquets
 
 Masque d'accès SMB2.
 
+## Exemple : smb2.access_mask
+
+smb2.access_mask
+
