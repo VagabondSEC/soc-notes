@@ -640,3 +640,7 @@ Sur une capture réseau, icmp.type permet de filtrer rapidement les paquets pert
 
 Code ICMP.
 
+## Exemple : icmp.code
+
+icmp.code == 0
+
