@@ -652,3 +652,7 @@ Sur une capture réseau, icmp.code permet de filtrer rapidement les paquets pert
 
 Checksum ICMP.
 
+## Exemple : icmp.checksum
+
+icmp.checksum
+
