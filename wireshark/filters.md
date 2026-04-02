@@ -668,3 +668,7 @@ Opcode ARP (1=request, 2=reply).
 
 arp.opcode == 1
 
+## Cas d'usage : arp.opcode
+
+Sur une capture réseau, arp.opcode permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
