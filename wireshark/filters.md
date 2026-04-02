@@ -664,3 +664,7 @@ Sur une capture réseau, icmp.checksum permet de filtrer rapidement les paquets 
 
 Opcode ARP (1=request, 2=reply).
 
+## Exemple : arp.opcode
+
+arp.opcode == 1
+
