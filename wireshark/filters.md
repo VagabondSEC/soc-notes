@@ -644,3 +644,7 @@ Code ICMP.
 
 icmp.code == 0
 
+## Cas d'usage : icmp.code
+
+Sur une capture réseau, icmp.code permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
