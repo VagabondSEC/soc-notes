@@ -716,3 +716,7 @@ Hostname déclaré en DHCP.
 
 dhcp.option.hostname contains "laptop"
 
+## Cas d'usage : dhcp.option.hostname
+
+Sur une capture réseau, dhcp.option.hostname permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
