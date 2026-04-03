@@ -712,3 +712,7 @@ Sur une capture réseau, dhcp.option.dhcp permet de filtrer rapidement les paque
 
 Hostname déclaré en DHCP.
 
+## Exemple : dhcp.option.hostname
+
+dhcp.option.hostname contains "laptop"
+
