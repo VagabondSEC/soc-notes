@@ -724,3 +724,7 @@ Sur une capture réseau, dhcp.option.hostname permet de filtrer rapidement les p
 
 IP demandée en DHCP.
 
+## Exemple : bootp.option.requested_ip
+
+bootp.option.requested_ip == 192.168.1.50
+
