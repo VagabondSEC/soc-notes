@@ -704,3 +704,7 @@ Type de message DHCP (1=Discover, 2=Offer, 3=Request).
 
 dhcp.option.dhcp == 3
 
+## Cas d'usage : dhcp.option.dhcp
+
+Sur une capture réseau, dhcp.option.dhcp permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
