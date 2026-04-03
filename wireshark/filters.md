@@ -752,3 +752,7 @@ Codes de réponse SMTP.
 
 smtp.rsp.code == 554
 
+## Cas d'usage : smtp.rsp.code
+
+Sur une capture réseau, smtp.rsp.code permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
