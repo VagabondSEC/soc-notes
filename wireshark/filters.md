@@ -736,3 +736,7 @@ Sur une capture réseau, bootp.option.requested_ip permet de filtrer rapidement 
 
 Commandes SMTP.
 
+## Exemple : smtp.req.command
+
+smtp.req.command == "RCPT"
+
