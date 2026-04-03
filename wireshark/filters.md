@@ -728,3 +728,7 @@ IP demandée en DHCP.
 
 bootp.option.requested_ip == 192.168.1.50
 
+## Cas d'usage : bootp.option.requested_ip
+
+Sur une capture réseau, bootp.option.requested_ip permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
