@@ -696,3 +696,7 @@ arp.duplicate-address-detected
 
 Sur une capture réseau, arp.duplicate-address-detected permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dhcp.option.dhcp
+
+Type de message DHCP (1=Discover, 2=Offer, 3=Request).
+
