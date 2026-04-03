@@ -748,3 +748,7 @@ Sur une capture réseau, smtp.req.command permet de filtrer rapidement les paque
 
 Codes de réponse SMTP.
 
+## Exemple : smtp.rsp.code
+
+smtp.rsp.code == 554
+
