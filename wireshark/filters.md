@@ -708,3 +708,7 @@ dhcp.option.dhcp == 3
 
 Sur une capture réseau, dhcp.option.dhcp permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## dhcp.option.hostname
+
+Hostname déclaré en DHCP.
+
