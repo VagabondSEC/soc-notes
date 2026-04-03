@@ -700,3 +700,7 @@ Sur une capture réseau, arp.duplicate-address-detected permet de filtrer rapide
 
 Type de message DHCP (1=Discover, 2=Offer, 3=Request).
 
+## Exemple : dhcp.option.dhcp
+
+dhcp.option.dhcp == 3
+
