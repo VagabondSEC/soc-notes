@@ -744,3 +744,7 @@ smtp.req.command == "RCPT"
 
 Sur une capture réseau, smtp.req.command permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## smtp.rsp.code
+
+Codes de réponse SMTP.
+
