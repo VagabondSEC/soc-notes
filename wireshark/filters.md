@@ -764,3 +764,7 @@ Commandes IMAP.
 
 imap.command == "LOGIN"
 
+## Cas d'usage : imap.command
+
+Sur une capture réseau, imap.command permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
