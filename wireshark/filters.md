@@ -760,3 +760,7 @@ Sur une capture réseau, smtp.rsp.code permet de filtrer rapidement les paquets 
 
 Commandes IMAP.
 
+## Exemple : imap.command
+
+imap.command == "LOGIN"
+
