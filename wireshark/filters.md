@@ -788,3 +788,7 @@ Type de message Kerberos (10=AS-REQ, 11=AS-REP, 12=TGS-REQ).
 
 kerberos.msg_type == 12
 
+## Cas d'usage : kerberos.msg_type
+
+Sur une capture réseau, kerberos.msg_type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
