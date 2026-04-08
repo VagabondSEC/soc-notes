@@ -772,3 +772,7 @@ Sur une capture réseau, imap.command permet de filtrer rapidement les paquets p
 
 Commandes POP3.
 
+## Exemple : pop.command
+
+pop.command == "USER"
+
