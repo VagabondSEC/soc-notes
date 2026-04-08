@@ -780,3 +780,7 @@ pop.command == "USER"
 
 Sur une capture réseau, pop.command permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## kerberos.msg_type
+
+Type de message Kerberos (10=AS-REQ, 11=AS-REP, 12=TGS-REQ).
+
