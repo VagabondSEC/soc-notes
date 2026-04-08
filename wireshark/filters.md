@@ -784,3 +784,7 @@ Sur une capture réseau, pop.command permet de filtrer rapidement les paquets pe
 
 Type de message Kerberos (10=AS-REQ, 11=AS-REP, 12=TGS-REQ).
 
+## Exemple : kerberos.msg_type
+
+kerberos.msg_type == 12
+
