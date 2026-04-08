@@ -776,3 +776,7 @@ Commandes POP3.
 
 pop.command == "USER"
 
+## Cas d'usage : pop.command
+
+Sur une capture réseau, pop.command permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
