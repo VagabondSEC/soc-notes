@@ -812,3 +812,7 @@ Chiffre Kerberos (type d'encryption).
 
 kerberos.cipher == 18
 
+## Cas d'usage : kerberos.cipher
+
+Sur une capture réseau, kerberos.cipher permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
