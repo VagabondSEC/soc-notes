@@ -820,3 +820,7 @@ Sur une capture réseau, kerberos.cipher permet de filtrer rapidement les paquet
 
 Noms NetBIOS.
 
+## Exemple : nbns.name
+
+nbns.name contains "DC01"
+
