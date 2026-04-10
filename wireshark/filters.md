@@ -792,3 +792,7 @@ kerberos.msg_type == 12
 
 Sur une capture réseau, kerberos.msg_type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## kerberos.CNameString
+
+Nom du principal dans Kerberos.
+
