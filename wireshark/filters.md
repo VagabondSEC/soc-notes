@@ -796,3 +796,7 @@ Sur une capture réseau, kerberos.msg_type permet de filtrer rapidement les paqu
 
 Nom du principal dans Kerberos.
 
+## Exemple : kerberos.CNameString
+
+kerberos.CNameString contains "krbtgt"
+
