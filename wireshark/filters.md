@@ -824,3 +824,7 @@ Noms NetBIOS.
 
 nbns.name contains "DC01"
 
+## Cas d'usage : nbns.name
+
+Sur une capture réseau, nbns.name permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
