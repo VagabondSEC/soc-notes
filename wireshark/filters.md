@@ -800,3 +800,7 @@ Nom du principal dans Kerberos.
 
 kerberos.CNameString contains "krbtgt"
 
+## Cas d'usage : kerberos.CNameString
+
+Sur une capture réseau, kerberos.CNameString permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
