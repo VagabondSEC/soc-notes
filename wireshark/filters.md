@@ -860,3 +860,7 @@ Requêtes MySQL.
 
 mysql.query contains "SELECT"
 
+## Cas d'usage : mysql.query
+
+Sur une capture réseau, mysql.query permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
