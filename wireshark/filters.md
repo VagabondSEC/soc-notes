@@ -808,3 +808,7 @@ Sur une capture réseau, kerberos.CNameString permet de filtrer rapidement les p
 
 Chiffre Kerberos (type d'encryption).
 
+## Exemple : kerberos.cipher
+
+kerberos.cipher == 18
+
