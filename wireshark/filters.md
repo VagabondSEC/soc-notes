@@ -872,3 +872,7 @@ Requêtes MongoDB.
 
 mongo.query
 
+## Cas d'usage : mongo.query
+
+Sur une capture réseau, mongo.query permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
