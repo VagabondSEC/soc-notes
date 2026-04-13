@@ -916,3 +916,7 @@ Sur une capture réseau, frame.time_delta permet de filtrer rapidement les paque
 
 Protocoles empilés dans la trame.
 
+## Exemple : frame.protocols
+
+frame.protocols contains "tls"
+
