@@ -892,3 +892,7 @@ Sur une capture réseau, websocket permet de filtrer rapidement les paquets pert
 
 Taille des trames.
 
+## Exemple : frame.len
+
+frame.len > 1500
+
