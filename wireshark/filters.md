@@ -896,3 +896,7 @@ Taille des trames.
 
 frame.len > 1500
 
+## Cas d'usage : frame.len
+
+Sur une capture réseau, frame.len permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
