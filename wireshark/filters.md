@@ -920,3 +920,7 @@ Protocoles empilés dans la trame.
 
 frame.protocols contains "tls"
 
+## Cas d'usage : frame.protocols
+
+Sur une capture réseau, frame.protocols permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
