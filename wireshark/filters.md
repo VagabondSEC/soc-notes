@@ -904,3 +904,7 @@ Sur une capture réseau, frame.len permet de filtrer rapidement les paquets pert
 
 Délai depuis la trame précédente (beaconing).
 
+## Exemple : frame.time_delta
+
+frame.time_delta > 60
+
