@@ -912,3 +912,7 @@ frame.time_delta > 60
 
 Sur une capture réseau, frame.time_delta permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## frame.protocols
+
+Protocoles empilés dans la trame.
+
