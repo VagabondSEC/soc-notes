@@ -900,3 +900,7 @@ frame.len > 1500
 
 Sur une capture réseau, frame.len permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## frame.time_delta
+
+Délai depuis la trame précédente (beaconing).
+
