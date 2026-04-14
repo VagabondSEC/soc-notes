@@ -928,3 +928,7 @@ Sur une capture réseau, frame.protocols permet de filtrer rapidement les paquet
 
 Adresse MAC source.
 
+## Exemple : eth.src
+
+eth.src == 00:11:22:33:44:55
+
