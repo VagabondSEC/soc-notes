@@ -944,3 +944,7 @@ Adresse MAC destination.
 
 eth.dst == ff:ff:ff:ff:ff:ff
 
+## Cas d'usage : eth.dst
+
+Sur une capture réseau, eth.dst permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
