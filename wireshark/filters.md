@@ -952,3 +952,7 @@ Sur une capture réseau, eth.dst permet de filtrer rapidement les paquets pertin
 
 Filtre par VLAN.
 
+## Exemple : vlan.id
+
+vlan.id == 100
+
