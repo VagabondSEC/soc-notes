@@ -940,3 +940,7 @@ Sur une capture réseau, eth.src permet de filtrer rapidement les paquets pertin
 
 Adresse MAC destination.
 
+## Exemple : eth.dst
+
+eth.dst == ff:ff:ff:ff:ff:ff
+
