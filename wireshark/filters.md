@@ -936,3 +936,7 @@ eth.src == 00:11:22:33:44:55
 
 Sur une capture réseau, eth.src permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## eth.dst
+
+Adresse MAC destination.
+
