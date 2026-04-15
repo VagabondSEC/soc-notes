@@ -968,3 +968,7 @@ BSSID Wi-Fi.
 
 wlan.bssid == 00:11:22:33:44:55
 
+## Cas d'usage : wlan.bssid
+
+Sur une capture réseau, wlan.bssid permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
