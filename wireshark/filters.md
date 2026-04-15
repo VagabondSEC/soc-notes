@@ -972,3 +972,7 @@ wlan.bssid == 00:11:22:33:44:55
 
 Sur une capture réseau, wlan.bssid permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## wlan.fc.type_subtype
+
+Type/sous-type de trame Wi-Fi.
+
