@@ -1000,3 +1000,7 @@ Sur une capture réseau, usb.transfer_type permet de filtrer rapidement les paqu
 
 Données BLE (Beacons).
 
+## Exemple : btcommon.eir_ad.advertising_data
+
+btcommon.eir_ad.advertising_data
+
