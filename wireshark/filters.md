@@ -1008,3 +1008,7 @@ btcommon.eir_ad.advertising_data
 
 Sur une capture réseau, btcommon.eir_ad.advertising_data permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## data.data
+
+Données brutes d'une trame.
+
