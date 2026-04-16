@@ -988,3 +988,7 @@ Sur une capture réseau, wlan.fc.type_subtype permet de filtrer rapidement les p
 
 Type de transfert USB.
 
+## Exemple : usb.transfer_type
+
+usb.transfer_type
+
