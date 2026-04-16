@@ -1024,3 +1024,7 @@ Sur une capture réseau, data.data permet de filtrer rapidement les paquets pert
 
 Recherche plein texte dans la charge utile.
 
+## Exemple : text
+
+frame contains "flag{"
+
