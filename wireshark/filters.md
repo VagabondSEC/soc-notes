@@ -1012,3 +1012,7 @@ Sur une capture réseau, btcommon.eir_ad.advertising_data permet de filtrer rapi
 
 Données brutes d'une trame.
 
+## Exemple : data.data
+
+data.data contains 4d:5a:90
+
