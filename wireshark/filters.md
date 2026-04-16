@@ -980,3 +980,7 @@ Type/sous-type de trame Wi-Fi.
 
 wlan.fc.type_subtype == 8
 
+## Cas d'usage : wlan.fc.type_subtype
+
+Sur une capture réseau, wlan.fc.type_subtype permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
