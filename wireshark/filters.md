@@ -984,3 +984,7 @@ wlan.fc.type_subtype == 8
 
 Sur une capture réseau, wlan.fc.type_subtype permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## usb.transfer_type
+
+Type de transfert USB.
+
