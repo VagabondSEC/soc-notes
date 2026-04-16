@@ -992,3 +992,7 @@ Type de transfert USB.
 
 usb.transfer_type
 
+## Cas d'usage : usb.transfer_type
+
+Sur une capture réseau, usb.transfer_type permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
+
