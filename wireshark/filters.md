@@ -1020,3 +1020,7 @@ data.data contains 4d:5a:90
 
 Sur une capture réseau, data.data permet de filtrer rapidement les paquets pertinents avant d'exporter le flux. Combiner avec tshark en CLI pour automatiser l'analyse sur de gros PCAP.
 
+## text
+
+Recherche plein texte dans la charge utile.
+
