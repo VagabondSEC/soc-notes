@@ -16,3 +16,7 @@ Dans le mapping de détection, Command and Scripting Interpreter sert de référ
 
 PowerShell utilisé de manière malveillante, souvent avec encodage.
 
+## Exemple : T1059.001 - PowerShell
+
+Détection : ScriptBlock Logging (Event 4104), Module Logging (4103), commandes -enc, -e, IEX
+
