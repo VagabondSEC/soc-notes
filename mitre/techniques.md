@@ -60,3 +60,7 @@ Détection : python.exe -c, -c exec, pip install depuis des repos suspects
 
 Dans le mapping de détection, Python sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1059.007 - JavaScript
+
+JavaScript exécuté hors navigateur (Node.js, WScript).
+
