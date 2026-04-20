@@ -32,3 +32,7 @@ cmd.exe utilisé pour exécuter des commandes.
 
 Détection : 4688 avec cmd.exe /c, chaînes suspectes (whoami, net user, certutil)
 
+## Cas d'usage : T1059.003 - Windows Command Shell
+
+Dans le mapping de détection, Windows Command Shell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
