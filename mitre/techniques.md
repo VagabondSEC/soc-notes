@@ -28,3 +28,7 @@ Dans le mapping de détection, PowerShell sert de référence pour identifier le
 
 cmd.exe utilisé pour exécuter des commandes.
 
+## Exemple : T1059.003 - Windows Command Shell
+
+Détection : 4688 avec cmd.exe /c, chaînes suspectes (whoami, net user, certutil)
+
