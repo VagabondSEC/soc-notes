@@ -12,3 +12,7 @@ Détection : surveiller Event ID 4688 (process creation) avec CommandLine conten
 
 Dans le mapping de détection, Command and Scripting Interpreter sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1059.001 - PowerShell
+
+PowerShell utilisé de manière malveillante, souvent avec encodage.
+
