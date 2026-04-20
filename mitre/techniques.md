@@ -44,3 +44,7 @@ Shell Unix (bash, sh) pour exécuter des commandes.
 
 Détection : auditd execve, EDR sur /bin/sh -c
 
+## Cas d'usage : T1059.004 - Unix Shell
+
+Dans le mapping de détection, Unix Shell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
