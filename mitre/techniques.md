@@ -20,3 +20,7 @@ PowerShell utilisé de manière malveillante, souvent avec encodage.
 
 Détection : ScriptBlock Logging (Event 4104), Module Logging (4103), commandes -enc, -e, IEX
 
+## Cas d'usage : T1059.001 - PowerShell
+
+Dans le mapping de détection, PowerShell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
