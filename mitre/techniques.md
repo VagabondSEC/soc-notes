@@ -48,3 +48,7 @@ Détection : auditd execve, EDR sur /bin/sh -c
 
 Dans le mapping de détection, Unix Shell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1059.006 - Python
+
+Python utilisé pour exécuter du code malveillant.
+
