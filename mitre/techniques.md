@@ -64,3 +64,7 @@ Dans le mapping de détection, Python sert de référence pour identifier les la
 
 JavaScript exécuté hors navigateur (Node.js, WScript).
 
+## Exemple : T1059.007 - JavaScript
+
+Détection : wscript.exe, cscript.exe, node.exe avec scripts suspects
+
