@@ -24,3 +24,7 @@ Détection : ScriptBlock Logging (Event 4104), Module Logging (4103), commandes 
 
 Dans le mapping de détection, PowerShell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1059.003 - Windows Command Shell
+
+cmd.exe utilisé pour exécuter des commandes.
+
