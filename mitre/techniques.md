@@ -8,3 +8,7 @@ Exécution de commandes via des interpréteurs (cmd, PowerShell, bash, Python).
 
 Détection : surveiller Event ID 4688 (process creation) avec CommandLine contenant powershell.exe -enc
 
+## Cas d'usage : T1059 - Command and Scripting Interpreter
+
+Dans le mapping de détection, Command and Scripting Interpreter sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
