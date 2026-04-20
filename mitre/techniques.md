@@ -68,3 +68,7 @@ JavaScript exécuté hors navigateur (Node.js, WScript).
 
 Détection : wscript.exe, cscript.exe, node.exe avec scripts suspects
 
+## Cas d'usage : T1059.007 - JavaScript
+
+Dans le mapping de détection, JavaScript sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
