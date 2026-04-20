@@ -52,3 +52,7 @@ Dans le mapping de détection, Unix Shell sert de référence pour identifier le
 
 Python utilisé pour exécuter du code malveillant.
 
+## Exemple : T1059.006 - Python
+
+Détection : python.exe -c, -c exec, pip install depuis des repos suspects
+
