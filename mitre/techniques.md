@@ -40,3 +40,7 @@ Dans le mapping de détection, Windows Command Shell sert de référence pour id
 
 Shell Unix (bash, sh) pour exécuter des commandes.
 
+## Exemple : T1059.004 - Unix Shell
+
+Détection : auditd execve, EDR sur /bin/sh -c
+
