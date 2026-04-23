@@ -88,3 +88,7 @@ Dans le mapping de détection, Network Device CLI sert de référence pour ident
 
 Injection de code dans des processus légitimes.
 
+## Exemple : T1055 - Process Injection
+
+Détection : 4688 + appels API (VirtualAllocEx, WriteProcessMemory, CreateRemoteThread), Sysmon Event 8 (CreateRemoteThread)
+
