@@ -100,3 +100,7 @@ Dans le mapping de détection, Process Injection sert de référence pour identi
 
 Injection d'une DLL dans un processus distant.
 
+## Exemple : T1055.001 - DLL Injection
+
+Détection : Sysmon Event 7 (ImageLoaded) avec DLL inattendue dans un processus
+
