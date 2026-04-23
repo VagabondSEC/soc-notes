@@ -104,3 +104,7 @@ Injection d'une DLL dans un processus distant.
 
 Détection : Sysmon Event 7 (ImageLoaded) avec DLL inattendue dans un processus
 
+## Cas d'usage : T1055.001 - DLL Injection
+
+Dans le mapping de détection, DLL Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
