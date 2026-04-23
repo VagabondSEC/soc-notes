@@ -112,3 +112,7 @@ Dans le mapping de détection, DLL Injection sert de référence pour identifier
 
 Injection d'un PE complet dans un processus.
 
+## Exemple : T1055.002 - Portable Executable Injection
+
+Détection : Sysmon Event 8, anomalies de taille mémoire
+
