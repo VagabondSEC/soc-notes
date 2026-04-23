@@ -72,3 +72,7 @@ Détection : wscript.exe, cscript.exe, node.exe avec scripts suspects
 
 Dans le mapping de détection, JavaScript sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1059.008 - Network Device CLI
+
+CLI d'équipements réseau (routeurs, switches) utilisé par l'attaquant.
+
