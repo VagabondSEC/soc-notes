@@ -108,3 +108,7 @@ Détection : Sysmon Event 7 (ImageLoaded) avec DLL inattendue dans un processus
 
 Dans le mapping de détection, DLL Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.002 - Portable Executable Injection
+
+Injection d'un PE complet dans un processus.
+
