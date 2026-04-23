@@ -128,3 +128,7 @@ Détournement de l'exécution d'un thread existant.
 
 Détection : appels SetThreadContext, SuspendThread sur des processus critiques
 
+## Cas d'usage : T1055.003 - Thread Execution Hijacking
+
+Dans le mapping de détection, Thread Execution Hijacking sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
