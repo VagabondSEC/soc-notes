@@ -76,3 +76,7 @@ Dans le mapping de détection, JavaScript sert de référence pour identifier le
 
 CLI d'équipements réseau (routeurs, switches) utilisé par l'attaquant.
 
+## Exemple : T1059.008 - Network Device CLI
+
+Détection : logs AAA, commandes enable, configuration changes
+
