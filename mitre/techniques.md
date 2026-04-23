@@ -120,3 +120,7 @@ Détection : Sysmon Event 8, anomalies de taille mémoire
 
 Dans le mapping de détection, Portable Executable Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.003 - Thread Execution Hijacking
+
+Détournement de l'exécution d'un thread existant.
+
