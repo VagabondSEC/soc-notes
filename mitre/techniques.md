@@ -116,3 +116,7 @@ Injection d'un PE complet dans un processus.
 
 Détection : Sysmon Event 8, anomalies de taille mémoire
 
+## Cas d'usage : T1055.002 - Portable Executable Injection
+
+Dans le mapping de détection, Portable Executable Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
