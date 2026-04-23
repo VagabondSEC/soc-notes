@@ -96,3 +96,7 @@ Détection : 4688 + appels API (VirtualAllocEx, WriteProcessMemory, CreateRemote
 
 Dans le mapping de détection, Process Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.001 - DLL Injection
+
+Injection d'une DLL dans un processus distant.
+
