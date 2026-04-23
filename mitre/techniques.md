@@ -124,3 +124,7 @@ Dans le mapping de détection, Portable Executable Injection sert de référence
 
 Détournement de l'exécution d'un thread existant.
 
+## Exemple : T1055.003 - Thread Execution Hijacking
+
+Détection : appels SetThreadContext, SuspendThread sur des processus critiques
+
