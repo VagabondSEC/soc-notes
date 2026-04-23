@@ -80,3 +80,7 @@ CLI d'équipements réseau (routeurs, switches) utilisé par l'attaquant.
 
 Détection : logs AAA, commandes enable, configuration changes
 
+## Cas d'usage : T1059.008 - Network Device CLI
+
+Dans le mapping de détection, Network Device CLI sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
