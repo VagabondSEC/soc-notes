@@ -92,3 +92,7 @@ Injection de code dans des processus légitimes.
 
 Détection : 4688 + appels API (VirtualAllocEx, WriteProcessMemory, CreateRemoteThread), Sysmon Event 8 (CreateRemoteThread)
 
+## Cas d'usage : T1055 - Process Injection
+
+Dans le mapping de détection, Process Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
