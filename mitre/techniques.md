@@ -140,3 +140,7 @@ Injection via APC dans des threads.
 
 Détection : QueueUserAPC, Sysmon Event 8
 
+## Cas d'usage : T1055.004 - Asynchronous Procedure Call
+
+Dans le mapping de détection, Asynchronous Procedure Call sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
