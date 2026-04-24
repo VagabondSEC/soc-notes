@@ -164,3 +164,7 @@ Injection via ptrace sur Linux.
 
 Détection : auditd avec ptrace, strace sur des processus sensibles
 
+## Cas d'usage : T1055.008 - Ptrace System Calls
+
+Dans le mapping de détection, Ptrace System Calls sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
