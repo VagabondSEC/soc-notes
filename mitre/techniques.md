@@ -160,3 +160,7 @@ Dans le mapping de détection, Thread Local Storage sert de référence pour ide
 
 Injection via ptrace sur Linux.
 
+## Exemple : T1055.008 - Ptrace System Calls
+
+Détection : auditd avec ptrace, strace sur des processus sensibles
+
