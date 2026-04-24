@@ -148,3 +148,7 @@ Dans le mapping de détection, Asynchronous Procedure Call sert de référence p
 
 Injection via TLS callbacks.
 
+## Exemple : T1055.005 - Thread Local Storage
+
+Détection : modules avec TLS callbacks modifiés
+
