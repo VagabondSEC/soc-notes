@@ -152,3 +152,7 @@ Injection via TLS callbacks.
 
 Détection : modules avec TLS callbacks modifiés
 
+## Cas d'usage : T1055.005 - Thread Local Storage
+
+Dans le mapping de détection, Thread Local Storage sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
