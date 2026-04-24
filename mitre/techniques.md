@@ -136,3 +136,7 @@ Dans le mapping de détection, Thread Execution Hijacking sert de référence po
 
 Injection via APC dans des threads.
 
+## Exemple : T1055.004 - Asynchronous Procedure Call
+
+Détection : QueueUserAPC, Sysmon Event 8
+
