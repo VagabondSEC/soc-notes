@@ -188,3 +188,7 @@ Injection dans la mémoire supplémentaire des fenêtres.
 
 Détection : appels SetWindowLong, SendMessage avec WM_GETTEXT sur des processus
 
+## Cas d'usage : T1055.011 - Extra Window Memory Injection
+
+Dans le mapping de détection, Extra Window Memory Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
