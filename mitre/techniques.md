@@ -168,3 +168,7 @@ Détection : auditd avec ptrace, strace sur des processus sensibles
 
 Dans le mapping de détection, Ptrace System Calls sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.009 - Proc Memory
+
+Injection via /proc/self/mem ou /proc/PID/mem sur Linux.
+
