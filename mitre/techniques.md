@@ -228,3 +228,7 @@ Détection : modifications de /proc/PID/auxv, EDR kernel
 
 Dans le mapping de détection, VDSO Hijacking sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.015 - ListPlanting
+
+Injection dans des listes de contrôles (ListView, TreeView).
+
