@@ -204,3 +204,7 @@ Détection : 4688 avec parent-suspect, NtUnmapViewOfSection, WriteProcessMemory
 
 Dans le mapping de détection, Process Hollowing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.013 - Process Doppelganging
+
+Processus créé depuis une image NTFS transactionnelle modifiée.
+
