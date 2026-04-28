@@ -176,3 +176,7 @@ Injection via /proc/self/mem ou /proc/PID/mem sur Linux.
 
 Détection : accès à /proc/*/mem par des processus inattendus
 
+## Cas d'usage : T1055.009 - Proc Memory
+
+Dans le mapping de détection, Proc Memory sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
