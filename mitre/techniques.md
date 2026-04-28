@@ -216,3 +216,7 @@ Détection : TxF (Transaction NTFS), NtCreateTransaction, création de processus
 
 Dans le mapping de détection, Process Doppelganging sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.014 - VDSO Hijacking
+
+Détournement du VDSO Linux (zone mémoire noyau exposée).
+
