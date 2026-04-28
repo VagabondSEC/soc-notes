@@ -212,3 +212,7 @@ Processus créé depuis une image NTFS transactionnelle modifiée.
 
 Détection : TxF (Transaction NTFS), NtCreateTransaction, création de processus depuis des sections
 
+## Cas d'usage : T1055.013 - Process Doppelganging
+
+Dans le mapping de détection, Process Doppelganging sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
