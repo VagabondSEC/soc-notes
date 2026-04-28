@@ -200,3 +200,7 @@ Remplacement de l'image d'un processus suspendu par du code malveillant.
 
 Détection : 4688 avec parent-suspect, NtUnmapViewOfSection, WriteProcessMemory
 
+## Cas d'usage : T1055.012 - Process Hollowing
+
+Dans le mapping de détection, Process Hollowing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
