@@ -180,3 +180,7 @@ Détection : accès à /proc/*/mem par des processus inattendus
 
 Dans le mapping de détection, Proc Memory sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.011 - Extra Window Memory Injection
+
+Injection dans la mémoire supplémentaire des fenêtres.
+
