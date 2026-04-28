@@ -208,3 +208,7 @@ Dans le mapping de détection, Process Hollowing sert de référence pour identi
 
 Processus créé depuis une image NTFS transactionnelle modifiée.
 
+## Exemple : T1055.013 - Process Doppelganging
+
+Détection : TxF (Transaction NTFS), NtCreateTransaction, création de processus depuis des sections
+
