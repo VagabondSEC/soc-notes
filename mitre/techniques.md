@@ -172,3 +172,7 @@ Dans le mapping de détection, Ptrace System Calls sert de référence pour iden
 
 Injection via /proc/self/mem ou /proc/PID/mem sur Linux.
 
+## Exemple : T1055.009 - Proc Memory
+
+Détection : accès à /proc/*/mem par des processus inattendus
+
