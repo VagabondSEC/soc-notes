@@ -192,3 +192,7 @@ Détection : appels SetWindowLong, SendMessage avec WM_GETTEXT sur des processus
 
 Dans le mapping de détection, Extra Window Memory Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1055.012 - Process Hollowing
+
+Remplacement de l'image d'un processus suspendu par du code malveillant.
+
