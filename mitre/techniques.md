@@ -184,3 +184,7 @@ Dans le mapping de détection, Proc Memory sert de référence pour identifier l
 
 Injection dans la mémoire supplémentaire des fenêtres.
 
+## Exemple : T1055.011 - Extra Window Memory Injection
+
+Détection : appels SetWindowLong, SendMessage avec WM_GETTEXT sur des processus
+
