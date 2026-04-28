@@ -196,3 +196,7 @@ Dans le mapping de détection, Extra Window Memory Injection sert de référence
 
 Remplacement de l'image d'un processus suspendu par du code malveillant.
 
+## Exemple : T1055.012 - Process Hollowing
+
+Détection : 4688 avec parent-suspect, NtUnmapViewOfSection, WriteProcessMemory
+
