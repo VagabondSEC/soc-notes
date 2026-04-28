@@ -220,3 +220,7 @@ Dans le mapping de détection, Process Doppelganging sert de référence pour id
 
 Détournement du VDSO Linux (zone mémoire noyau exposée).
 
+## Exemple : T1055.014 - VDSO Hijacking
+
+Détection : modifications de /proc/PID/auxv, EDR kernel
+
