@@ -244,3 +244,7 @@ Dans le mapping de détection, ListPlanting sert de référence pour identifier 
 
 Injection par mappage mémoire partagé.
 
+## Exemple : T1055.016 - Memory Mapping
+
+Détection : CreateFileMapping, MapViewOfFile exécutés en séquence
+
