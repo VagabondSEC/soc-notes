@@ -236,3 +236,7 @@ Injection dans des listes de contrôles (ListView, TreeView).
 
 Détection : appels LVM_SETITEMCOUNT, message WM_USER
 
+## Cas d'usage : T1055.015 - ListPlanting
+
+Dans le mapping de détection, ListPlanting sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
