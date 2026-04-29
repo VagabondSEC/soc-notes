@@ -232,3 +232,7 @@ Dans le mapping de détection, VDSO Hijacking sert de référence pour identifie
 
 Injection dans des listes de contrôles (ListView, TreeView).
 
+## Exemple : T1055.015 - ListPlanting
+
+Détection : appels LVM_SETITEMCOUNT, message WM_USER
+
