@@ -248,3 +248,7 @@ Injection par mappage mémoire partagé.
 
 Détection : CreateFileMapping, MapViewOfFile exécutés en séquence
 
+## Cas d'usage : T1055.016 - Memory Mapping
+
+Dans le mapping de détection, Memory Mapping sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
