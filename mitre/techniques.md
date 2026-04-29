@@ -256,3 +256,7 @@ Dans le mapping de détection, Memory Mapping sert de référence pour identifie
 
 Envoi d'emails malveillants (pièces jointes ou liens).
 
+## Exemple : T1566 - Phishing
+
+Détection : filtrage email, sandboxing des pièces jointes, analyse des URL
+
