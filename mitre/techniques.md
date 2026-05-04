@@ -304,3 +304,7 @@ Dans le mapping de détection, Spearphishing via Service sert de référence pou
 
 Vishing : appels téléphoniques d'ingénierie sociale.
 
+## Exemple : T1566.004 - Spearphishing Voice
+
+Détection : sensibilisation, procédures de vérification des demandes sensibles
+
