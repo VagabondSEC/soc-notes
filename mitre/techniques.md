@@ -284,3 +284,7 @@ Lien malveillant dans un email ciblé.
 
 Détection : sandbox URL, vérification des domaines récemment enregistrés, reputation
 
+## Cas d'usage : T1566.002 - Spearphishing Link
+
+Dans le mapping de détection, Spearphishing Link sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
