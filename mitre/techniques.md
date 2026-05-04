@@ -272,3 +272,7 @@ Pièce jointe malveillante ciblée (Office, PDF, LNK).
 
 Détection : macros Office, OLE objects, documents avec DDE, LNK avec powershell
 
+## Cas d'usage : T1566.001 - Spearphishing Attachment
+
+Dans le mapping de détection, Spearphishing Attachment sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
