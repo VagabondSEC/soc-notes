@@ -280,3 +280,7 @@ Dans le mapping de détection, Spearphishing Attachment sert de référence pour
 
 Lien malveillant dans un email ciblé.
 
+## Exemple : T1566.002 - Spearphishing Link
+
+Détection : sandbox URL, vérification des domaines récemment enregistrés, reputation
+
