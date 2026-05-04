@@ -296,3 +296,7 @@ Phishing via des services tiers (LinkedIn, forums).
 
 Détection : OSINT, surveillance des fausses identités d'entreprise
 
+## Cas d'usage : T1566.003 - Spearphishing via Service
+
+Dans le mapping de détection, Spearphishing via Service sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
