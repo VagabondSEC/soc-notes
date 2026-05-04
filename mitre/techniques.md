@@ -264,3 +264,7 @@ Détection : filtrage email, sandboxing des pièces jointes, analyse des URL
 
 Dans le mapping de détection, Phishing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1566.001 - Spearphishing Attachment
+
+Pièce jointe malveillante ciblée (Office, PDF, LNK).
+
