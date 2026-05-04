@@ -276,3 +276,7 @@ Détection : macros Office, OLE objects, documents avec DDE, LNK avec powershell
 
 Dans le mapping de détection, Spearphishing Attachment sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1566.002 - Spearphishing Link
+
+Lien malveillant dans un email ciblé.
+
