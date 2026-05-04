@@ -324,3 +324,7 @@ Détection : anomalies de comportement, horaires inhabituels, géolocalisation, 
 
 Dans le mapping de détection, Valid Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1078.001 - Default Accounts
+
+Comptes par défaut (Guest, Administrator, admin/admin).
+
