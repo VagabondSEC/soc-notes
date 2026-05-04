@@ -268,3 +268,7 @@ Dans le mapping de détection, Phishing sert de référence pour identifier les 
 
 Pièce jointe malveillante ciblée (Office, PDF, LNK).
 
+## Exemple : T1566.001 - Spearphishing Attachment
+
+Détection : macros Office, OLE objects, documents avec DDE, LNK avec powershell
+
