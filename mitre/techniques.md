@@ -288,3 +288,7 @@ Détection : sandbox URL, vérification des domaines récemment enregistrés, re
 
 Dans le mapping de détection, Spearphishing Link sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1566.003 - Spearphishing via Service
+
+Phishing via des services tiers (LinkedIn, forums).
+
