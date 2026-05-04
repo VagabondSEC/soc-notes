@@ -328,3 +328,7 @@ Dans le mapping de détection, Valid Accounts sert de référence pour identifie
 
 Comptes par défaut (Guest, Administrator, admin/admin).
 
+## Exemple : T1078.001 - Default Accounts
+
+Détection : audits des comptes par défaut, alertes sur les comptes jamais utilisés
+
