@@ -316,3 +316,7 @@ Dans le mapping de détection, Spearphishing Voice sert de référence pour iden
 
 Utilisation de comptes légitimes compromis.
 
+## Exemple : T1078 - Valid Accounts
+
+Détection : anomalies de comportement, horaires inhabituels, géolocalisation, nouvelles permissions
+
