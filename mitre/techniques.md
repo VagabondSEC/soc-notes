@@ -312,3 +312,7 @@ Détection : sensibilisation, procédures de vérification des demandes sensible
 
 Dans le mapping de détection, Spearphishing Voice sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1078 - Valid Accounts
+
+Utilisation de comptes légitimes compromis.
+
