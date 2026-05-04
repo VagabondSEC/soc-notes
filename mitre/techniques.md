@@ -308,3 +308,7 @@ Vishing : appels téléphoniques d'ingénierie sociale.
 
 Détection : sensibilisation, procédures de vérification des demandes sensibles
 
+## Cas d'usage : T1566.004 - Spearphishing Voice
+
+Dans le mapping de détection, Spearphishing Voice sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
