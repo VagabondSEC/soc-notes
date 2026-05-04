@@ -300,3 +300,7 @@ Détection : OSINT, surveillance des fausses identités d'entreprise
 
 Dans le mapping de détection, Spearphishing via Service sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1566.004 - Spearphishing Voice
+
+Vishing : appels téléphoniques d'ingénierie sociale.
+
