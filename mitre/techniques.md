@@ -340,3 +340,7 @@ Dans le mapping de détection, Default Accounts sert de référence pour identif
 
 Comptes de domaine compromis.
 
+## Exemple : T1078.002 - Domain Accounts
+
+Détection : corrélation logons + activités anormales, impossible travel, rarement utilisés
+
