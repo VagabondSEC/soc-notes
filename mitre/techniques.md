@@ -364,3 +364,7 @@ Dans le mapping de détection, Local Accounts sert de référence pour identifie
 
 Comptes cloud (Azure AD, AWS IAM) compromis.
 
+## Exemple : T1078.004 - Cloud Accounts
+
+Détection : nouveaux rôles, MFA bypass, logons depuis des IP cloud connues
+
