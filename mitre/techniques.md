@@ -348,3 +348,7 @@ Détection : corrélation logons + activités anormales, impossible travel, rare
 
 Dans le mapping de détection, Domain Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1078.003 - Local Accounts
+
+Comptes locaux compromis.
+
