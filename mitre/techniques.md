@@ -380,3 +380,7 @@ Manipulation des tokens Windows pour élever les privilèges.
 
 Détection : appels OpenProcessToken, DuplicateToken, ImpersonateLoggedOnUser, SeDebugPrivilege
 
+## Cas d'usage : T1134 - Access Token Manipulation
+
+Dans le mapping de détection, Access Token Manipulation sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
