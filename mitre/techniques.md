@@ -376,3 +376,7 @@ Dans le mapping de détection, Cloud Accounts sert de référence pour identifie
 
 Manipulation des tokens Windows pour élever les privilèges.
 
+## Exemple : T1134 - Access Token Manipulation
+
+Détection : appels OpenProcessToken, DuplicateToken, ImpersonateLoggedOnUser, SeDebugPrivilege
+
