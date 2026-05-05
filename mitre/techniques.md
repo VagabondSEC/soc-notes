@@ -344,3 +344,7 @@ Comptes de domaine compromis.
 
 Détection : corrélation logons + activités anormales, impossible travel, rarement utilisés
 
+## Cas d'usage : T1078.002 - Domain Accounts
+
+Dans le mapping de détection, Domain Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
