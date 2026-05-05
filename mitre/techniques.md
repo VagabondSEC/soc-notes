@@ -332,3 +332,7 @@ Comptes par défaut (Guest, Administrator, admin/admin).
 
 Détection : audits des comptes par défaut, alertes sur les comptes jamais utilisés
 
+## Cas d'usage : T1078.001 - Default Accounts
+
+Dans le mapping de détection, Default Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
