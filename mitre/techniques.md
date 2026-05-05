@@ -360,3 +360,7 @@ Détection : logons locaux répétés, RDP depuis des IP inconnues
 
 Dans le mapping de détection, Local Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1078.004 - Cloud Accounts
+
+Comptes cloud (Azure AD, AWS IAM) compromis.
+
