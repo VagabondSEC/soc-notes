@@ -336,3 +336,7 @@ Détection : audits des comptes par défaut, alertes sur les comptes jamais util
 
 Dans le mapping de détection, Default Accounts sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1078.002 - Domain Accounts
+
+Comptes de domaine compromis.
+
