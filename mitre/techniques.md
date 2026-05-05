@@ -352,3 +352,7 @@ Dans le mapping de détection, Domain Accounts sert de référence pour identifi
 
 Comptes locaux compromis.
 
+## Exemple : T1078.003 - Local Accounts
+
+Détection : logons locaux répétés, RDP depuis des IP inconnues
+
