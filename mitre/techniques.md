@@ -392,3 +392,7 @@ Impersonation ou vol de token.
 
 Détection : appels ImpersonateNamedPipeClient, DuplicateTokenEx, RPCSS
 
+## Cas d'usage : T1134.001 - Token Impersonation/Theft
+
+Dans le mapping de détection, Token Impersonation/Theft sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
