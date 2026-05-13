@@ -424,3 +424,7 @@ Dans le mapping de détection, Make and Impersonate Token sert de référence po
 
 Spoofing du PID parent dans le PEB.
 
+## Exemple : T1134.004 - Parent PID Spoofing
+
+Détection : Sysmon Event 1 avec parent incohérent, 4688 avec ParentProcessId anormal
+
