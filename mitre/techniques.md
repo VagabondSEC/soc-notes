@@ -396,3 +396,7 @@ Détection : appels ImpersonateNamedPipeClient, DuplicateTokenEx, RPCSS
 
 Dans le mapping de détection, Token Impersonation/Theft sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1134.002 - Create Process with Token
+
+Création d'un processus avec le token d'un autre utilisateur.
+
