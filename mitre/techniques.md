@@ -408,3 +408,7 @@ Détection : CreateProcessWithTokenW, 4688 avec TokenElevationType
 
 Dans le mapping de détection, Create Process with Token sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1134.003 - Make and Impersonate Token
+
+Création et impersonation de tokens (LogonUser).
+
