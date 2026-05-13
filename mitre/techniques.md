@@ -412,3 +412,7 @@ Dans le mapping de détection, Create Process with Token sert de référence pou
 
 Création et impersonation de tokens (LogonUser).
 
+## Exemple : T1134.003 - Make and Impersonate Token
+
+Détection : LogonUser avec LOGON32_LOGON_NEW_CREDENTIALS, SeImpersonatePrivilege
+
