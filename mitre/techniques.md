@@ -400,3 +400,7 @@ Dans le mapping de détection, Token Impersonation/Theft sert de référence pou
 
 Création d'un processus avec le token d'un autre utilisateur.
 
+## Exemple : T1134.002 - Create Process with Token
+
+Détection : CreateProcessWithTokenW, 4688 avec TokenElevationType
+
