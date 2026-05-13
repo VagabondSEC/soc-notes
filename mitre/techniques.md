@@ -420,3 +420,7 @@ Détection : LogonUser avec LOGON32_LOGON_NEW_CREDENTIALS, SeImpersonatePrivileg
 
 Dans le mapping de détection, Make and Impersonate Token sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1134.004 - Parent PID Spoofing
+
+Spoofing du PID parent dans le PEB.
+
