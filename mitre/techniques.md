@@ -388,3 +388,7 @@ Dans le mapping de détection, Access Token Manipulation sert de référence pou
 
 Impersonation ou vol de token.
 
+## Exemple : T1134.001 - Token Impersonation/Theft
+
+Détection : appels ImpersonateNamedPipeClient, DuplicateTokenEx, RPCSS
+
