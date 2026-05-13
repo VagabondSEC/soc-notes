@@ -404,3 +404,7 @@ Création d'un processus avec le token d'un autre utilisateur.
 
 Détection : CreateProcessWithTokenW, 4688 avec TokenElevationType
 
+## Cas d'usage : T1134.002 - Create Process with Token
+
+Dans le mapping de détection, Create Process with Token sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
