@@ -416,3 +416,7 @@ Création et impersonation de tokens (LogonUser).
 
 Détection : LogonUser avec LOGON32_LOGON_NEW_CREDENTIALS, SeImpersonatePrivilege
 
+## Cas d'usage : T1134.003 - Make and Impersonate Token
+
+Dans le mapping de détection, Make and Impersonate Token sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
