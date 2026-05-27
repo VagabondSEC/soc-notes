@@ -436,3 +436,7 @@ Dans le mapping de détection, Parent PID Spoofing sert de référence pour iden
 
 Injection de SID dans l'historique SID (migration de domaine).
 
+## Exemple : T1134.005 - SID-History Injection
+
+Détection : Event 4765/4766, comptes avec SIDHistory anormal
+
