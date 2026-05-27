@@ -428,3 +428,7 @@ Spoofing du PID parent dans le PEB.
 
 Détection : Sysmon Event 1 avec parent incohérent, 4688 avec ParentProcessId anormal
 
+## Cas d'usage : T1134.004 - Parent PID Spoofing
+
+Dans le mapping de détection, Parent PID Spoofing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
