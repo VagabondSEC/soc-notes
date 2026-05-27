@@ -432,3 +432,7 @@ Détection : Sysmon Event 1 avec parent incohérent, 4688 avec ParentProcessId a
 
 Dans le mapping de détection, Parent PID Spoofing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1134.005 - SID-History Injection
+
+Injection de SID dans l'historique SID (migration de domaine).
+
