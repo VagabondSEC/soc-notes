@@ -440,3 +440,7 @@ Injection de SID dans l'historique SID (migration de domaine).
 
 Détection : Event 4765/4766, comptes avec SIDHistory anormal
 
+## Cas d'usage : T1134.005 - SID-History Injection
+
+Dans le mapping de détection, SID-History Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
