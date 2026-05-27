@@ -448,3 +448,7 @@ Dans le mapping de détection, SID-History Injection sert de référence pour id
 
 Persistance via démarrage automatique au boot/logon.
 
+## Exemple : T1547 - Boot or Logon Autostart Execution
+
+Détection : Run/RunOnce (Event 4688 parent-explorer), services, Startup folder
+
