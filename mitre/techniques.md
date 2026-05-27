@@ -444,3 +444,7 @@ Détection : Event 4765/4766, comptes avec SIDHistory anormal
 
 Dans le mapping de détection, SID-History Injection sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547 - Boot or Logon Autostart Execution
+
+Persistance via démarrage automatique au boot/logon.
+
