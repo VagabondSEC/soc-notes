@@ -492,3 +492,7 @@ Détection : modification de HKLM\...\Winlogon\Shell, Userinit
 
 Dans le mapping de détection, Winlogon Helper DLL sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.005 - Security Support Provider
+
+Persistance via les SSP (Security Support Providers).
+
