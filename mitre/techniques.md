@@ -480,3 +480,7 @@ Détection : création de fichiers .lnk/.bat dans Startup, Sysmon Event 11
 
 Dans le mapping de détection, Startup Folder sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.004 - Winlogon Helper DLL
+
+Persistance via les DLL de Winlogon.
+
