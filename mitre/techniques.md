@@ -496,3 +496,7 @@ Dans le mapping de détection, Winlogon Helper DLL sert de référence pour iden
 
 Persistance via les SSP (Security Support Providers).
 
+## Exemple : T1547.005 - Security Support Provider
+
+Détection : modification de HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages
+
