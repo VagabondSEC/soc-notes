@@ -476,3 +476,7 @@ Persistance via le dossier Démarrage.
 
 Détection : création de fichiers .lnk/.bat dans Startup, Sysmon Event 11
 
+## Cas d'usage : T1547.002 - Startup Folder
+
+Dans le mapping de détection, Startup Folder sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
