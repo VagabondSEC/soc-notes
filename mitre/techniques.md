@@ -464,3 +464,7 @@ Persistance via les clés Run du registre.
 
 Détection : Sysmon Event 13 (registry set) sur HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 
+## Cas d'usage : T1547.001 - Registry Run Keys
+
+Dans le mapping de détection, Registry Run Keys sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
