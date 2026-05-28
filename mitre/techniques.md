@@ -488,3 +488,7 @@ Persistance via les DLL de Winlogon.
 
 Détection : modification de HKLM\...\Winlogon\Shell, Userinit
 
+## Cas d'usage : T1547.004 - Winlogon Helper DLL
+
+Dans le mapping de détection, Winlogon Helper DLL sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
