@@ -484,3 +484,7 @@ Dans le mapping de détection, Startup Folder sert de référence pour identifie
 
 Persistance via les DLL de Winlogon.
 
+## Exemple : T1547.004 - Winlogon Helper DLL
+
+Détection : modification de HKLM\...\Winlogon\Shell, Userinit
+
