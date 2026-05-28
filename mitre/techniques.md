@@ -472,3 +472,7 @@ Dans le mapping de détection, Registry Run Keys sert de référence pour identi
 
 Persistance via le dossier Démarrage.
 
+## Exemple : T1547.002 - Startup Folder
+
+Détection : création de fichiers .lnk/.bat dans Startup, Sysmon Event 11
+
