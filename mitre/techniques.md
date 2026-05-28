@@ -468,3 +468,7 @@ Détection : Sysmon Event 13 (registry set) sur HKLM\Software\Microsoft\Windows\
 
 Dans le mapping de détection, Registry Run Keys sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.002 - Startup Folder
+
+Persistance via le dossier Démarrage.
+
