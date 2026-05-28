@@ -460,3 +460,7 @@ Dans le mapping de détection, Boot or Logon Autostart Execution sert de référ
 
 Persistance via les clés Run du registre.
 
+## Exemple : T1547.001 - Registry Run Keys
+
+Détection : Sysmon Event 13 (registry set) sur HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+
