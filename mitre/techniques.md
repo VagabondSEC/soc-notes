@@ -512,3 +512,7 @@ Persistance via modules noyau Linux (LKM).
 
 Détection : lsmod, /proc/modules, modprobe, DKMS
 
+## Cas d'usage : T1547.006 - Kernel Modules and Extensions
+
+Dans le mapping de détection, Kernel Modules and Extensions sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
