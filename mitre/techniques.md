@@ -532,3 +532,7 @@ Dans le mapping de détection, Shortcut Modification sert de référence pour id
 
 Persistance via les port monitors d'impression.
 
+## Exemple : T1547.010 - Port Monitors
+
+Détection : modification de HKLM\...\Print\Monitors, DLL dans System32
+
