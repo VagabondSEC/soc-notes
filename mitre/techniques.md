@@ -504,3 +504,7 @@ Détection : modification de HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security 
 
 Dans le mapping de détection, Security Support Provider sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.006 - Kernel Modules and Extensions
+
+Persistance via modules noyau Linux (LKM).
+
