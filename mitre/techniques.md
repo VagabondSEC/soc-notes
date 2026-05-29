@@ -516,3 +516,7 @@ Détection : lsmod, /proc/modules, modprobe, DKMS
 
 Dans le mapping de détection, Kernel Modules and Extensions sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.009 - Shortcut Modification
+
+Persistance via modification de raccourcis .lnk.
+
