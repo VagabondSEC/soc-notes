@@ -508,3 +508,7 @@ Dans le mapping de détection, Security Support Provider sert de référence pou
 
 Persistance via modules noyau Linux (LKM).
 
+## Exemple : T1547.006 - Kernel Modules and Extensions
+
+Détection : lsmod, /proc/modules, modprobe, DKMS
+
