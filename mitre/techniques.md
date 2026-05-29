@@ -536,3 +536,7 @@ Persistance via les port monitors d'impression.
 
 Détection : modification de HKLM\...\Print\Monitors, DLL dans System32
 
+## Cas d'usage : T1547.010 - Port Monitors
+
+Dans le mapping de détection, Port Monitors sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
