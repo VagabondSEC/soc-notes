@@ -544,3 +544,7 @@ Dans le mapping de détection, Port Monitors sert de référence pour identifier
 
 Persistance via les print processors.
 
+## Exemple : T1547.012 - Print Processors
+
+Détection : clé HKLM\...\Control\Print\Environments\Windows x64\Print Processors
+
