@@ -500,3 +500,7 @@ Persistance via les SSP (Security Support Providers).
 
 Détection : modification de HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages
 
+## Cas d'usage : T1547.005 - Security Support Provider
+
+Dans le mapping de détection, Security Support Provider sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
