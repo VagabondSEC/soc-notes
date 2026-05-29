@@ -520,3 +520,7 @@ Dans le mapping de détection, Kernel Modules and Extensions sert de référence
 
 Persistance via modification de raccourcis .lnk.
 
+## Exemple : T1547.009 - Shortcut Modification
+
+Détection : Sysmon Event 11, modifications de .lnk vers des cibles inhabituelles
+
