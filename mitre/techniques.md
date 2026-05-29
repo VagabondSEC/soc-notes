@@ -524,3 +524,7 @@ Persistance via modification de raccourcis .lnk.
 
 Détection : Sysmon Event 11, modifications de .lnk vers des cibles inhabituelles
 
+## Cas d'usage : T1547.009 - Shortcut Modification
+
+Dans le mapping de détection, Shortcut Modification sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
