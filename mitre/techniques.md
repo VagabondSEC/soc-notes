@@ -528,3 +528,7 @@ Détection : Sysmon Event 11, modifications de .lnk vers des cibles inhabituelle
 
 Dans le mapping de détection, Shortcut Modification sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.010 - Port Monitors
+
+Persistance via les port monitors d'impression.
+
