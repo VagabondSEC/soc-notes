@@ -560,3 +560,7 @@ Persistance via .desktop sur Linux (autostart).
 
 Détection : fichiers .desktop dans ~/.config/autostart, /etc/xdg/autostart
 
+## Cas d'usage : T1547.013 - XDG Autostart Entries
+
+Dans le mapping de détection, XDG Autostart Entries sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
