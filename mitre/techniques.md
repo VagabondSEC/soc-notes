@@ -580,3 +580,7 @@ Dans le mapping de détection, Active Setup sert de référence pour identifier 
 
 Persistance via les Login Items macOS.
 
+## Exemple : T1547.015 - Login Items
+
+Détection : com.apple.loginitems.plist, ~/Library/LaunchAgents
+
