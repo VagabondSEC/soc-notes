@@ -592,3 +592,7 @@ Dans le mapping de détection, Login Items sert de référence pour identifier l
 
 Création ou modification de services/démons pour la persistance.
 
+## Exemple : T1543 - Create or Modify System Process
+
+Détection : Event 7045 (nouveau service), sc.exe create, systemctl
+
