@@ -548,3 +548,7 @@ Persistance via les print processors.
 
 Détection : clé HKLM\...\Control\Print\Environments\Windows x64\Print Processors
 
+## Cas d'usage : T1547.012 - Print Processors
+
+Dans le mapping de détection, Print Processors sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
