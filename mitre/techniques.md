@@ -576,3 +576,7 @@ Détection : HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components
 
 Dans le mapping de détection, Active Setup sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.015 - Login Items
+
+Persistance via les Login Items macOS.
+
