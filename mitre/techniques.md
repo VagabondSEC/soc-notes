@@ -572,3 +572,7 @@ Persistance via Active Setup (exécuté au logon).
 
 Détection : HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components
 
+## Cas d'usage : T1547.014 - Active Setup
+
+Dans le mapping de détection, Active Setup sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
