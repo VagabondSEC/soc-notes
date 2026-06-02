@@ -588,3 +588,7 @@ Détection : com.apple.loginitems.plist, ~/Library/LaunchAgents
 
 Dans le mapping de détection, Login Items sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1543 - Create or Modify System Process
+
+Création ou modification de services/démons pour la persistance.
+
