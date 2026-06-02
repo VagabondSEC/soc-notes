@@ -568,3 +568,7 @@ Dans le mapping de détection, XDG Autostart Entries sert de référence pour id
 
 Persistance via Active Setup (exécuté au logon).
 
+## Exemple : T1547.014 - Active Setup
+
+Détection : HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components
+
