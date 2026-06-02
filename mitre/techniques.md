@@ -556,3 +556,7 @@ Dans le mapping de détection, Print Processors sert de référence pour identif
 
 Persistance via .desktop sur Linux (autostart).
 
+## Exemple : T1547.013 - XDG Autostart Entries
+
+Détection : fichiers .desktop dans ~/.config/autostart, /etc/xdg/autostart
+
