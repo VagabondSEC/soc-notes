@@ -596,3 +596,7 @@ Création ou modification de services/démons pour la persistance.
 
 Détection : Event 7045 (nouveau service), sc.exe create, systemctl
 
+## Cas d'usage : T1543 - Create or Modify System Process
+
+Dans le mapping de détection, Create or Modify System Process sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
