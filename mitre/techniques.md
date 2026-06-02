@@ -564,3 +564,7 @@ Détection : fichiers .desktop dans ~/.config/autostart, /etc/xdg/autostart
 
 Dans le mapping de détection, XDG Autostart Entries sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.014 - Active Setup
+
+Persistance via Active Setup (exécuté au logon).
+
