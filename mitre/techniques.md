@@ -552,3 +552,7 @@ Détection : clé HKLM\...\Control\Print\Environments\Windows x64\Print Processo
 
 Dans le mapping de détection, Print Processors sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1547.013 - XDG Autostart Entries
+
+Persistance via .desktop sur Linux (autostart).
+
