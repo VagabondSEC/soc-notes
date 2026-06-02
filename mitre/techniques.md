@@ -584,3 +584,7 @@ Persistance via les Login Items macOS.
 
 Détection : com.apple.loginitems.plist, ~/Library/LaunchAgents
 
+## Cas d'usage : T1547.015 - Login Items
+
+Dans le mapping de détection, Login Items sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
