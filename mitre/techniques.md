@@ -600,3 +600,7 @@ Détection : Event 7045 (nouveau service), sc.exe create, systemctl
 
 Dans le mapping de détection, Create or Modify System Process sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1543.001 - Launch Agent
+
+Persistance macOS via LaunchAgents/LaunchDaemons.
+
