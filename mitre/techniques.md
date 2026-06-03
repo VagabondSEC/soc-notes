@@ -620,3 +620,7 @@ Création d'un service Windows malveillant.
 
 Détection : Event 7045, instsrv, sc create, les binaires de service dans des chemins bizarres
 
+## Cas d'usage : T1543.003 - Windows Service
+
+Dans le mapping de détection, Windows Service sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
