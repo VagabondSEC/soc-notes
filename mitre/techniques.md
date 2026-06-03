@@ -608,3 +608,7 @@ Persistance macOS via LaunchAgents/LaunchDaemons.
 
 Détection : plist dans ~/Library/LaunchAgents, /Library/LaunchDaemons
 
+## Cas d'usage : T1543.001 - Launch Agent
+
+Dans le mapping de détection, Launch Agent sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
