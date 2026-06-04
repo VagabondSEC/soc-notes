@@ -636,3 +636,7 @@ Détection : nouveaux fichiers dans /etc/init.d, /etc/systemd/system, systemctl 
 
 Dans le mapping de détection, Unix Init Process sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546 - Event Triggered Execution
+
+Persistance via des déclencheurs d'événements (WMI, Image File Execution Options...).
+
