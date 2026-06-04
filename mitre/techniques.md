@@ -676,3 +676,7 @@ Dans le mapping de détection, Screensaver sert de référence pour identifier l
 
 Persistance via les abonnements aux événements WMI.
 
+## Exemple : T1546.003 - WMI Event Subscription
+
+Détection : \.\root\subscription, Event 5857, wmic /namespace:\\root\subscription
+
