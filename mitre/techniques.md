@@ -640,3 +640,7 @@ Dans le mapping de détection, Unix Init Process sert de référence pour identi
 
 Persistance via des déclencheurs d'événements (WMI, Image File Execution Options...).
 
+## Exemple : T1546 - Event Triggered Execution
+
+Détection : modification de clés de registre de déclenchement, WMI subscriptions
+
