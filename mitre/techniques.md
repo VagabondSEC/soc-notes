@@ -656,3 +656,7 @@ Modification de l'association de fichiers par défaut.
 
 Détection : HKCR (UserChoice), Sysmon Event 13
 
+## Cas d'usage : T1546.001 - Change Default File Association
+
+Dans le mapping de détection, Change Default File Association sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
