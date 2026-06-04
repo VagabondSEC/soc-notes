@@ -684,3 +684,7 @@ Détection : \.\root\subscription, Event 5857, wmic /namespace:\\root\subscripti
 
 Dans le mapping de détection, WMI Event Subscription sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.004 - Unix Shell Configuration
+
+Persistance via .bashrc, .profile, .bash_profile.
+
