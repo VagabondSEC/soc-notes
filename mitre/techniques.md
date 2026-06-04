@@ -644,3 +644,7 @@ Persistance via des déclencheurs d'événements (WMI, Image File Execution Opti
 
 Détection : modification de clés de registre de déclenchement, WMI subscriptions
 
+## Cas d'usage : T1546 - Event Triggered Execution
+
+Dans le mapping de détection, Event Triggered Execution sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
