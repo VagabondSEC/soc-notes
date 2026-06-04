@@ -628,3 +628,7 @@ Dans le mapping de détection, Windows Service sert de référence pour identifi
 
 Persistance via init.d, systemd, rc.local sur Linux.
 
+## Exemple : T1543.004 - Unix Init Process
+
+Détection : nouveaux fichiers dans /etc/init.d, /etc/systemd/system, systemctl enable
+
