@@ -672,3 +672,7 @@ Détection : HKLM\...\Control Panel\Desktop\SCRNSAVE.EXE, SCRNSAVE.exe pointant 
 
 Dans le mapping de détection, Screensaver sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.003 - WMI Event Subscription
+
+Persistance via les abonnements aux événements WMI.
+
