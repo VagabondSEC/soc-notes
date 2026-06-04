@@ -632,3 +632,7 @@ Persistance via init.d, systemd, rc.local sur Linux.
 
 Détection : nouveaux fichiers dans /etc/init.d, /etc/systemd/system, systemctl enable
 
+## Cas d'usage : T1543.004 - Unix Init Process
+
+Dans le mapping de détection, Unix Init Process sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
