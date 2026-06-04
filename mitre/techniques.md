@@ -652,3 +652,7 @@ Dans le mapping de détection, Event Triggered Execution sert de référence pou
 
 Modification de l'association de fichiers par défaut.
 
+## Exemple : T1546.001 - Change Default File Association
+
+Détection : HKCR (UserChoice), Sysmon Event 13
+
