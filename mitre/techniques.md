@@ -680,3 +680,7 @@ Persistance via les abonnements aux événements WMI.
 
 Détection : \.\root\subscription, Event 5857, wmic /namespace:\\root\subscription
 
+## Cas d'usage : T1546.003 - WMI Event Subscription
+
+Dans le mapping de détection, WMI Event Subscription sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
