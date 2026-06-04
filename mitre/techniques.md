@@ -664,3 +664,7 @@ Dans le mapping de détection, Change Default File Association sert de référen
 
 Persistance via l'économiseur d'écran.
 
+## Exemple : T1546.002 - Screensaver
+
+Détection : HKLM\...\Control Panel\Desktop\SCRNSAVE.EXE, SCRNSAVE.exe pointant ailleurs
+
