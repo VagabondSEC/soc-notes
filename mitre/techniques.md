@@ -696,3 +696,7 @@ Détection : modifications récentes de fichiers dot, contenu suspect
 
 Dans le mapping de détection, Unix Shell Configuration sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.005 - Trap
+
+Persistance via les traps shell (bash trap).
+
