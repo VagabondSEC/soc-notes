@@ -700,3 +700,7 @@ Dans le mapping de détection, Unix Shell Configuration sert de référence pour
 
 Persistance via les traps shell (bash trap).
 
+## Exemple : T1546.005 - Trap
+
+Détection : trap dans les scripts système, auditd
+
