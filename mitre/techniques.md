@@ -688,3 +688,7 @@ Dans le mapping de détection, WMI Event Subscription sert de référence pour i
 
 Persistance via .bashrc, .profile, .bash_profile.
 
+## Exemple : T1546.004 - Unix Shell Configuration
+
+Détection : modifications récentes de fichiers dot, contenu suspect
+
