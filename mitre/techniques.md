@@ -716,3 +716,7 @@ Persistance via les helper DLL de netsh.
 
 Détection : HKLM\...\Netsh\HelperDLLs, netsh add helper
 
+## Cas d'usage : T1546.007 - Netsh Helper DLL
+
+Dans le mapping de détection, Netsh Helper DLL sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
