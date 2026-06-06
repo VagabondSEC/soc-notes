@@ -712,3 +712,7 @@ Dans le mapping de détection, Trap sert de référence pour identifier les lacu
 
 Persistance via les helper DLL de netsh.
 
+## Exemple : T1546.007 - Netsh Helper DLL
+
+Détection : HKLM\...\Netsh\HelperDLLs, netsh add helper
+
