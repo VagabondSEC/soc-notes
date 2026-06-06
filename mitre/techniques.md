@@ -708,3 +708,7 @@ Détection : trap dans les scripts système, auditd
 
 Dans le mapping de détection, Trap sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.007 - Netsh Helper DLL
+
+Persistance via les helper DLL de netsh.
+
