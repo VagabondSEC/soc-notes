@@ -736,3 +736,7 @@ Dans le mapping de détection, Accessibility Features sert de référence pour i
 
 Persistance via les AppInit_DLLs.
 
+## Exemple : T1546.009 - AppInit DLLs
+
+Détection : HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs
+
