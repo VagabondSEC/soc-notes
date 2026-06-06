@@ -728,3 +728,7 @@ Persistance via les fonctionnalités d'accessibilité (sethc, utilman).
 
 Détection : modification de Image File Execution Options pour sethc.exe, utilman.exe
 
+## Cas d'usage : T1546.008 - Accessibility Features
+
+Dans le mapping de détection, Accessibility Features sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
