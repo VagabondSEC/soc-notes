@@ -724,3 +724,7 @@ Dans le mapping de détection, Netsh Helper DLL sert de référence pour identif
 
 Persistance via les fonctionnalités d'accessibilité (sethc, utilman).
 
+## Exemple : T1546.008 - Accessibility Features
+
+Détection : modification de Image File Execution Options pour sethc.exe, utilman.exe
+
