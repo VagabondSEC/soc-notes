@@ -704,3 +704,7 @@ Persistance via les traps shell (bash trap).
 
 Détection : trap dans les scripts système, auditd
 
+## Cas d'usage : T1546.005 - Trap
+
+Dans le mapping de détection, Trap sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
