@@ -744,3 +744,7 @@ Détection : HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_D
 
 Dans le mapping de détection, AppInit DLLs sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.010 - AppCert DLLs
+
+Persistance via AppCertDLLs (chargées au processus).
+
