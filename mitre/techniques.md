@@ -752,3 +752,7 @@ Persistance via AppCertDLLs (chargées au processus).
 
 Détection : HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs
 
+## Cas d'usage : T1546.010 - AppCert DLLs
+
+Dans le mapping de détection, AppCert DLLs sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
