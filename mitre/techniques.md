@@ -748,3 +748,7 @@ Dans le mapping de détection, AppInit DLLs sert de référence pour identifier 
 
 Persistance via AppCertDLLs (chargées au processus).
 
+## Exemple : T1546.010 - AppCert DLLs
+
+Détection : HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs
+
