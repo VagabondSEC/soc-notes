@@ -756,3 +756,7 @@ Détection : HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs
 
 Dans le mapping de détection, AppCert DLLs sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.011 - Application Shimming
+
+Persistance via les Application Shims.
+
