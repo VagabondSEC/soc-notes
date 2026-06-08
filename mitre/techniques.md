@@ -760,3 +760,7 @@ Dans le mapping de détection, AppCert DLLs sert de référence pour identifier 
 
 Persistance via les Application Shims.
 
+## Exemple : T1546.011 - Application Shimming
+
+Détection : sdbinst.exe, clés de registre de shim, Event 4688 avec sdbinst
+
