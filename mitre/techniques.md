@@ -768,3 +768,7 @@ Détection : sdbinst.exe, clés de registre de shim, Event 4688 avec sdbinst
 
 Dans le mapping de détection, Application Shimming sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.012 - Image File Execution Options
+
+Persistance via IFEO (Debugger).
+
