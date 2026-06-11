@@ -772,3 +772,7 @@ Dans le mapping de détection, Application Shimming sert de référence pour ide
 
 Persistance via IFEO (Debugger).
 
+## Exemple : T1546.012 - Image File Execution Options
+
+Détection : HKLM\...\Image File Execution Options\<exe>\Debugger
+
