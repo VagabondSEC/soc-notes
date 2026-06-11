@@ -780,3 +780,7 @@ Détection : HKLM\...\Image File Execution Options\<exe>\Debugger
 
 Dans le mapping de détection, Image File Execution Options sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.013 - PowerShell Profile
+
+Persistance via le profil PowerShell.
+
