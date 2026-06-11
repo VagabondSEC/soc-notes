@@ -776,3 +776,7 @@ Persistance via IFEO (Debugger).
 
 Détection : HKLM\...\Image File Execution Options\<exe>\Debugger
 
+## Cas d'usage : T1546.012 - Image File Execution Options
+
+Dans le mapping de détection, Image File Execution Options sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
