@@ -784,3 +784,7 @@ Dans le mapping de détection, Image File Execution Options sert de référence 
 
 Persistance via le profil PowerShell.
 
+## Exemple : T1546.013 - PowerShell Profile
+
+Détection : $PROFILE, Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
