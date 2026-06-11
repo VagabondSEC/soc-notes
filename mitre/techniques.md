@@ -792,3 +792,7 @@ Détection : $PROFILE, Documents\WindowsPowerShell\Microsoft.PowerShell_profile.
 
 Dans le mapping de détection, PowerShell Profile sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.014 - Emond
+
+Persistance via Event Monitor (macOS).
+
