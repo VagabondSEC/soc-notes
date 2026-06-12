@@ -800,3 +800,7 @@ Persistance via Event Monitor (macOS).
 
 Détection : /etc/emond.d/rules, launchd
 
+## Cas d'usage : T1546.014 - Emond
+
+Dans le mapping de détection, Emond sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
