@@ -816,3 +816,7 @@ Détection : clés CLSID modifiées, InprocServer32
 
 Dans le mapping de détection, Component Object Model Hijacking sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1546.016 - Installer Packages
+
+Persistance via les packages d'installation (MSI).
+
