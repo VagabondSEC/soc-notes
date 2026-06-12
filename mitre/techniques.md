@@ -812,3 +812,7 @@ Détournement COM pour exécution.
 
 Détection : clés CLSID modifiées, InprocServer32
 
+## Cas d'usage : T1546.015 - Component Object Model Hijacking
+
+Dans le mapping de détection, Component Object Model Hijacking sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
