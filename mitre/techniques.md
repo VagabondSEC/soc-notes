@@ -808,3 +808,7 @@ Dans le mapping de détection, Emond sert de référence pour identifier les lac
 
 Détournement COM pour exécution.
 
+## Exemple : T1546.015 - Component Object Model Hijacking
+
+Détection : clés CLSID modifiées, InprocServer32
+
