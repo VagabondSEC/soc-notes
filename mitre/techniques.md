@@ -796,3 +796,7 @@ Dans le mapping de détection, PowerShell Profile sert de référence pour ident
 
 Persistance via Event Monitor (macOS).
 
+## Exemple : T1546.014 - Emond
+
+Détection : /etc/emond.d/rules, launchd
+
