@@ -832,3 +832,7 @@ Dans le mapping de détection, Installer Packages sert de référence pour ident
 
 Abus des mécanismes d'élévation de privilèges (UAC, sudo).
 
+## Exemple : T1548 - Abuse Elevation Control Mechanism
+
+Détection : modifications UAC, sudoers, Event 4688 avec consent.exe
+
