@@ -852,3 +852,7 @@ Détection : find / -perm -4000, auditd
 
 Dans le mapping de détection, Setuid and Setgid sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1548.002 - Bypass User Account Control
+
+Contournement UAC.
+
