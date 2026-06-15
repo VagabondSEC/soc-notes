@@ -840,3 +840,7 @@ Détection : modifications UAC, sudoers, Event 4688 avec consent.exe
 
 Dans le mapping de détection, Abuse Elevation Control Mechanism sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1548.001 - Setuid and Setgid
+
+Binaires setuid/setgid malveillants sur Linux.
+
