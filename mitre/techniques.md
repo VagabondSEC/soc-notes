@@ -856,3 +856,7 @@ Dans le mapping de détection, Setuid and Setgid sert de référence pour identi
 
 Contournement UAC.
 
+## Exemple : T1548.002 - Bypass User Account Control
+
+Détection : CMSTPLUA, fodhelper.exe, eventvwr.exe, registry HKCU\Software\Classes\ms-settings
+
