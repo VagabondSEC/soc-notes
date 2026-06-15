@@ -820,3 +820,7 @@ Dans le mapping de détection, Component Object Model Hijacking sert de référe
 
 Persistance via les packages d'installation (MSI).
 
+## Exemple : T1546.016 - Installer Packages
+
+Détection : création de MSI suspects, lessmsi
+
