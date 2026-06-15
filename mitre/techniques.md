@@ -828,3 +828,7 @@ Détection : création de MSI suspects, lessmsi
 
 Dans le mapping de détection, Installer Packages sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1548 - Abuse Elevation Control Mechanism
+
+Abus des mécanismes d'élévation de privilèges (UAC, sudo).
+
