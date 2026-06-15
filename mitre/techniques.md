@@ -836,3 +836,7 @@ Abus des mécanismes d'élévation de privilèges (UAC, sudo).
 
 Détection : modifications UAC, sudoers, Event 4688 avec consent.exe
 
+## Cas d'usage : T1548 - Abuse Elevation Control Mechanism
+
+Dans le mapping de détection, Abuse Elevation Control Mechanism sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
