@@ -824,3 +824,7 @@ Persistance via les packages d'installation (MSI).
 
 Détection : création de MSI suspects, lessmsi
 
+## Cas d'usage : T1546.016 - Installer Packages
+
+Dans le mapping de détection, Installer Packages sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
