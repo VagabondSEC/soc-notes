@@ -844,3 +844,7 @@ Dans le mapping de détection, Abuse Elevation Control Mechanism sert de référ
 
 Binaires setuid/setgid malveillants sur Linux.
 
+## Exemple : T1548.001 - Setuid and Setgid
+
+Détection : find / -perm -4000, auditd
+
