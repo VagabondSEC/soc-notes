@@ -892,3 +892,7 @@ Dans le mapping de détection, Elevated Execution with Prompt sert de référenc
 
 Élévation temporaire dans le cloud (STS AssumeRole).
 
+## Exemple : T1548.005 - Temporary Elevated Cloud Access
+
+Détection : CloudTrail AssumeRole, nouveaux rôles temporaires
+
