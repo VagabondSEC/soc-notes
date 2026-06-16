@@ -868,3 +868,7 @@ Dans le mapping de détection, Bypass User Account Control sert de référence p
 
 Abus de sudo et de son cache.
 
+## Exemple : T1548.003 - Sudo and Sudo Caching
+
+Détection : /etc/sudoers, sudo -l, timestamp_timeout, sudoers.d
+
