@@ -920,3 +920,7 @@ Web shell déposé sur un serveur web.
 
 Détection : fichiers .asp/.aspx/.php modifiés, chaînes suspectes (cmd, eval, base64), logs d'accès anormaux
 
+## Cas d'usage : T1505.003 - Web Shell
+
+Dans le mapping de détection, Web Shell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
