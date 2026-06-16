@@ -900,3 +900,7 @@ Détection : CloudTrail AssumeRole, nouveaux rôles temporaires
 
 Dans le mapping de détection, Temporary Elevated Cloud Access sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1505 - Server Software Component
+
+Backdoor dans les logiciels serveur (web shells).
+
