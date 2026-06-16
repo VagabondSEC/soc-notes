@@ -916,3 +916,7 @@ Dans le mapping de détection, Server Software Component sert de référence pou
 
 Web shell déposé sur un serveur web.
 
+## Exemple : T1505.003 - Web Shell
+
+Détection : fichiers .asp/.aspx/.php modifiés, chaînes suspectes (cmd, eval, base64), logs d'accès anormaux
+
