@@ -864,3 +864,7 @@ Détection : CMSTPLUA, fodhelper.exe, eventvwr.exe, registry HKCU\Software\Class
 
 Dans le mapping de détection, Bypass User Account Control sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1548.003 - Sudo and Sudo Caching
+
+Abus de sudo et de son cache.
+
