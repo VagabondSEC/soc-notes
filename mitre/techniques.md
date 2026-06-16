@@ -884,3 +884,7 @@ Dans le mapping de détection, Sudo and Sudo Caching sert de référence pour id
 
 Détection : osascript avec administrator privileges
 
+## Cas d'usage : T1548.004 - Elevated Execution with Prompt
+
+Dans le mapping de détection, Elevated Execution with Prompt sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
