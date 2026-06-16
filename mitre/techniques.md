@@ -924,3 +924,7 @@ Détection : fichiers .asp/.aspx/.php modifiés, chaînes suspectes (cmd, eval, 
 
 Dans le mapping de détection, Web Shell sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1505.004 - IIS Components
+
+Modules ISAPI/ASP.NET malveillants.
+
