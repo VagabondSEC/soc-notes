@@ -876,3 +876,7 @@ Détection : /etc/sudoers, sudo -l, timestamp_timeout, sudoers.d
 
 Dans le mapping de détection, Sudo and Sudo Caching sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1548.004 - Elevated Execution with Prompt
+
+Élévation avec prompt (osascript macOS).
+
