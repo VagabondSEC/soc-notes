@@ -872,3 +872,7 @@ Abus de sudo et de son cache.
 
 Détection : /etc/sudoers, sudo -l, timestamp_timeout, sudoers.d
 
+## Cas d'usage : T1548.003 - Sudo and Sudo Caching
+
+Dans le mapping de détection, Sudo and Sudo Caching sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
