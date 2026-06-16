@@ -880,3 +880,7 @@ Dans le mapping de détection, Sudo and Sudo Caching sert de référence pour id
 
 Élévation avec prompt (osascript macOS).
 
+## Exemple : T1548.004 - Elevated Execution with Prompt
+
+Détection : osascript avec administrator privileges
+
