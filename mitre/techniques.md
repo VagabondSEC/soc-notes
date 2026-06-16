@@ -904,3 +904,7 @@ Dans le mapping de détection, Temporary Elevated Cloud Access sert de référen
 
 Backdoor dans les logiciels serveur (web shells).
 
+## Exemple : T1505 - Server Software Component
+
+Détection : web shells (contenu suspect), fichiers modifiés dans les docroots, IIS app pools
+
