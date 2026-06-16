@@ -912,3 +912,7 @@ Détection : web shells (contenu suspect), fichiers modifiés dans les docroots,
 
 Dans le mapping de détection, Server Software Component sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1505.003 - Web Shell
+
+Web shell déposé sur un serveur web.
+
