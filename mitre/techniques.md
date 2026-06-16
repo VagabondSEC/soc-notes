@@ -896,3 +896,7 @@ Dans le mapping de détection, Elevated Execution with Prompt sert de référenc
 
 Détection : CloudTrail AssumeRole, nouveaux rôles temporaires
 
+## Cas d'usage : T1548.005 - Temporary Elevated Cloud Access
+
+Dans le mapping de détection, Temporary Elevated Cloud Access sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
