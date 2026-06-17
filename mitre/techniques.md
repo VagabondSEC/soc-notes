@@ -988,3 +988,7 @@ Dans le mapping de détection, Domain Account sert de référence pour identifie
 
 Création d'un compte cloud.
 
+## Exemple : T1136.003 - Cloud Account
+
+Détection : CloudTrail CreateUser, Azure AD activity logs
+
