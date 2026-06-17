@@ -944,3 +944,7 @@ Déplacement de la DLL Terminal Services (termsrv.dll).
 
 Détection : modification de termsrv.dll, images système
 
+## Cas d'usage : T1505.005 - Terminal Services DLL
+
+Dans le mapping de détection, Terminal Services DLL sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
