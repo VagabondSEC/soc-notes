@@ -936,3 +936,7 @@ Détection : nouveaux modules IIS, appcmd, Event 4688 avec appcmd
 
 Dans le mapping de détection, IIS Components sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1505.005 - Terminal Services DLL
+
+Déplacement de la DLL Terminal Services (termsrv.dll).
+
