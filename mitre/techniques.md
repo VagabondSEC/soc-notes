@@ -976,3 +976,7 @@ Dans le mapping de détection, Local Account sert de référence pour identifier
 
 Création d'un compte de domaine.
 
+## Exemple : T1136.002 - Domain Account
+
+Détection : Event 4720 avec TargetDomainName, New-ADUser
+
