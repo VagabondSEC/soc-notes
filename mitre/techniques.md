@@ -948,3 +948,7 @@ Détection : modification de termsrv.dll, images système
 
 Dans le mapping de détection, Terminal Services DLL sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1136 - Create Account
+
+Création de comptes pour persistance.
+
