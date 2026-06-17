@@ -928,3 +928,7 @@ Dans le mapping de détection, Web Shell sert de référence pour identifier les
 
 Modules ISAPI/ASP.NET malveillants.
 
+## Exemple : T1505.004 - IIS Components
+
+Détection : nouveaux modules IIS, appcmd, Event 4688 avec appcmd
+
