@@ -964,3 +964,7 @@ Dans le mapping de détection, Create Account sert de référence pour identifie
 
 Création d'un compte local.
 
+## Exemple : T1136.001 - Local Account
+
+Détection : Event 4720, net user add, New-LocalUser
+
