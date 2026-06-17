@@ -940,3 +940,7 @@ Dans le mapping de détection, IIS Components sert de référence pour identifie
 
 Déplacement de la DLL Terminal Services (termsrv.dll).
 
+## Exemple : T1505.005 - Terminal Services DLL
+
+Détection : modification de termsrv.dll, images système
+
