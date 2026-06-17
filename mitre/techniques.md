@@ -980,3 +980,7 @@ Création d'un compte de domaine.
 
 Détection : Event 4720 avec TargetDomainName, New-ADUser
 
+## Cas d'usage : T1136.002 - Domain Account
+
+Dans le mapping de détection, Domain Account sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
