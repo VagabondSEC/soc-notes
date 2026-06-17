@@ -952,3 +952,7 @@ Dans le mapping de détection, Terminal Services DLL sert de référence pour id
 
 Création de comptes pour persistance.
 
+## Exemple : T1136 - Create Account
+
+Détection : Event 4720 (création de compte), useradd, New-LocalUser
+
