@@ -1024,3 +1024,7 @@ Dans le mapping de détection, Additional Cloud Credentials sert de référence 
 
 Ajout de délégations mailbox.
 
+## Exemple : T1098.002 - Additional Email Delegate Permissions
+
+Détection : Exchange Admin Audit, Add-MailboxPermission
+
