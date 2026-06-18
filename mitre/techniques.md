@@ -1000,3 +1000,7 @@ Dans le mapping de détection, Cloud Account sert de référence pour identifier
 
 Manipulation de comptes existants (mots de passe, permissions).
 
+## Exemple : T1098 - Account Manipulation
+
+Détection : Event 4724 (reset password), 4728/4732 (ajout aux groupes), 4738
+
