@@ -1012,3 +1012,7 @@ Dans le mapping de détection, Account Manipulation sert de référence pour ide
 
 Ajout de credentials cloud supplémentaires.
 
+## Exemple : T1098.001 - Additional Cloud Credentials
+
+Détection : CloudTrail CreateAccessKey, Azure AD Add credential
+
