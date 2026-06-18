@@ -1008,3 +1008,7 @@ Détection : Event 4724 (reset password), 4728/4732 (ajout aux groupes), 4738
 
 Dans le mapping de détection, Account Manipulation sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1098.001 - Additional Cloud Credentials
+
+Ajout de credentials cloud supplémentaires.
+
