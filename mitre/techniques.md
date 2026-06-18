@@ -1020,3 +1020,7 @@ Détection : CloudTrail CreateAccessKey, Azure AD Add credential
 
 Dans le mapping de détection, Additional Cloud Credentials sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1098.002 - Additional Email Delegate Permissions
+
+Ajout de délégations mailbox.
+
