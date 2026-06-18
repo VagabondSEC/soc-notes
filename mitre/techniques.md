@@ -1016,3 +1016,7 @@ Ajout de credentials cloud supplémentaires.
 
 Détection : CloudTrail CreateAccessKey, Azure AD Add credential
 
+## Cas d'usage : T1098.001 - Additional Cloud Credentials
+
+Dans le mapping de détection, Additional Cloud Credentials sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
