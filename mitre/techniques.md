@@ -1032,3 +1032,7 @@ Détection : Exchange Admin Audit, Add-MailboxPermission
 
 Dans le mapping de détection, Additional Email Delegate Permissions sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1098.003 - Additional Cloud Roles
+
+Ajout de rôles cloud.
+
