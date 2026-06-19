@@ -1036,3 +1036,7 @@ Dans le mapping de détection, Additional Email Delegate Permissions sert de ré
 
 Ajout de rôles cloud.
 
+## Exemple : T1098.003 - Additional Cloud Roles
+
+Détection : CloudTrail AttachRolePolicy, Azure AD Add member to role
+
