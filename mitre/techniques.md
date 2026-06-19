@@ -1076,3 +1076,7 @@ Déguisement de fichiers/processus légitimes.
 
 Détection : noms de processus connus dans des chemins bizarres, signature invalidée
 
+## Cas d'usage : T1036 - Masquerading
+
+Dans le mapping de détection, Masquerading sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
