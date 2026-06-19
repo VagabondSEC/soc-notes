@@ -1084,3 +1084,7 @@ Dans le mapping de détection, Masquerading sert de référence pour identifier 
 
 Signature de code invalide.
 
+## Exemple : T1036.001 - Invalid Code Signature
+
+Détection : signature vérifiée = false dans les logs, sigcheck
+
