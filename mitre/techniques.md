@@ -1068,3 +1068,7 @@ Détection : Azure AD device registration, msDS-KeyCredentialLink
 
 Dans le mapping de détection, Device Registration sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036 - Masquerading
+
+Déguisement de fichiers/processus légitimes.
+
