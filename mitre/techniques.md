@@ -1080,3 +1080,7 @@ Détection : noms de processus connus dans des chemins bizarres, signature inval
 
 Dans le mapping de détection, Masquerading sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.001 - Invalid Code Signature
+
+Signature de code invalide.
+
