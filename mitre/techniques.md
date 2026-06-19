@@ -1056,3 +1056,7 @@ Détection : modifications de ~/.ssh/authorized_keys, auditd
 
 Dans le mapping de détection, SSH Authorized Keys sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1098.005 - Device Registration
+
+Enregistrement de devices (Shadow Credentials).
+
