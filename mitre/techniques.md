@@ -1088,3 +1088,7 @@ Signature de code invalide.
 
 Détection : signature vérifiée = false dans les logs, sigcheck
 
+## Cas d'usage : T1036.001 - Invalid Code Signature
+
+Dans le mapping de détection, Invalid Code Signature sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
