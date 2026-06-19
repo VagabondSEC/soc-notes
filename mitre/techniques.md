@@ -1064,3 +1064,7 @@ Enregistrement de devices (Shadow Credentials).
 
 Détection : Azure AD device registration, msDS-KeyCredentialLink
 
+## Cas d'usage : T1098.005 - Device Registration
+
+Dans le mapping de détection, Device Registration sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
