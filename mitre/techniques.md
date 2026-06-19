@@ -1072,3 +1072,7 @@ Dans le mapping de détection, Device Registration sert de référence pour iden
 
 Déguisement de fichiers/processus légitimes.
 
+## Exemple : T1036 - Masquerading
+
+Détection : noms de processus connus dans des chemins bizarres, signature invalidée
+
