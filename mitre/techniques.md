@@ -1060,3 +1060,7 @@ Dans le mapping de détection, SSH Authorized Keys sert de référence pour iden
 
 Enregistrement de devices (Shadow Credentials).
 
+## Exemple : T1098.005 - Device Registration
+
+Détection : Azure AD device registration, msDS-KeyCredentialLink
+
