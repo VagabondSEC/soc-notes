@@ -1048,3 +1048,7 @@ Dans le mapping de détection, Additional Cloud Roles sert de référence pour i
 
 Ajout de clés SSH autorisées.
 
+## Exemple : T1098.004 - SSH Authorized Keys
+
+Détection : modifications de ~/.ssh/authorized_keys, auditd
+
