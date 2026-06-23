@@ -1100,3 +1100,7 @@ Utilisation de caractères RLO pour tromper les noms.
 
 Détection : caractères Unicode RLO (U+202E) dans les noms de fichiers
 
+## Cas d'usage : T1036.002 - Right-to-Left Override
+
+Dans le mapping de détection, Right-to-Left Override sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
