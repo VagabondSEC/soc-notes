@@ -1096,3 +1096,7 @@ Dans le mapping de détection, Invalid Code Signature sert de référence pour i
 
 Utilisation de caractères RLO pour tromper les noms.
 
+## Exemple : T1036.002 - Right-to-Left Override
+
+Détection : caractères Unicode RLO (U+202E) dans les noms de fichiers
+
