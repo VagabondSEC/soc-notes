@@ -1112,3 +1112,7 @@ Renommage d'outils système (cmd.exe → svchost.exe).
 
 Détection : chemins d'exécution inattendus pour des binaires connus
 
+## Cas d'usage : T1036.003 - Rename System Utilities
+
+Dans le mapping de détection, Rename System Utilities sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
