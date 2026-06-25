@@ -1144,3 +1144,7 @@ Dans le mapping de détection, Match Legitimate Name or Location sert de référ
 
 Espace ajouté après le nom de fichier.
 
+## Exemple : T1036.006 - Space after Filename
+
+Détection : noms de fichiers avec espace final, .exe 
+
