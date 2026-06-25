@@ -1148,3 +1148,7 @@ Espace ajouté après le nom de fichier.
 
 Détection : noms de fichiers avec espace final, .exe 
 
+## Cas d'usage : T1036.006 - Space after Filename
+
+Dans le mapping de détection, Space after Filename sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
