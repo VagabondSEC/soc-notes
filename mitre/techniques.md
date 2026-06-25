@@ -1128,3 +1128,7 @@ Détection : Event 7045 avec nom légitime mais binaire suspect
 
 Dans le mapping de détection, Masquerade Task or Service sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.005 - Match Legitimate Name or Location
+
+Nom ou emplacement légitime (svchost.exe dans un dossier user).
+
