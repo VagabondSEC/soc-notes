@@ -1136,3 +1136,7 @@ Nom ou emplacement légitime (svchost.exe dans un dossier user).
 
 Détection : binaires système dans des chemins utilisateur, Sysmon Event 1
 
+## Cas d'usage : T1036.005 - Match Legitimate Name or Location
+
+Dans le mapping de détection, Match Legitimate Name or Location sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
