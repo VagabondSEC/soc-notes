@@ -1140,3 +1140,7 @@ Détection : binaires système dans des chemins utilisateur, Sysmon Event 1
 
 Dans le mapping de détection, Match Legitimate Name or Location sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.006 - Space after Filename
+
+Espace ajouté après le nom de fichier.
+
