@@ -1152,3 +1152,7 @@ Détection : noms de fichiers avec espace final, .exe
 
 Dans le mapping de détection, Space after Filename sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.007 - Double File Extension
+
+Double extension (.pdf.exe).
+
