@@ -1116,3 +1116,7 @@ Détection : chemins d'exécution inattendus pour des binaires connus
 
 Dans le mapping de détection, Rename System Utilities sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.004 - Masquerade Task or Service
+
+Services/tâches avec des noms légitimes.
+
