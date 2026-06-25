@@ -1108,3 +1108,7 @@ Dans le mapping de détection, Right-to-Left Override sert de référence pour i
 
 Renommage d'outils système (cmd.exe → svchost.exe).
 
+## Exemple : T1036.003 - Rename System Utilities
+
+Détection : chemins d'exécution inattendus pour des binaires connus
+
