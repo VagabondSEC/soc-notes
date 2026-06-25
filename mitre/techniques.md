@@ -1124,3 +1124,7 @@ Services/tâches avec des noms légitimes.
 
 Détection : Event 7045 avec nom légitime mais binaire suspect
 
+## Cas d'usage : T1036.004 - Masquerade Task or Service
+
+Dans le mapping de détection, Masquerade Task or Service sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
