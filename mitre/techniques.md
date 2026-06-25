@@ -1132,3 +1132,7 @@ Dans le mapping de détection, Masquerade Task or Service sert de référence po
 
 Nom ou emplacement légitime (svchost.exe dans un dossier user).
 
+## Exemple : T1036.005 - Match Legitimate Name or Location
+
+Détection : binaires système dans des chemins utilisateur, Sysmon Event 1
+
