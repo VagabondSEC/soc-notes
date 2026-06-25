@@ -1120,3 +1120,7 @@ Dans le mapping de détection, Rename System Utilities sert de référence pour 
 
 Services/tâches avec des noms légitimes.
 
+## Exemple : T1036.004 - Masquerade Task or Service
+
+Détection : Event 7045 avec nom légitime mais binaire suspect
+
