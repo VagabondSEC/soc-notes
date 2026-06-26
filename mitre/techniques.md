@@ -1156,3 +1156,7 @@ Dans le mapping de détection, Space after Filename sert de référence pour ide
 
 Double extension (.pdf.exe).
 
+## Exemple : T1036.007 - Double File Extension
+
+Détection : extensions de fichiers suspectes, Explorer flags
+
