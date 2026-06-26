@@ -1160,3 +1160,7 @@ Double extension (.pdf.exe).
 
 Détection : extensions de fichiers suspectes, Explorer flags
 
+## Cas d'usage : T1036.007 - Double File Extension
+
+Dans le mapping de détection, Double File Extension sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
