@@ -1168,3 +1168,7 @@ Dans le mapping de détection, Double File Extension sert de référence pour id
 
 Changer le type de fichier (PNG avec contenu PE).
 
+## Exemple : T1036.008 - Masquerade File Type
+
+Détection : magic bytes vs extension, file command
+
