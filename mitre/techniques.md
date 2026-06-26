@@ -1164,3 +1164,7 @@ Détection : extensions de fichiers suspectes, Explorer flags
 
 Dans le mapping de détection, Double File Extension sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.008 - Masquerade File Type
+
+Changer le type de fichier (PNG avec contenu PE).
+
