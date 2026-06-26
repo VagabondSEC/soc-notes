@@ -1172,3 +1172,7 @@ Changer le type de fichier (PNG avec contenu PE).
 
 Détection : magic bytes vs extension, file command
 
+## Cas d'usage : T1036.008 - Masquerade File Type
+
+Dans le mapping de détection, Masquerade File Type sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
