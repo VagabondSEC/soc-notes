@@ -1176,3 +1176,7 @@ Détection : magic bytes vs extension, file command
 
 Dans le mapping de détection, Masquerade File Type sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1036.009 - TreatMS
+
+Renommage de binaires (renommer cmd.exe).
+
