@@ -1216,3 +1216,7 @@ Dans le mapping de détection, Binary Padding sert de référence pour identifie
 
 Packing de logiciels (UPX...).
 
+## Exemple : T1027.002 - Software Packing
+
+Détection : sections anormales (UPX0, UPX1), entropie élevée
+
