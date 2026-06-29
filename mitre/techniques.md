@@ -1192,3 +1192,7 @@ Dans le mapping de détection, TreatMS sert de référence pour identifier les l
 
 Fichiers ou informations obfusqués.
 
+## Exemple : T1027 - Obfuscated Files or Information
+
+Détection : base64 en masse, XOR, packers, chaînes encodées
+
