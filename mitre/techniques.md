@@ -1220,3 +1220,7 @@ Packing de logiciels (UPX...).
 
 Détection : sections anormales (UPX0, UPX1), entropie élevée
 
+## Cas d'usage : T1027.002 - Software Packing
+
+Dans le mapping de détection, Software Packing sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
