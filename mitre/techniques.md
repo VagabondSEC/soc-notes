@@ -1184,3 +1184,7 @@ Renommage de binaires (renommer cmd.exe).
 
 Détection : hachage des binaires vs base de connaissance
 
+## Cas d'usage : T1036.009 - TreatMS
+
+Dans le mapping de détection, TreatMS sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
