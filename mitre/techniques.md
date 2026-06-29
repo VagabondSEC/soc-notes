@@ -1212,3 +1212,7 @@ Détection : tailles de fichiers anormales, analyse de sections
 
 Dans le mapping de détection, Binary Padding sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1027.002 - Software Packing
+
+Packing de logiciels (UPX...).
+
