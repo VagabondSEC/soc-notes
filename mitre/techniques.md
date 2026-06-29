@@ -1196,3 +1196,7 @@ Fichiers ou informations obfusqués.
 
 Détection : base64 en masse, XOR, packers, chaînes encodées
 
+## Cas d'usage : T1027 - Obfuscated Files or Information
+
+Dans le mapping de détection, Obfuscated Files or Information sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
