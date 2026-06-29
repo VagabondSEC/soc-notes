@@ -1208,3 +1208,7 @@ Remplissage de binaires avec des données inutiles.
 
 Détection : tailles de fichiers anormales, analyse de sections
 
+## Cas d'usage : T1027.001 - Binary Padding
+
+Dans le mapping de détection, Binary Padding sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
