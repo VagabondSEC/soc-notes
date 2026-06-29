@@ -1180,3 +1180,7 @@ Dans le mapping de détection, Masquerade File Type sert de référence pour ide
 
 Renommage de binaires (renommer cmd.exe).
 
+## Exemple : T1036.009 - TreatMS
+
+Détection : hachage des binaires vs base de connaissance
+
