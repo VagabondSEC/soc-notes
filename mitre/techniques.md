@@ -1204,3 +1204,7 @@ Dans le mapping de détection, Obfuscated Files or Information sert de référen
 
 Remplissage de binaires avec des données inutiles.
 
+## Exemple : T1027.001 - Binary Padding
+
+Détection : tailles de fichiers anormales, analyse de sections
+
