@@ -1232,3 +1232,7 @@ Stéganographie (données cachées dans des images).
 
 Détection : analyse d'entropie, outils de stéganalyse
 
+## Cas d'usage : T1027.003 - Steganography
+
+Dans le mapping de détection, Steganography sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
