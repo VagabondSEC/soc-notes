@@ -1264,3 +1264,7 @@ Dans le mapping de détection, Indicator Removal from Tools sert de référence 
 
 Contrebande HTML (payload encodé dans du HTML).
 
+## Exemple : T1027.006 - HTML Smuggling
+
+Détection : blobs base64 dans les pages, JavaScript de décodage, pièces jointes HTML
+
