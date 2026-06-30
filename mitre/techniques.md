@@ -1248,3 +1248,7 @@ Détection : compilateurs installés/utilisés (csc.exe, gcc), build events
 
 Dans le mapping de détection, Compile After Delivery sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1027.005 - Indicator Removal from Tools
+
+Suppression des indicateurs (chaînes, av signatures).
+
