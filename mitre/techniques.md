@@ -1268,3 +1268,7 @@ Contrebande HTML (payload encodé dans du HTML).
 
 Détection : blobs base64 dans les pages, JavaScript de décodage, pièces jointes HTML
 
+## Cas d'usage : T1027.006 - HTML Smuggling
+
+Dans le mapping de détection, HTML Smuggling sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
