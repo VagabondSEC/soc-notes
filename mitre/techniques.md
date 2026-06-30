@@ -1260,3 +1260,7 @@ Détection : comparaison avec les échantillons connus, analyse dynamique
 
 Dans le mapping de détection, Indicator Removal from Tools sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1027.006 - HTML Smuggling
+
+Contrebande HTML (payload encodé dans du HTML).
+
