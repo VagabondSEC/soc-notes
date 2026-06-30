@@ -1228,3 +1228,7 @@ Dans le mapping de détection, Software Packing sert de référence pour identif
 
 Stéganographie (données cachées dans des images).
 
+## Exemple : T1027.003 - Steganography
+
+Détection : analyse d'entropie, outils de stéganalyse
+
