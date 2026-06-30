@@ -1276,3 +1276,7 @@ Dans le mapping de détection, HTML Smuggling sert de référence pour identifie
 
 Résolution dynamique d'API (GetProcAddress).
 
+## Exemple : T1027.007 - Dynamic API Resolution
+
+Détection : appels API indirects, analyse statique
+
