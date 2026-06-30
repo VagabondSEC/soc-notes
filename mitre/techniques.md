@@ -1240,3 +1240,7 @@ Dans le mapping de détection, Steganography sert de référence pour identifier
 
 Compilation après livraison (source → exécutable sur la cible).
 
+## Exemple : T1027.004 - Compile After Delivery
+
+Détection : compilateurs installés/utilisés (csc.exe, gcc), build events
+
