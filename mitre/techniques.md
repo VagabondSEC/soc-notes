@@ -1256,3 +1256,7 @@ Suppression des indicateurs (chaînes, av signatures).
 
 Détection : comparaison avec les échantillons connus, analyse dynamique
 
+## Cas d'usage : T1027.005 - Indicator Removal from Tools
+
+Dans le mapping de détection, Indicator Removal from Tools sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
