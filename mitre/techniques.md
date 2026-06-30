@@ -1244,3 +1244,7 @@ Compilation après livraison (source → exécutable sur la cible).
 
 Détection : compilateurs installés/utilisés (csc.exe, gcc), build events
 
+## Cas d'usage : T1027.004 - Compile After Delivery
+
+Dans le mapping de détection, Compile After Delivery sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
