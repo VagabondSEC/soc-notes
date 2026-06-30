@@ -1280,3 +1280,7 @@ Résolution dynamique d'API (GetProcAddress).
 
 Détection : appels API indirects, analyse statique
 
+## Cas d'usage : T1027.007 - Dynamic API Resolution
+
+Dans le mapping de détection, Dynamic API Resolution sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
+
