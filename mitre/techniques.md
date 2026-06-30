@@ -1252,3 +1252,7 @@ Dans le mapping de détection, Compile After Delivery sert de référence pour i
 
 Suppression des indicateurs (chaînes, av signatures).
 
+## Exemple : T1027.005 - Indicator Removal from Tools
+
+Détection : comparaison avec les échantillons connus, analyse dynamique
+
