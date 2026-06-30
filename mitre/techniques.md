@@ -1272,3 +1272,7 @@ Détection : blobs base64 dans les pages, JavaScript de décodage, pièces joint
 
 Dans le mapping de détection, HTML Smuggling sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1027.007 - Dynamic API Resolution
+
+Résolution dynamique d'API (GetProcAddress).
+
