@@ -1236,3 +1236,7 @@ Détection : analyse d'entropie, outils de stéganalyse
 
 Dans le mapping de détection, Steganography sert de référence pour identifier les lacunes de couverture. On le confronte aux règles Sigma et aux requêtes SIEM existantes pour prioriser les améliorations de détection.
 
+## T1027.004 - Compile After Delivery
+
+Compilation après livraison (source → exécutable sur la cible).
+
